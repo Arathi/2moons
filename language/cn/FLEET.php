@@ -196,5 +196,5 @@ $LNG['type_planet_short'][2]  				= 'D';
 $LNG['type_planet_short'][3]  				= 'M';
 
 $LNG['type_planet'][1]  					= '行星';
-$LNG['type_planet'][2]  					= '残骸';
+$LNG['type_planet'][2]  					= '废墟';
 $LNG['type_planet'][3]  					= '月球';

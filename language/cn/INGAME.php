@@ -12,26 +12,26 @@ $LNG['write_message']						= 'Write message';
 
 $LNG['ready']								= 'Ready';
 
-$LNG['loading']								= 'Loading ...';
+$LNG['loading']								= '载入中 ...';
 
-$LNG['invalid_action']						= 'Action Invalidated!!';
+$LNG['invalid_action']						= '动作无效';
 
-$LNG['type_mission'][1]  					= 'Attack';
-$LNG['type_mission'][2]  					= 'ACS - Attack on cooperation';
-$LNG['type_mission'][3]  					= 'Transport';
-$LNG['type_mission'][4]  					= 'Deploy';
-$LNG['type_mission'][5]  					= 'Transfer';
-$LNG['type_mission'][6]  					= 'Spying';
-$LNG['type_mission'][7]  					= 'Colonize';
-$LNG['type_mission'][8]  					= 'Recycle';
-$LNG['type_mission'][9]  					= 'Destroy';
-$LNG['type_mission'][10]  					= 'Missile attack';
-$LNG['type_mission'][11]  					= 'Research of Dark matter ';
+$LNG['type_mission'][1]  					= '攻击';
+$LNG['type_mission'][2]  					= 'ACS - 联合攻击';
+$LNG['type_mission'][3]  					= '运输';
+$LNG['type_mission'][4]  					= '部署';
+$LNG['type_mission'][5]  					= '转移';
+$LNG['type_mission'][6]  					= '刺探';
+$LNG['type_mission'][7]  					= '殖民';
+$LNG['type_mission'][8]  					= '回收';
+$LNG['type_mission'][9]  					= '销毁';
+$LNG['type_mission'][10]  					= '导弹攻击';
+$LNG['type_mission'][11]  					= '研究暗物质';
 $LNG['type_mission'][15] 					= 'Expedition';
 
-$LNG['type_planet'][1]  					= 'Planet';
-$LNG['type_planet'][2]  					= 'Debris Field';
-$LNG['type_planet'][3]  					= 'Moon';
+$LNG['type_planet'][1]  					= '行星';
+$LNG['type_planet'][2]  					= '废墟';
+$LNG['type_planet'][3]  					= '月球';
 
 $LNG['user_level'] = array (
 	'0' => 'Player',
