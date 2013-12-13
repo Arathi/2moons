@@ -1,12 +1,12 @@
 <?php
 
-setlocale(LC_ALL, 'de_DE', 'german'); // http://msdn.microsoft.com/en-us/library/39cwe7zf%28vs.71%29.aspx
+setlocale(LC_ALL, 'zh_CN', 'chs'); // http://msdn.microsoft.com/en-us/library/39cwe7zf%28vs.71%29.aspx
 setlocale(LC_NUMERIC, 'C');
 
 //SERVER GENERALS
 $LNG['dir']         	= 'ltr';
-$LNG['week_day']		= array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'); # Start with Sun!
-$LNG['months']			= array('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+$LNG['week_day']		= array('星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'); # Start with Sun!
+$LNG['months']			= array('一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月');
 $LNG['js_tdformat']		= '[M] [D] [d] [H]:[i]:[s]';
 $LNG['php_timeformat']	= 'H:i:s';
 $LNG['php_dateformat']	= 'd. M Y';

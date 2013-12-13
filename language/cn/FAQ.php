@@ -9,8 +9,8 @@
 $LNG['faq_overview']	= "FAQ";
  
 $LNG['questions']					= array();
-$LNG['questions'][1]['category']	= 'Tips for beginners';
-$LNG['questions'][1][1]['title']	= 'Step 1';
+$LNG['questions'][1]['category']	= '新手小贴士';
+$LNG['questions'][1][1]['title']	= '第一步';
 $LNG['questions'][1][1]['body']		= <<<BODY
 <p>In this part of the Tutorial, it is described the main buildings of the game. This explains how they should be built in the beginning and what is required to build a successful Empire.</p>
 <h3>Solar plant:</h3>
@@ -20,7 +20,7 @@ $LNG['questions'][1][1]['body']		= <<<BODY
 <h3>Crystal mine and DeutÃ © rio: synthesizer</h3>
 <p>The Crystal is an important resource for buildings, ships, and research. It is produced to a lesser extent than metal, which makes it more expensive.In the course of the game, you will see the how the Crystal is required. The deutÃ © is a source of energy, is the basis of fuel resources and an important research (research lab).</p>
 BODY;
-$LNG['questions'][1][2]['title']	= 'Step 2';
+$LNG['questions'][1][2]['title']	= '第二步';
 $LNG['questions'][1][2]['body']		= <<<BODY
 <p>To expand your Empire and compete with other players or you need to interact with other buildings. Through the research and construction of a Hangar to begin construction of your fleet and the dwarf Planetary Defense. Details can be found here:</p>
 <h3>The Hangar:</h3>
@@ -30,7 +30,7 @@ $LNG['questions'][1][2]['body']		= <<<BODY
 <h3>Factory of Robots:</h3>
 <p>The factory of robots is an essential component. Through its expansion, the time of production of probes can be reduced, as well as the construction of buildings.</p>
 BODY;
-$LNG['questions'][1][3]['title']	= 'Step 3';
+$LNG['questions'][1][3]['title']	= '第三步';
 $LNG['questions'][1][3]['body']		= <<<BODY
 <p>This part of the tutorial is dedicated to defending the planet, as the first actions with your own fleet.</p>
 <h3>The Heartthrob's xia:</h3>
