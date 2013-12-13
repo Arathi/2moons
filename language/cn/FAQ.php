@@ -1,10 +1,7 @@
 <?php
 
-
-// Translated into English by QwataKayean . All rights reversed (C) 2012
+// Translated into Chinese by Arathi . All rights reversed (C) 2013
 // 2Moons - Copyright (C) 2010-2012 Slaver
-
-
 
 $LNG['faq_overview']	= "FAQ";
  
@@ -64,7 +61,7 @@ With the development of the destruction to "defeated" and how nobody can keep th
 
 BODY;
 
-$LNG['questions'][2][2]['title']	= 'Fleetsave';
+$LNG['questions'][2][2]['title']	= '舰队'; //Fleetsave
 $LNG['questions'][2][2]['body']		= <<<BODY
 <h3>How can I protect myself</h3>
 <p>A large number of weapons of Defense scares some players already unfortunately, and are lured by others. As a result, you lose a lot of features, once defenses, nothing goes to the field of destruction, when they are destroyed. The only exception is the so-called destruction of defences, in which the attacker when te attacks, creates the destruction defenses on destruction (7% loss of defence not destruction account, account is the total loss of the defense in combat).</p>
@@ -77,7 +74,7 @@ $LNG['questions'][2][2]['body']		= <<<BODY
 <p>Another method of making fleet easily, is to make the Moon fleetsave Moon, in which enemies can't make phalanx the moons (Because these is that have the sensor!)</p>
 BODY;
 
-$LNG['questions'][2][3]['title']	= 'Moons';
+$LNG['questions'][2][3]['title']	= '月球';
 $LNG['questions'][2][3]['body']		= <<<BODY
 <p>A moon can occur when a field of destoÃ § os has at least some 100,000 units, which is then a 1% chance opportunity moon. High: is only 20% chance no matter how big is the moon.</p>
 <h3>General</h3>
@@ -91,10 +88,10 @@ $LNG['questions'][2][3]['body']		= <<<BODY
 <li><p><b>Jump Portal How romantic</b><br>This is used for transferring fleet of a moon for another instant, he simultaneously! But this is not the carries resources and time jumps between the fleet transfer isntantÃ ¢ nea is 1:0</p></li></ul>
 <p>Here is a list of the ideal development of a Moon:<br>
 <b>Legend:</b><br>
-MB – Moon Base<br>
+MB – 月球基地<br>
 SP – Phalanx<br>
 ST – Portal<br>
-RB – Robots Factory</p>
+RB – 机器人工厂</p>
 <p>MB1 – RB1 – RB2 – MB2 – SP1 – RB3 – MB3 – SP2 – RB4 – MB4 – SP3 – RB5 – MB5 – SP4 – RB6 – MB6 – SP5 – SP6 – MB7 – SP7 – SP8 – MB8 – ST1<br>
 This order is only suggested if you are newbie, because of course the more experienced players have their idea of development<p>
 <h3>Destruction of Moon</h3>
@@ -104,7 +101,7 @@ This order is only suggested if you are newbie, because of course the more exper
 <p>Destruction of 100000 units can render a 1% probability. The maximum probability is 20%.<p>
 BODY;
 
-$LNG['questions'][2][4]['title']	= 'Alliance';
+$LNG['questions'][2][4]['title']	= '联盟';
 $LNG['questions'][2][4]['body']		= <<<BODY
 <h3>How do I form an Alliance</h3>
 <p>Go to the menu "Alliance" and select "Create Alliance". In this page the TAG (Acronym) of the Alliance and the name of this. After these steps, run a fundaste Alliance</p>

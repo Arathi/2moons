@@ -179,22 +179,22 @@ $LNG['sys_destruc_null']        		   	= 'The deathstars could not charge fully b
 $LNG['fcp_colony']							= 'Colony';
 $LNG['fl_simulate']							= 'Simulate';
 
-$LNG['type_mission'][1]  					= 'Attack';
-$LNG['type_mission'][2]  					= 'Alliance Attack';
-$LNG['type_mission'][3]  					= 'Transport';
+$LNG['type_mission'][1]  					= '攻击';
+$LNG['type_mission'][2]  					= '联合攻击';
+$LNG['type_mission'][3]  					= '运输';
 $LNG['type_mission'][4]  					= 'Station';
 $LNG['type_mission'][5]  					= 'Hold';
-$LNG['type_mission'][6]  					= 'Spy';
-$LNG['type_mission'][7]  					= 'Colonisation';
-$LNG['type_mission'][8]  					= 'Recycle';
-$LNG['type_mission'][9]  					= 'Destroy';
-$LNG['type_mission'][11]  					= 'DM Investigation';
-$LNG['type_mission'][15] 					= 'Expedition';
+$LNG['type_mission'][6]  					= '间谍';
+$LNG['type_mission'][7]  					= '殖民';
+$LNG['type_mission'][8]  					= '回收';
+$LNG['type_mission'][9]  					= '摧毁';
+$LNG['type_mission'][11]  					= 'DM调查';
+$LNG['type_mission'][15] 					= 'Expedition'; //考查、探险、远征
 
 $LNG['type_planet_short'][1]  				= 'P';
 $LNG['type_planet_short'][2]  				= 'D';
 $LNG['type_planet_short'][3]  				= 'M';
 
-$LNG['type_planet'][1]  					= 'Planet';
-$LNG['type_planet'][2]  					= 'Debris';
-$LNG['type_planet'][3]  					= 'Moon';
+$LNG['type_planet'][1]  					= '行星';
+$LNG['type_planet'][2]  					= '残骸';
+$LNG['type_planet'][3]  					= '月球';

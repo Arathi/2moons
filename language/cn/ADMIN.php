@@ -6,37 +6,37 @@
 
 
 //---------------	Geral	------------------------// 
-$LNG['adm_login']			='Login';
-$LNG['adm_username']		='Username';
-$LNG['adm_password']		='Password';
+$LNG['adm_login']			='登陆';
+$LNG['adm_username']		='用户名';
+$LNG['adm_password']		='密码';
 $LNG['adm_absenden']		='Enter';
 $LNG['adm_password_info']	='Write your password in order to enter';
-$LNG['adm_bad_password']	='Wrong Password!';
+$LNG['adm_bad_password']	='密码错误！';
 $LNG['404_page']			='You do not have permissions to access this page';
-$LNG['adm_cp_title']		='Administration Panel';
-$LNG['adm_cp_index']		='Start';
-$LNG['mu_moderation_page']	='Permissions';
-$LNG['mu_universe']			='Universe';
-$LNG['adm_cp_logout']		='Back to Game';
+$LNG['adm_cp_title']		='管理面板';
+$LNG['adm_cp_index']		='开始';
+$LNG['mu_moderation_page']	='权限';//'Permissions';
+$LNG['mu_universe']			='宇宙';
+$LNG['adm_cp_logout']		='回到游戏';
 
 //	Miscelâneo
 $LNG['ad_number'] ='ID';
 $LNG['ad_max'] ='(max. %d)';
-$LNG['only_numbers'] ='You can only enter numbers!';
+$LNG['only_numbers'] ='您只能输入数字！';
 $LNG['select_option'] ='Choose the option ...';
 
 // 	Rank
 $LNG['rank'] [0] ='Player';
 $LNG['rank'] [1] ='Moderator';
 $LNG['rank'] [2] ='Operator';
-$LNG['rank'] [3] ='Admin';
+$LNG['rank'] [3] ='管理员';
 
 
 // 	Tempo
-$LNG['time_days'] ='Days';
-$LNG['time_hours'] ='Hour';
-$LNG['time_minutes'] ='Minutes';
-$LNG['time_seconds'] ='Seconds';
+$LNG['time_days'] ='天';
+$LNG['time_hours'] ='小时';
+$LNG['time_minutes'] ='分钟';
+$LNG['time_seconds'] ='秒';
 //###########################################################//
 
 $LNG['info_information'] ='Send or report bugs in the forum for <a href="%s" target="tracker">2Moons</a><br>Otherwise there will be support!';
@@ -78,10 +78,10 @@ $LNG['count_res'] ='Number of resources';
 
 
 //---------------	Modulos   ------------------------// 
-$LNG['buildings_title'] ='Buildings';
-$LNG['ships_title'] ='Ships';
+$LNG['buildings_title'] ='建筑';
+$LNG['ships_title'] ='飞船';
 $LNG['defenses_title'] ='Defences';
-$LNG['researchs_title'] ='Research';
+$LNG['researchs_title'] ='研究';
 $LNG['officiers_title'] ='Officers';
 //###########################################################//
 
@@ -298,7 +298,7 @@ $LNG['ma_modes']                = array('Game','Mail','Game & Mail');
 //###########################################################//
 
 //---------------	Pagina Inicial	------------------------//
-$LNG['ow_title'] ='Welcome to 2Moons!';
+$LNG['ow_title'] ='欢迎来到2Moons!';
 $LNG['ow_donate'] ='Donate';
 $LNG['ow_welcome_text'] ='Welcome to popular 2Moons! (:';
 $LNG['ow_overview'] ='Control';
@@ -416,7 +416,7 @@ $LNG['se_verfiy_mail']                  ='The system of checking email';
 $LNG['se_verfiy_mail_info']             ='If this option is active players has to activate their accounts.';
 $LNG['se_smtp']                         ='Settings of SMTP';
 $LNG['se_smtp_info']					='Enter the SMTP server to allow communication between the 2Moons server and their players by SMTP mail server.';
-$LNG['se_mail_active']                 ='Enables it to Email?';
+$LNG['se_mail_active']                  ='Enables it to Email?';
 $LNG['se_mail_use']						='Version of email:';
 $LNG['se_mail_sel'][0]					='Function PHP mail()';
 $LNG['se_mail_sel'][1]					='Sendmail / Qmail';
@@ -501,15 +501,15 @@ $LNG['se_debris_moon_info']             ='Clears the debris after creation of Mo
 $LNG['se_buildlist']                    ='Queqe List';
 $LNG['se_timzone']                      ='Time zone of the universe';
 $LNG['se_dst_mode']                     ='Daylight Saving Time? Change of daylight saving time';
-$LNG['se_dst_sel'][0]                                   ='Yes';
-$LNG['se_dst_sel'][1]                                   ='No';
-$LNG['se_dst_sel'][2]                                   ='Auto';
+$LNG['se_dst_sel'][0]                   ='Yes';
+$LNG['se_dst_sel'][1]                   ='No';
+$LNG['se_dst_sel'][2]                   ='Auto';
 $LNG['se_max_dm_missions']				='Maximum parallel missions of DM';
-$LNG['se_alliance_create_min_points']   = 'Minimum number of points, to form an Alliance';
-$LNG['se_disclamerAddress']				= 'Address';
-$LNG['se_disclamerPhone']				= 'Phone number';
-$LNG['se_disclamerMail']				= 'Email address';
-$LNG['se_disclamerNotice']				= 'More information';
+$LNG['se_alliance_create_min_points']   ='Minimum number of points, to form an Alliance';
+$LNG['se_disclamerAddress']				='地址';
+$LNG['se_disclamerPhone']				='Phone number';
+$LNG['se_disclamerMail']				='Email address';
+$LNG['se_disclamerNotice']				='More information';
 
 //###########################################################//
 
@@ -526,7 +526,7 @@ $LNG['mod_power_loog']			        ='Log of actions';
 
 //	Niveis de Autoridade
 $LNG['ad_authlevel_title']              ='Authorities';
-$LNG['ad_authlevel_name']               ='Name';
+$LNG['ad_authlevel_name']               ='名字';
 $LNG['ad_authlevel_auth']               ='Authority';
 $LNG['ad_authlevel_succes']             ='Status changed successfully';
 $LNG['ad_authlevel_error']              ='You have that authority!';
@@ -546,8 +546,8 @@ $LNG['ad_authlevel_tt']                 ='[See All]';
 
 $LNG['ff_fleetid']				= "ID";
 $LNG['ff_mission']				= "Mission";
-$LNG['ff_starttime']			= "Start";
-$LNG['ff_ships']				= "Ships";
+$LNG['ff_starttime']			= "开始";
+$LNG['ff_ships']				= "飞船";
 $LNG['ff_startuser']			= "Sender";
 $LNG['ff_startplanet']			= "Planet sender";
 $LNG['ff_arrivaltime']			= "Start time";
@@ -555,9 +555,9 @@ $LNG['ff_targetuser']			= "Recipient";
 $LNG['ff_targetplanet']			= "Planet recipient";
 $LNG['ff_endtime']				= "End time";
 $LNG['ff_holdtime']				= "Time stopped";
-$LNG['ff_del']					= "Remove";
+$LNG['ff_del']					= "移除";
 $LNG['ff_lock']					= "Block";
-$LNG['ff_unlock']				= "Unlock";
+$LNG['ff_unlock']				= "解锁";
 $LNG['ff_no_fleets']			= "Is not present any fleet";
 
 //###########################################################//
@@ -630,23 +630,23 @@ $LNG['vt_error']					='Hashfile is not available! - Run Update!';
 $LNG['vt_fail']						='Changed Files';
 $LNG['vt_info']						='This list contains the files that were modified and does not correspond to the original.<br>If not did you change even the game, you must replace the files with the originals.';
 
-$LNG['vt_head']						='Verify the game files';
-$LNG['vt_filephp']					='PHP File';
-$LNG['vt_filetpl']					='Template File';
-$LNG['vt_filecss']					='CSS File';
-$LNG['vt_filejs']					='Java Script File';
-$LNG['vt_fileimg']					='Image file';
-$LNG['vt_filehtaccess']				='HTACESS File';
-$LNG['vt_all']						='All files';
+$LNG['vt_head']						='验证游戏文件';
+$LNG['vt_filephp']					='PHP文件';
+$LNG['vt_filetpl']					='临时文件';
+$LNG['vt_filecss']					='CSS文件';
+$LNG['vt_filejs']					='JavaScript文件';
+$LNG['vt_fileimg']					='图形文件';
+$LNG['vt_filehtaccess']				='.htaccess文件';
+$LNG['vt_all']						='全部文件';
 $LNG['vt_fileok']					='File Ok';
-$LNG['vt_filefail']					='File Changed';
-$LNG['vt_filenew']					='New File';
-$LNG['vt_fileerror']				='Error';
-$LNG['vt_loadfile']					='Loading file list';
+$LNG['vt_filefail']					='File 变化';
+$LNG['vt_filenew']					='新文件';
+$LNG['vt_fileerror']				='错误';
+$LNG['vt_loadfile']					='正在载入文件列表';
 
 //###########################################################//
 
-$LNG['cc_cache_clear']				='Cache cleaned'; 
+$LNG['cc_cache_clear']				='缓存已清空'; 
 
 //---------------	Reinicio de Universo	------------------------//
 $LNG['re_reset_universe'] 				='Restart the universe';
@@ -1300,9 +1300,9 @@ $LNG['supp_player_write'] 					='%s written on %s';
 $LNG['supp_player_answer'] 					='Player response';
 
 // SQL-Dumper
-$LNG['du_header']					= 'Database Backup';
-$LNG['du_submit']					= 'Submit';
-$LNG['du_select_all_tables']		= 'All Tables';
-$LNG['du_choose_tables']			= 'Select tables';
-$LNG['du_success']					= 'Backup created successfully! File: %s';
-$LNG['du_not_tables_selected']		= 'You have no tables selected to backup!';
+$LNG['du_header']					= '数据库备份';
+$LNG['du_submit']					= '提交';
+$LNG['du_select_all_tables']		= '全部表';
+$LNG['du_choose_tables']			= '选择表';
+$LNG['du_success']					= '备份创建成功! 备份文件如下: %s';
+$LNG['du_not_tables_selected']		= '您尚未选择需要备份的表！';

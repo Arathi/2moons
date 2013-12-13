@@ -141,6 +141,10 @@ function comp($src_lang, $dst_lang)
     $pages['l18n']="L18N";
     $pages['public']="PUBLIC";
     $pages['tech']="TECH";
+    $output="<table>";
+    $output.="<tr><td>文件名</td><td>已翻译</td><td>总条目数</td><td>完成进度</td></tr>";
+    $total_diff = 0;
+    $total_amount = 0;
     
     foreach ($pages as $pagekey => $pagename)
     {
@@ -166,14 +170,28 @@ function comp($src_lang, $dst_lang)
         $dstKeyList = array();
         keyList($SRC_LNG, "", $srcKeyList);
         keyList($DST_LNG, "", $dstKeyList);
-        echo "$src_lang/$pagename.php"." <---> "."language/$dst_lang/$pagename.php"." : <br/>";
+        //echo "$pagename.php"."";
+        
         //echo "总词数：".keyAmount($SRC_LNG)." : ".keyAmount($DST_LNG)."<br/>";
         //echo "总词数：".count($srcKeyList)." : ".count($dstKeyList)."<br/>";
-        echo $src_lang."特有：".count($diff->src_only)."<br/>";
-        echo $dst_lang."特有：".count($diff->dst_only)."<br/>";
-        echo "相　同：".count($diff->same)."<br/>";
-        echo "不　同：".count($diff->diff)."<br/><br/>";
+        //echo $src_lang."特有：".count($diff->src_only)."<br/>";
+        //echo $dst_lang."特有：".count($diff->dst_only)."<br/>";
+        //echo "相　同：".count($diff->same)."<br/>";
+        //echo "不　同：".count($diff->diff)."<br/><br/>";
+        $diffcounter = count($diff->diff);
+        $amount = count($srcKeyList);
+        $percentage = (int)( $diffcounter * 10000 / $amount );
+        $percentage= ($percentage/100)."%";
+        //echo "完成进度： ".count($diff->diff)."/".count($srcKeyList)."(".$percentage."%)"."<br/>";
+        $output.="<tr><td>".$pagename.".php</td><td>".$diffcounter."</td><td>".$amount."</td><td>".$percentage."</td></tr>";
+        $total_diff += $diffcounter;
+        $total_amount += $amount;
     }
+    $percentage = (int)( $total_diff * 10000 / $total_amount );
+    $percentage= ($percentage/100)."%";
+    $output.="<tr><td>总量</td><td>".$total_diff."</td><td>".$total_amount."</td><td>".$percentage."</td></tr>";
+    $output.="</table>";
+    return $output;
 }
 
 //以下是页面部分
