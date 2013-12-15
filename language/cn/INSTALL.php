@@ -1,6 +1,6 @@
 <?php
 
-// Translated into English by QwataKayean . All rights reversed (C) 2012
+// Translated into Chinese by Arathi and 爱疯的云 . All rights reversed (C) 2013
 // 2Moons - Copyright (C) 2010-2012 Slaver
 
 
@@ -33,33 +33,33 @@ $LNG['upgrade_notavailable']	= 'The used revision %s is the latest for your data
 $LNG['upgrade_required_rev']	= 'The Updater can work only from revision r2579 (2Moons v1. 7) or later.';
 
 
-$LNG['licence_head']			= 'License terms';
-$LNG['licence_desc']			= 'Please read the license terms below. Use the scroll bar to see all the contents of the document';
-$LNG['licence_accept']			= 'To continue the installation of 2Moons, you need to agree to the terms and conditions of lincense of 2Moons';
-$LNG['licence_need_accept']		= 'If you want to continue with the installation, will s that accept the terms of license';
+$LNG['licence_head']			= '许可条款';
+$LNG['licence_desc']			= '请阅读以下许可条款。拖动滚动条以阅读该文档的全部内容';
+$LNG['licence_accept']			= '在安装2Moons前，您必须同意2Moons的许可条款';
+$LNG['licence_need_accept']		= '如果您希望继续安装，就应该接受许可证中的条款';
 
 $LNG['req_head']				= '系统需求';
-$LNG['req_desc']				= 'Before the installation proceed, 2Moons will be some tests to verify that your server supports the 2Moons, so ensure that the 2Moons can be installed. Its suggested that you read carefully the results, and do not proceed until all these be checked.';
-$LNG['reg_yes']					= 'Yes';
-$LNG['reg_no']					= 'No';
+$LNG['req_desc']				= '在安装开始前，2Moons会做个测试，检验您的服务器是否能支持2Moons，以保证2Moons能够正常安装。建议您仔细阅读测试结果，如果检测中有未通过的项目，请勿继续安装。';
+$LNG['reg_yes']					= '是';
+$LNG['reg_no']					= '否';
 $LNG['reg_found']				= '已找到';
 $LNG['reg_not_found']			= '未找到';
 $LNG['reg_writable']			= '可写入';
 $LNG['reg_not_writable']		= '不可写';
-$LNG['reg_file']				= 'The file &raquo;%s&laquo; Is recordable?';
-$LNG['reg_dir']					= 'The folder &raquo;%s&laquo; Is recordable?';
-$LNG['req_php_need']			= 'Installed version of the scripting language &raquo;PHP&laquo;';
-$LNG['req_php_need_desc']		= '<strong>Required</strong> — PHP is the language code base of 2Moons. This is the required PHP version 5.2.5 or higher so that all modules work correctly';
+$LNG['reg_file']				= '文件 &raquo;%s&laquo; 可写入？';
+$LNG['reg_dir']					= '目录 &raquo;%s&laquo; 可写入？';
+$LNG['req_php_need']			= '所安装的&raquo;PHP&laquo;的版本';
+$LNG['req_php_need_desc']		= '<strong>必须</strong> — 2Moons基于PHP. 而且需要PHP版本高于5.2.5，这样才能使所有的模块正常工作';
 $LNG['reg_gd_need']				= 'Installed version of the GD PHP Script &raquo;gdlib&laquo;';
-$LNG['reg_gd_desc']				= '<strong>Optional</strong> — Graphic processing library &raquo;gdlib&laquo; Is responsible for the generation of dynamic images. They work without some of the features of the software.';
+$LNG['reg_gd_desc']				= '<strong>可选</strong> — 图像处理库 &raquo;gdlib&laquo; 用于生成动态图像。 They work without some of the features of the software.';
 $LNG['reg_mysqli_active']		= 'Extension support &raquo;MySQLi&laquo;';
-$LNG['reg_mysqli_desc']			= '<strong>Required</strong> — Need to have support for MySQLi in PHP. If no module of the database are shown as being available, you should contact your hosting provider (Domain Hoster) or review the documentation of PHP.';
-$LNG['reg_json_need']			= 'Extension &raquo;JSON&laquo; avaliable?';
-$LNG['reg_iniset_need']			= 'PHP function &raquo;ini_set&laquo; avaliable?';
-$LNG['reg_global_need']			= 'register_globals disabled?';
-$LNG['reg_global_desc']			= '2Moons will also work, if this configuration is installed on your server. However, it is recommended for security reasons, disable "register_globals" in PHP installation, if that is possible.';
-$LNG['req_ftp_head']			= 'Insert information of FTP';
-$LNG['req_ftp_desc']			= 'Write your information from FTP so 2Moons automatically fix problems. Alternatively, you can also manually assign permissions to write.';
+$LNG['reg_mysqli_desc']			= '<strong>必须</strong> — 当前的PHP必须支持MySQLi。 If no module of the database are shown as being available, you should contact your hosting provider (Domain Hoster) or review the documentation of PHP.';
+$LNG['reg_json_need']			= '扩展 &raquo;JSON&laquo; 可用？';
+$LNG['reg_iniset_need']			= 'PHP函数 &raquo;ini_set&laquo; 可用？';
+$LNG['reg_global_need']			= 'register_globals 已禁用？';
+$LNG['reg_global_desc']			= '即使您的服务器已经配置开启"register_globals"，2Moons也能正常工作，但出于安全考虑，还是建议尽可能地去禁用掉改选项。';
+$LNG['req_ftp_head']			= '请填写FTP账户信息';
+$LNG['req_ftp_desc']			= '填写您的FTP信息，以便2Moons能够自动修复各种问题。或者，您也可以手动去分配写入权限。';
 $LNG['req_ftp_host']			= '服务器名';
 $LNG['req_ftp_username']		= '用户名';
 $LNG['req_ftp_password']		= '密码';
@@ -99,8 +99,8 @@ $LNG['step4_admin_pass_desc']	= 'Type a password with a length of 6 to 30 charac
 $LNG['step4_admin_mail']		= 'Contact E-mail:';
 
 $LNG['step6_head']				= '安装完成！';
-$LNG['step6_desc']				= 'You installed with success the 2Moons system';
-$LNG['step6_info_head']			= 'Getting and using the 2Moons now!';
+$LNG['step6_desc']				= '您已经成功安装2Moons';
+$LNG['step6_info_head']			= '立即开始2Moons！';
 $LNG['step6_info_additional']	= 'If clicking the button below, will s are redirected to the page of administration .AI will be a good advantage to get ares to explore 2Moons administrator tools.<br/><br/><strong>Please delete the &raquo;includes/ENABLE_INSTALL_TOOL&laquo; or modify the filename. With the existence of this file, you can cause your game at risk by allowing someone rewrite the installation!</strong>';
 
 $LNG['sql_close_reason']		= '游戏已关闭';
