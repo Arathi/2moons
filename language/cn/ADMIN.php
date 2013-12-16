@@ -1,15 +1,15 @@
 <?php
 
 
-// Translated into Chinese by Arathi . All rights reversed (C) 2013
+// Translated into Chinese by Arathi and Raymon . All rights reversed (C) 2013
 // 2Moons - Copyright (C) 2010-2012 Slaver
 
 
 //---------------	Geral	------------------------// 
-$LNG['adm_login']			='登陆';
+$LNG['adm_login']			='登录';
 $LNG['adm_username']		='用户名';
 $LNG['adm_password']		='密码';
-$LNG['adm_absenden']		='Enter';
+$LNG['adm_absenden']		='确定';
 $LNG['adm_password_info']	='Write your password in order to enter';
 $LNG['adm_bad_password']	='密码错误！';
 $LNG['404_page']			='你没有权限访问该页面！';
@@ -300,14 +300,14 @@ $LNG['ma_modes']                = array('Game','Mail','Game & Mail');
 //---------------	Pagina Inicial	------------------------//
 $LNG['ow_title'] ='欢迎来到2Moons!';
 $LNG['ow_donate'] ='Donate';
-$LNG['ow_welcome_text'] ='Welcome to popular 2Moons! (:';
+$LNG['ow_welcome_text'] ='欢迎来到2Moons！ (:';
 $LNG['ow_overview'] ='Control';
-$LNG['ow_support'] ='Support';
+$LNG['ow_support'] ='客服';
 $LNG['ow_credits'] ='Credits';
-$LNG['ow_forum'] ='Forum';
+$LNG['ow_forum'] ='论坛';
 $LNG['ow_proyect_leader'] ='Project Leader';
-$LNG['ow_translator'] ='Translators';
-$LNG['ow_special_thanks'] ='Special Thanks';
+$LNG['ow_translator'] ='翻译';
+$LNG['ow_special_thanks'] ='特别感谢';
 $LNG['ow_file_detected'] ='The file %s was encountered. for reasons of security, delete or rename';
 $LNG['ow_config_file_writable'] ='The file config.php can be written, edited or deleted! It is recommended by 440 mode (read only).';
 $LNG['ow_database_errors'] ='You have errors in your database. <a href="ErrorPage.php">Show Errors</a>';
@@ -324,19 +324,19 @@ $LNG['ow_developers'] ='Developers';
 //---------------  Configurações do Universo e do Servidor	------------------------//
 $LNG['se_server_parameters'] ='Settings of the universe';
 $LNG['se_game_name'] ='Set name';
-$LNG['se_uni_name'] ='Name of the Universe';
-$LNG['se_lang'] ='Language';
-$LNG['se_general_speed'] ='Game speed';
-$LNG['se_energy_speed']		= 'Energy Factor';
-$LNG['se_normal_speed'] ='Normal speed: 1';
-$LNG['se_normal_speed_resoruces'] ='Normal speed: 1';
-$LNG['se_normal_speed_fleet'] ='Normal speed: 1';
-$LNG['se_normal_speed_halt'] ='Normal speed: 1';
-$LNG['se_fleet_speed'] ='Fleet Speed';
+$LNG['se_uni_name'] ='宇宙名称';
+$LNG['se_lang'] ='语言';
+$LNG['se_general_speed'] ='游戏速度';
+$LNG['se_energy_speed']		= '电量因数';
+$LNG['se_normal_speed'] ='正常速度：1';
+$LNG['se_normal_speed_resoruces'] ='正常速度：1';
+$LNG['se_normal_speed_fleet'] ='正常速度：1';
+$LNG['se_normal_speed_halt'] ='正常速度：1';
+$LNG['se_fleet_speed'] ='舰队速度';
 $LNG['se_resources_producion_speed'] ='Speed of production of resources';
 $LNG['se_halt_speed'] ='Expedition speed';
-$LNG['se_forum_link'] ='Forum Link';
-$LNG['se_server_op_close'] ='Server Online?';
+$LNG['se_forum_link'] ='论坛链接';
+$LNG['se_server_op_close'] ='服务器是否在线？';
 $LNG['se_server_status_message'] ='Closed server message';
 $LNG['se_server_planet_parameters'] ='Settings of the planets';
 $LNG['se_initial_fields'] ='Initial Fields:';
@@ -545,7 +545,7 @@ $LNG['ad_authlevel_tt']                 ='[See All]';
 //---------------	Frotas em voo	------------------------//
 
 $LNG['ff_fleetid']				= "ID";
-$LNG['ff_mission']				= "Mission";
+$LNG['ff_mission']				= "任务";
 $LNG['ff_starttime']			= "开始";
 $LNG['ff_ships']				= "飞船";
 $LNG['ff_startuser']			= "Sender";
@@ -556,7 +556,7 @@ $LNG['ff_targetplanet']			= "Planet recipient";
 $LNG['ff_endtime']				= "End time";
 $LNG['ff_holdtime']				= "Time stopped";
 $LNG['ff_del']					= "移除";
-$LNG['ff_lock']					= "Block";
+$LNG['ff_lock']					= "锁定";
 $LNG['ff_unlock']				= "解锁";
 $LNG['ff_no_fleets']			= "Is not present any fleet";
 
@@ -580,51 +580,51 @@ $LNG['ul_sure_you_want_dlte']		='Are you sure that you want to remove?';
 
 
 //---------------	Menu Esquerdo	------------------------//
-$LNG['mu_general'] 						='General';
-$LNG['mu_connected'] 					='Online';
-$LNG['mu_settings'] 					='Server Configuration';
-$LNG['mu_unisettings']                  ='Universe Configuration';
+$LNG['mu_general'] 						='基本设置';
+$LNG['mu_connected'] 					='在线';
+$LNG['mu_settings'] 					='服务器设置';
+$LNG['mu_unisettings']                  ='宇宙设置';
 $LNG['mu_global_message'] 				='Global Message';
-$LNG['mu_users_settings'] 				='Edit menu';
-$LNG['mu_add_delete_resources'] 		='Edit Accounts';
-$LNG['mu_stats_options'] 				='Statistics Configuration';
-$LNG['mu_manage_users'] 				='Manage users';
-$LNG['mu_ban_options'] 					='Ban System';
-$LNG['mu_moon_options'] 				='Moon Options';
+$LNG['mu_users_settings'] 				='编辑菜单';
+$LNG['mu_add_delete_resources'] 		='编辑账户信息';
+$LNG['mu_stats_options'] 				='统计配置';
+$LNG['mu_manage_users'] 				='用户管理';
+$LNG['mu_ban_options'] 					='黑名单系统';
+$LNG['mu_moon_options'] 				='月球相关选项';
 $LNG['mu_observation'] 					='Game';
 $LNG['mu_flying_fleets'] 				='Flying Fleets';
-$LNG['mu_user_list'] 					='Player List';
-$LNG['mu_moon_list'] 					='Moon List';
-$LNG['mu_mess_list']					='Message List';
-$LNG['mu_planet_list'] 					='Planet List';
+$LNG['mu_user_list'] 					='玩家列表';
+$LNG['mu_moon_list'] 					='月球列表';
+$LNG['mu_mess_list']					='信息列表';
+$LNG['mu_planet_list'] 					='行星列表';
 $LNG['mu_error_list'] 					='Errors in Data Base';
 $LNG['mu_active_planets'] 				='Active Planets';
-$LNG['mu_tools'] 						='Tools';
-$LNG['mu_md5_encripter'] 				='MD5 Encryptor';
-$LNG['mu_optimize_db'] 					='Verify database';
+$LNG['mu_tools'] 						='工具';
+$LNG['mu_md5_encripter'] 				='MD5编码器';
+$LNG['mu_optimize_db'] 					='验证数据库';
 $LNG['mu_manual_points_update'] 		='Manual points';
 $LNG['mu_mpu_confirmation'] 			='The Updater is automatico points, this allows you to see what is that your server is currently doing (As memory consumed, SQL, etc.)';
-$LNG['mu_search_page'] 					='Advanced search';
+$LNG['mu_search_page'] 					='高级查询';
 $LNG['mu_info_account_page']	 		='Information Account';
-$LNG['mu_planets_options'] 				='Planets Options';
-$LNG['mu_user_logs']				    ='Admin Log';
+$LNG['mu_planets_options'] 				='行星选项';
+$LNG['mu_user_logs']				    ='管理员日志';
 $LNG['mu_support']                      ='Support Tickets';
-$LNG['mu_chat']                         ='Chat Configuration';
-$LNG['mu_module']                       ='Modules';
-$LNG['mu_mod_update']              		='Checking version of MOD';
-$LNG['mu_fb_options'] 					='Registration by Facebook';
+$LNG['mu_chat']                         ='聊天室设置';
+$LNG['mu_module']                       ='模块';
+$LNG['mu_mod_update']              		='检查MOD版本更新';
+$LNG['mu_fb_options'] 					='关联到Facebook';
 $LNG['mu_ts_options']                   ='Teamspeak Options';
-$LNG['mu_game_info']                    ='Information';
+$LNG['mu_game_info']                    ='服务器信息';
 $LNG['mu_vaild_users']				    ='User activity';
-$LNG['mu_news']					        ='News';
+$LNG['mu_news']					        ='新闻';
 $LNG['mu_multiip_page']					='Multiple IPs'; 
-$LNG['mu_clear_cache']					='Clear Cache'; 
-$LNG['mu_vertify']				     	='Check Game content'; 
-$LNG['mu_cronjob']					= 'Cronjobs'; 
-$LNG['mu_logs']						= 'Admin Log';
+$LNG['mu_clear_cache']					='清空缓存'; 
+$LNG['mu_vertify']				     	='检查游戏文件'; 
+$LNG['mu_cronjob']					= '定时任务'; 
+$LNG['mu_logs']						= '管理员日志';
 $LNG['mu_giveaway']					= 'Giveaways';
 $LNG['mu_disclamer']				= 'Contact settings';
-$LNG['mu_dump']						= 'Database Backup';
+$LNG['mu_dump']						= '数据库备份';
 
 $LNG['vt_error']					='Hashfile is not available! - Run Update!';
 $LNG['vt_fail']						='Changed Files';

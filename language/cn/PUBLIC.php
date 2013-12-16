@@ -7,11 +7,11 @@
 $LNG['siteTitleIndex']				= '首页';
 $LNG['siteTitleRegister']			= '注册';
 $LNG['siteTitleScreens']			= '截图';
-$LNG['siteTitleBanList']			= 'Banned Hall';
-$LNG['siteTitleBattleHall']			= 'Battle Hall';
+$LNG['siteTitleBanList']			= '监狱';
+$LNG['siteTitleBattleHall']			= '战况';
 $LNG['siteTitleRules']				= '规则';
 $LNG['siteTitleNews']				= '新闻';
-$LNG['siteTitleDisclamer']			= 'Contacts';
+$LNG['siteTitleDisclamer']			= '联系';
 $LNG['siteTitleLostPassword']		= '忘记密码？';
 
 // Menu
@@ -19,9 +19,9 @@ $LNG['forum']						= '论坛';
 $LNG['menu_index']					= '首页';
 $LNG['menu_news']					= '新闻';
 $LNG['menu_rules']					= '规则';
-$LNG['menu_banlist']				= 'Banned Hall';
-$LNG['menu_battlehall']				= 'Battle Hall';
-$LNG['menu_disclamer']				= 'Contacts';
+$LNG['menu_banlist']				= '监狱';
+$LNG['menu_battlehall']				= '战况';
+$LNG['menu_disclamer']				= '联系';
 $LNG['menu_register']				= '注册';
 
 // Universe select
@@ -66,7 +66,7 @@ $LNG['registerEmailReplayDesc']		= '请输入相同的E-Mail地址！';
 $LNG['registerLanguage']			= '语言';
 $LNG['registerReferral']			= 'Advertised by:';
 $LNG['registerCaptcha']				= '验证码';
-$LNG['registerCaptchaDesc']			= 'Please enter the characters below in the empty field. There does not have case sensitivity';
+$LNG['registerCaptchaDesc']			= '在下方的文本框中输入您看到的字符，验证码不区分大小写';
 $LNG['registerCaptchaReload']		= '重新获取验证码';
 $LNG['registerRules']				= '规则';
 $LNG['registerRulesDesc']			= '我同意%s';
@@ -92,7 +92,7 @@ $LNG['registerMailVertifyError']	= '发送邮件失败: %s';
 
 $LNG['registerMailCompleteTitle']	= '欢迎来到%s!';
 
-$LNG['registerSendComplete']		= 'Thank you for the registration. You must check your email (Attention with the SPAM) with further information.';
+$LNG['registerSendComplete']		= '感谢您的注册。请您查收邮件(如果没收到，检查一下垃圾邮件)，以获取下一步的信息。';
 
 $LNG['registerWelcomePMSenderName']	= '管理员';
 $LNG['registerWelcomePMSubject']	= '欢迎';
@@ -105,17 +105,17 @@ $LNG['vertifyAdminMessage']			= '"%s"用户已成功激活！';
 
 
 //lostpassword
-$LNG['passwordInfo']				= 'If you have forgotten your password, you must specify the user name and the E-Mail address that you have entered in your account.';
+$LNG['passwordInfo']				= '如果您忘记了密码，必须填写您的用户名以及E-Mail。';
 $LNG['passwordUsername']			= '用户名';
 $LNG['passwordMail']				= 'E-Mail';
 $LNG['passwordCaptcha']				= '验证码';
 $LNG['passwordSubmit']				= '提交';
-$LNG['passwordErrorUsernameEmpty']	= 'You have no specified the Username!';
-$LNG['passwordErrorMailEmpty']		= 'You have specified an unknown email address!';
-$LNG['passwordErrorUnknown']		= 'It could not be found with the account data.';
+$LNG['passwordErrorUsernameEmpty']	= '您尚未填写自己的用户名';
+$LNG['passwordErrorMailEmpty']		= '您所填写的E-Mail地址有误！';
+$LNG['passwordErrorUnknown']		= '该账户的数据未能找到！';
 $LNG['passwordErrorOnePerDay']		= 'Password for this user account in the last 24 hours previously requested. You can only request the password for this user account in  next 24 hours. ';
 
-$LNG['passwordValidMailTitle']		= 'Forgot my password on the game: %s';
+$LNG['passwordValidMailTitle']		= '忘记密码: %s';//Forgot my password on the game
 $LNG['passwordValidMailSend']		= 'You will receive an email shortly with further information.';
 
 $LNG['passwordValidInValid']		= '非法的请求！';
@@ -130,7 +130,7 @@ $LNG['passwordNext']				= '下一步';
 $LNG['login_error_1']				= '用户名不存在或者密码错误！';
 $LNG['login_error_2']				= '您的账号已在其他电脑上被登陆，或者您的IP发生变化！';//'Someone has logged in from a different PC in your account, or your IP is different!';
 $LNG['login_error_3']				= '您的会话已经过期！';
-$LNG['login_error_4']				= 'There was an error in external authorization, please try again!';
+$LNG['login_error_4']				= '发生外部认证错误，请重试！';
 
 //Rules
 $LNG['rulesHeader']					= '规则';

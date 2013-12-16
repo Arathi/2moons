@@ -190,13 +190,13 @@ $LNG['shortDescription'] = array(
 23 => '用于储存更多的晶体。',
 24 => '用于储存更多的氘气。',
 
-31 => 'A research lab is required in order to conduct research into new technologies.',
-33 => 'The Terraformer increases the usable area on the planet.',
-34 => 'The Alliance Depot offers the possibility to supply fuel to friendly fleets in orbit.',
-41 => 'The moon has no atmosphere therefore a lunar base must be built before the settlement of other buildings.',
-42 => 'The sensor array allows you to monitor fleet movements. The higher the stage, the greater is the range of the phalanx.',
-43 => 'Jump gates are huge transmitters that are able to send large fleets without loss of time through the universe.',
-44 => 'missile silos used for storage of rockets.',
+31 => '想要研究任何一门新技术，都必须先建立一所研究院。',
+33 => '地形变化器可以增肌您的行星的可用面积。',
+34 => '联盟空间站使得在卫星轨道上给友军的舰队提供燃料称为可能。',
+41 => '月球上没有大气层，因此在月球上部署任何建筑之前，都应该先建立月球基地。',
+42 => '传感器阵列使你可以监视舰队的活动。阶段越高，能够监视的距离也就越远。',
+43 => '传送门是种巨大的传送装置，可以使大量的舰队瞬间派遣至该宇宙的另一个地方。',
+44 => '导弹发射井用于储藏导弹。',
 
 106 => 'Information about other planets and moons can be gained using this technology.',
 108 => 'More fleets can be commanded by increasing computer capacities. Each level of computer technology increases the maximum number of fleets by one.',
@@ -213,9 +213,9 @@ $LNG['shortDescription'] = array(
 122 => 'A further development of ion technology which accelerates high-energy Plasma, a result of super-heating Ions. This has a devastating effect when striking an object.',
 123 => 'Researchers on different planets communicate via this network.',
 124 => 'With an astrophysics research module, ships can undertake long expeditions. Every second level of this technology will allow you to colonise an extra planet.',
-131 => 'Increases the production of Metal by 2%',
-132 => 'Increases the production of Crystal by 2%',
-133 => 'Increases the production of Deuterium by 2%',
+131 => '增加金属产量2%',
+132 => '增加水晶产量2%',
+133 => '增加氘产量2%',
 199 => 'Firing a concentrated charge of graviton particles can create an artificial gravity field, which can destroy ships or even moons.',
 
 202 => 'The light cargo is an agile ship which can quickly transport resources to other planets.',
@@ -250,8 +250,8 @@ $LNG['shortDescription'] = array(
 410 => 'After years of research at the gravitational force, researchers where able to develop a Graviation cannon that generate small concentrated Gravition field that can be shoot at the enemy.',
 411 => 'There is an immovable defensive platform. It has no direct power, and is held by Gravity in a stable orbit of the planet. The start of this process requires high masses of energy.',
 
-502 => 'Interceptor missiles are used to destroy attacking Interplanetary missiles.',
-503 => 'Interplanetary missiles are used to destroy the opponents defenses.',
+502 => '拦截型导弹用于摧毁来袭的星际导弹。',
+503 => '星际导弹用于摧毁敌方的防御设施。',
 
 601 => 'The Geologist is a expert in astro-mineralogy and crystalography. He assists his teams in metallurgy and chemistry as he also takes care of the interplanetary communications optimising the use and refining of the raw material along the empire.',
 602 => 'The Admiral is an experienced veteran and a skillful strategist. The hardest battle is able to get an idea of the situation and contact their admirals subordinates. A wise emperor could rely on their help during the fighting.',
@@ -269,13 +269,13 @@ $LNG['shortDescription'] = array(
 614 => 'The Conqueror is a member of the Imperial Army, it has the ability to navigate a particular type of ship that no one else could do or take off.',
 615 => 'The Raider placed under his command available to all officers in the empire, combining their skills to dominate the universe and to become an opponent almost invincible.',
 
-701 => 'Increases the attack value of the ships and defenses.',
-702 => 'Increases the value of ships shields and defenses',
-703 => 'Shorten the construction time for buildings',
-704 => 'Increases resource production',
-705 => 'Increases energy production',
-706 => 'Shortens research time',
-707 => 'Shortens flying time. Does not affect Expeditions.',
+701 => '增加飞船和防御设施的攻击力',
+702 => '增加飞船、护盾及防御设施的防御力',
+703 => '减短建造建筑物消耗的时间',
+704 => '增加资源的生产效率',
+705 => '加快发电的速率',
+706 => '简短研究消耗的时间',
+707 => '简短飞行消耗的时间。但是不会影响探险的时间',
 );
 
 $LNG['longDescription'] = array(
