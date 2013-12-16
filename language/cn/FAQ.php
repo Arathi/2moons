@@ -38,8 +38,8 @@ $LNG['questions'][1][3]['body']		= <<<BODY
 <p>To be able to protect your own planet with the construction of Hangar, is also the construction of defence. These offer some protection against the enemies with your own fleet at the moment of attack of your adervesÃ. In contrast to the fleet, 70% of existing on the planet defense continues</p>
 BODY;
 
-$LNG['questions'][2]['category']	= 'The information advanced';
-$LNG['questions'][2][1]['title']	= 'Raid';
+$LNG['questions'][2]['category']	= '进阶信息';
+$LNG['questions'][2][1]['title']	= '掠夺';
 $LNG['questions'][2][1]['body']		= <<<BODY
 <h3>Raid:</h3>
 <p>It is the attack against other players for taking possession of them. There are several types of attacks such as:</p>
@@ -94,9 +94,9 @@ ST – Portal<br>
 RB – 机器人工厂</p>
 <p>MB1 – RB1 – RB2 – MB2 – SP1 – RB3 – MB3 – SP2 – RB4 – MB4 – SP3 – RB5 – MB5 – SP4 – RB6 – MB6 – SP5 – SP6 – MB7 – SP7 – SP8 – MB8 – ST1<br>
 This order is only suggested if you are newbie, because of course the more experienced players have their idea of development<p>
-<h3>Destruction of Moon</h3>
+<h3>摧毁月球</h3>
 <p>The moon can also be destroyed again, which is only allowed with specific ships.</p>
-<p>In the Fleet menu, select the ships called "death star" or "Star Destroyer". When you arrive at the moment of choosing the mission to the Moon, choose "Destroy". These missions are not always successful, the moon will be destroyed and also cannot. In these battles there is the Destruction! The bigger the moon to be destroyed, more stars of death will be required and more risky is the attempted destruction of this!</p>
+<p>In the Fleet menu, select the ships called "死星" or "灭星者". When you arrive at the moment of choosing the mission to the Moon, choose "Destroy". These missions are not always successful, the moon will be destroyed and also cannot. In these battles there is the Destruction! The bigger the moon to be destroyed, more stars of death will be required and more risky is the attempted destruction of this!</p>
 <h3>Size of the Moon:</h3>
 <p>Destruction of 100000 units can render a 1% probability. The maximum probability is 20%.<p>
 BODY;

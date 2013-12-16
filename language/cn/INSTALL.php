@@ -35,8 +35,8 @@ $LNG['upgrade_required_rev']	= 'The Updater can work only from revision r2579 (2
 
 $LNG['licence_head']			= '许可条款';
 $LNG['licence_desc']			= '请阅读以下许可条款。拖动滚动条以阅读该文档的全部内容';
-$LNG['licence_accept']			= '在安装2Moons前，您必须同意2Moons的许可条款';
-$LNG['licence_need_accept']		= '如果您希望继续安装，就应该接受许可证中的条款';
+$LNG['licence_accept']			= '我接受此协议的条款'; //（在安装2Moons前，您必须同意2Moons的许可条款）
+$LNG['licence_need_accept']		= '若要继续安装，您必须接受此协议中的条款';
 
 $LNG['req_head']				= '系统需求';
 $LNG['req_desc']				= '在安装开始前，2Moons会做个测试，检验您的服务器是否能支持2Moons，以保证2Moons能够正常安装。建议您仔细阅读测试结果，如果检测中有未通过的项目，请勿继续安装。';
@@ -50,10 +50,10 @@ $LNG['reg_file']				= '文件 &raquo;%s&laquo; 可写入？';
 $LNG['reg_dir']					= '目录 &raquo;%s&laquo; 可写入？';
 $LNG['req_php_need']			= '所安装的&raquo;PHP&laquo;的版本';
 $LNG['req_php_need_desc']		= '<strong>必须</strong> — 2Moons基于PHP. 而且需要PHP版本高于5.2.5，这样才能使所有的模块正常工作';
-$LNG['reg_gd_need']				= 'Installed version of the GD PHP Script &raquo;gdlib&laquo;';
+$LNG['reg_gd_need']				= '已安装的GD库版本 &raquo;gdlib&laquo;';
 $LNG['reg_gd_desc']				= '<strong>可选</strong> — 图像处理库 &raquo;gdlib&laquo; 用于生成动态图像。 They work without some of the features of the software.';
-$LNG['reg_mysqli_active']		= 'Extension support &raquo;MySQLi&laquo;';
-$LNG['reg_mysqli_desc']			= '<strong>必须</strong> — 当前的PHP必须支持MySQLi。 If no module of the database are shown as being available, you should contact your hosting provider (Domain Hoster) or review the documentation of PHP.';
+$LNG['reg_mysqli_active']		= '&raquo;MySQLi&laquo; 扩展支持';
+$LNG['reg_mysqli_desc']			= '<strong>必须</strong> — 当前的PHP必须支持MySQLi。如果检测出您的服务器的数据库模块不可用，请与您的服务提供商联系，或者查看一下PHP的文档。';
 $LNG['reg_json_need']			= '扩展 &raquo;JSON&laquo; 可用？';
 $LNG['reg_iniset_need']			= 'PHP函数 &raquo;ini_set&laquo; 可用？';
 $LNG['reg_global_need']			= 'register_globals 已禁用？';
@@ -68,7 +68,7 @@ $LNG['req_ftp_send']			= '发送';
 $LNG['req_ftp_error_data']		= 'The information provided does not allow you to connect to the FTP server, so this link failed';
 $LNG['req_ftp_error_dir']		= 'The story that directory you entered is invalid or not existing';
 
-$LNG['step1_head']				= 'Configure the installation database';
+$LNG['step1_head']				= '配置数据库信息';
 $LNG['step1_desc']				= 'Now that it has been determined that 2Moons can be installed on your server, s should provide some information. If you dont know how to run a link database, contact your hosting provider first or with the 2Moons forum for help and support. When you insert the data, checks were introduced properly';
 $LNG['step1_mysql_server']		= '数据库服务器或DSN';
 $LNG['step1_mysql_port']		= '数据库端口';
@@ -87,8 +87,8 @@ $LNG['step2_config_exists']		= 'config.php已经存在！';
 $LNG['step2_db_done']			= '数据库连接成功！';
 
 $LNG['step3_head']				= '创建数据表';
-$LNG['step3_desc']				= 'The tables needed for the 2Moons database already have been created and populated with default values. To go to the next step, conclude the installation of 2Moons';
-$LNG['step3_db_error']			= 'Failed to create the database tables:';
+$LNG['step3_desc']				= '2Moons所需的数据表已经创建成功，并且已经导入了默认值。点击下一步，结束2Moons的安装';
+$LNG['step3_db_error']			= '创建数据表失败：';
 
 $LNG['step4_head']				= '管理员账号';
 $LNG['step4_desc']				= 'The installation wizard will now create an administrator account for you. Writes the name of use, your password and your email';

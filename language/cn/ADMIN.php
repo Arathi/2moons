@@ -853,9 +853,9 @@ $LNG['se_contrac']			            ='Retract';
 $LNG['se__next']			            ='Following';
 $LNG['se__before']			            ='Previous';
 $LNG['se_search_info']		            ='Search';
-$LNG['se_asc_desc']		                ='ASC / DESC';
-$LNG['se_search_order']	                ='Sort';
-$LNG['se_search_edit']		            ='Edit';
+$LNG['se_asc_desc']		                ='升序 / 降序';
+$LNG['se_search_order']	                ='排序';
+$LNG['se_search_edit']		            ='编辑';
 $LNG['se_delete_succes_p']	            ='Delete with success';
 $LNG['se_confirm_planet']	            ='The planet chosen will be completely erased, even being the main planet or colonia, you want to continue?. Name of the planet:';
 
@@ -926,28 +926,28 @@ $LNG['new_pass']			='Password';
 $LNG['new_name']			='Name';
 
 //	Planetas
-$LNG['po_galaxy']					='Galaxy';
-$LNG['po_system']					='System';
-$LNG['po_planet']					='Planets';
-$LNG['po_colony']					='Colony';
+$LNG['po_galaxy']					='银河';
+$LNG['po_system']					='系统';
+$LNG['po_planet']					='行星';
+$LNG['po_colony']					='殖民';
 $LNG['po_fields_max']				='Fields';
-$LNG['po_coor_1']					='Coordinates';
+$LNG['po_coor_1']					='坐标';
 $LNG['po_add_planet']				='Add colony';
-$LNG['po_name_planet']				='Planet name';
-$LNG['po_complete_all']				='Invalid data or existing!';
-$LNG['po_complete_all2']			='Error in the coordinates!';
-$LNG['po_complete_succes']			='Planet successfully created';
+$LNG['po_name_planet']				='行星名称';
+$LNG['po_complete_all']				='数据无效或者已经存在！';
+$LNG['po_complete_all2']			='坐标错误！';
+$LNG['po_complete_succes']			='行星创建成功！';
 
 //	Luas
-$LNG['mo_moon_added']				='Moon added successfully!';
-$LNG['mo_moon_unavaible']			='The planet already has a moon!';
-$LNG['mo_moon_random']				='Random';
-$LNG['mo_planet_doesnt_exist']		='The player does not exist!';
-$LNG['mo_moon_name']				='Moons name';
-$LNG['mo_moon']						='Moon';
-$LNG['mo_diameter']					='Diameter';
+$LNG['mo_moon_added']				='月球添加成功！';
+$LNG['mo_moon_unavaible']			='该行星已经拥有月球！';
+$LNG['mo_moon_random']				='随机';
+$LNG['mo_planet_doesnt_exist']		='该玩家不存在！';
+$LNG['mo_moon_name']				='月球名称';
+$LNG['mo_moon']						='月';
+$LNG['mo_diameter']					='直径';
 $LNG['mo_fields_avaibles']			='Fields';
-$LNG['po_add_moon']					='Add moon';
+$LNG['po_add_moon']					='添加月球';
 //###########################################################//
 
 

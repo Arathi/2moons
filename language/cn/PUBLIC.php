@@ -1,6 +1,6 @@
 <?php
 
-// Translated into Chinese by Arathi . All rights reversed (C) 2013
+// Translated into Chinese by Arathi And Raymon . All rights reversed (C) 2013
 // 2Moons - Copyright (C) 2010-2013 
 
 // Site Title
@@ -36,8 +36,8 @@ $LNG['buttonLostPassword']			= '忘记密码？';
 
 // Start
 $LNG['gameInformations']			= array(
-	'一个即时宇宙策略游戏。', //A space strategy game in real time.
-	'Game with hundreds of users.',
+	'一个即时宇宙策略游戏。',
+	'与数百玩家同台竞技。',
 	'无需下载，只需要一个标准的浏览器。',
 	'免费注册。',
 );
@@ -47,14 +47,14 @@ $LNG['loginHeader']					= '登录';
 $LNG['loginUsername']				= '用户名';
 $LNG['loginPassword']				= '密码';
 $LNG['loginButton']					= '登录';
-$LNG['loginInfo']					= 'With the login I accept the %s.';
+$LNG['loginInfo']					= '我同意 %s 并登陆游戏';
 $LNG['loginWelcome']				= '欢迎来到%s';
-$LNG['loginServerDesc']				= '%s is a space strategy game with hundreds of players playing together <strong>at the same time</strong> trying to be the best. Everything what you need to the play is a Standard Browser.';
+$LNG['loginServerDesc']				= '%s是个能让你与数百玩家<strong>同台竞技</strong>的太空战略游戏。您只需要一个标准的浏览器就能享受这一切。';
 
 // Register
 $LNG['registerFacebookAccount']		= 'Facebook账号';
 $LNG['registerUsername']			= '用户名';
-$LNG['registerUsernameDesc']		= 'The Username must be at least 3 and maximum of 25 characters and points, and may consist of numbers, letters, underscores and spaces';
+$LNG['registerUsernameDesc']		= '用户名至少3个字符，最多25个字符，可以由数字，字母，下划线以及空格构成'; //还有个point没翻译到
 $LNG['registerPassword']			= '密码';
 $LNG['registerPasswordDesc']		= '密码至少要8个字符';
 $LNG['registerPasswordReplay']		= '重复密码';
@@ -62,14 +62,14 @@ $LNG['registerPasswordReplayDesc']	= '请输入相同的密码';
 $LNG['registerEmail']				= 'E-Mail';
 $LNG['registerEmailDesc']			= '请输入你的E-Mail地址';
 $LNG['registerEmailReplay']			= '重复E-Mail';
-$LNG['registerEmailReplayDesc']		= 'Please input of your email address once again to the security!';
+$LNG['registerEmailReplayDesc']		= '请输入相同的E-Mail地址！';
 $LNG['registerLanguage']			= '语言';
 $LNG['registerReferral']			= 'Advertised by:';
-$LNG['registerCaptcha']				= 'Security code';
+$LNG['registerCaptcha']				= '验证码';
 $LNG['registerCaptchaDesc']			= 'Please enter the characters below in the empty field. There does not have case sensitivity';
-$LNG['registerCaptchaReload']		= 'Reload Captcha.';
+$LNG['registerCaptchaReload']		= '重新获取验证码';
 $LNG['registerRules']				= '规则';
-$LNG['registerRulesDesc']			= 'I agree with the %s';
+$LNG['registerRulesDesc']			= '我同意%s';
 
 $LNG['registerBack']				= '上一步';
 $LNG['registerNext']				= '下一步';
@@ -82,10 +82,10 @@ $LNG['registerErrorPasswordLength']	= '密码至少要6个字符！';
 $LNG['registerErrorPasswordSame']	= '两次输入的密码不相同！';
 $LNG['registerErrorMailEmpty']		= '你必须提供以一个明确的E-Mail地址';//You must specify an E-Mail address!
 $LNG['registerErrorMailInvalid']	= '无效的E-Mail地址！';
-$LNG['registerErrorMailSame']		= 'You have specified 2 different email addresses!';
+$LNG['registerErrorMailSame']		= '两次输入的E-Mail地址不相同！';
 $LNG['registerErrorMailExist']		= '该E-Mail已被注册！';
 $LNG['registerErrorRules']			= '你应该先同意规则！';
-$LNG['registerErrorCaptcha']		= 'The security code is incorrect!';
+$LNG['registerErrorCaptcha']		= '验证码错误！';
 
 $LNG['registerMailVertifyTitle']	= 'Activation of registration on the game: %s';
 $LNG['registerMailVertifyError']	= '发送邮件失败: %s';
@@ -100,15 +100,15 @@ $LNG['registerWelcomePMText']		= 'Welcome to %s! First build a solar power plant
 
 //Vertify
 
-$LNG['vertifyNoUserFound']			= 'Invalid Request!';
-$LNG['vertifyAdminMessage']			= 'The username "%s" has enabled!';
+$LNG['vertifyNoUserFound']			= '无效的请求!';
+$LNG['vertifyAdminMessage']			= '"%s"用户已成功激活！';
 
 
 //lostpassword
 $LNG['passwordInfo']				= 'If you have forgotten your password, you must specify the user name and the E-Mail address that you have entered in your account.';
 $LNG['passwordUsername']			= '用户名';
 $LNG['passwordMail']				= 'E-Mail';
-$LNG['passwordCaptcha']				= 'Security code';
+$LNG['passwordCaptcha']				= '验证码';
 $LNG['passwordSubmit']				= '提交';
 $LNG['passwordErrorUsernameEmpty']	= 'You have no specified the Username!';
 $LNG['passwordErrorMailEmpty']		= 'You have specified an unknown email address!';
@@ -142,6 +142,6 @@ $LNG['news_does_not_exist']			= '没有什么新闻！';//'No news available!'
 
 //Impressum
 $LNG['disclamerLabelAddress']		= '游戏地址:';
-$LNG['disclamerLabelPhone']			= 'Telephone Nr.:';
+$LNG['disclamerLabelPhone']			= '联系电话:';
 $LNG['disclamerLabelMail']			= '客服信箱:';
 $LNG['disclamerLabelNotice']		= '更多信息';
