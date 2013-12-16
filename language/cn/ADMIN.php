@@ -12,9 +12,9 @@ $LNG['adm_password']		='密码';
 $LNG['adm_absenden']		='Enter';
 $LNG['adm_password_info']	='Write your password in order to enter';
 $LNG['adm_bad_password']	='密码错误！';
-$LNG['404_page']			='You do not have permissions to access this page';
+$LNG['404_page']			='你没有权限访问该页面！';
 $LNG['adm_cp_title']		='管理面板';
-$LNG['adm_cp_index']		='开始';
+$LNG['adm_cp_index']		='首页';
 $LNG['mu_moderation_page']	='权限';//'Permissions';
 $LNG['mu_universe']			='宇宙';
 $LNG['adm_cp_logout']		='回到游戏';
@@ -42,8 +42,8 @@ $LNG['time_seconds'] ='秒';
 $LNG['info_information'] ='Send or report bugs in the forum for <a href="%s" target="tracker">2Moons</a><br>Otherwise there will be support!';
 
 //---------------	Sim ou não	------------------------// 
-$LNG['one_is_yes'] [1] ='Yes';
-$LNG['one_is_yes'] [0] ='no';
+$LNG['one_is_yes'] [1] ='是';
+$LNG['one_is_yes'] [0] ='否';
 
 $LNG['one_is_no'] [1] ='Yes';
 $LNG['one_is_no'] [0] ='no';
@@ -51,13 +51,13 @@ $LNG['one_is_no'] [0] ='no';
 
 
 //---------------	Botões	------------------------// 
-$LNG['button_submit'] ='Send';
+$LNG['button_submit'] ='发送';
 $LNG['button_add'] ='Profile';
-$LNG['button_delete'] ='Delete';
+$LNG['button_delete'] ='删除';
 $LNG['button_filter'] ='Filter';
 $LNG['button_deselect'] ='Delete selected';
-$LNG['button_reset'] ='Reset';
-$LNG['button_des_se'] ='Select all or deselect';
+$LNG['button_reset'] ='重置';
+$LNG['button_des_se'] ='全选/取消选择';
 //###########################################################//
 
 
@@ -80,9 +80,9 @@ $LNG['count_res'] ='Number of resources';
 //---------------	Modulos   ------------------------// 
 $LNG['buildings_title'] ='建筑';
 $LNG['ships_title'] ='飞船';
-$LNG['defenses_title'] ='Defences';
+$LNG['defenses_title'] ='国防';
 $LNG['researchs_title'] ='研究';
-$LNG['officiers_title'] ='Officers';
+$LNG['officiers_title'] ='官员';
 //###########################################################//
 
 

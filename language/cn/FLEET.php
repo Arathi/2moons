@@ -7,18 +7,18 @@ $LNG['and']							= 'and';
 
 //----------------------------------------------------------------------------//
 //SYSTEM
-$LNG['sys_attacker_lostunits'] 				= "The attackers losses:";
-$LNG['sys_defender_lostunits'] 				= "The defenders losses:";
-$LNG['sys_units']							= "units";
-$LNG['debree_field_1'] 						= "At the coordinates are now:";
-$LNG['debree_field_2']						= "debris.";
-$LNG['sys_moonproba'] 						= "Moon Chance: ";
-$LNG['sys_moonbuilt'] 						= "A moon formed at the planet %s [%d:%d:%d] !";
+$LNG['sys_attacker_lostunits'] 				= "攻击方损失：";
+$LNG['sys_defender_lostunits'] 				= "防御方损失：";
+$LNG['sys_units']							= "单位";
+$LNG['debree_field_1'] 						= "当前坐标的空间中现在有：";
+$LNG['debree_field_2']						= "空间碎片。";
+$LNG['sys_moonproba'] 						= "形成月球的概率为: ";
+$LNG['sys_moonbuilt'] 						= "该行星产生了一颗由轨道碎片构成的卫星 %s [%d:%d:%d] ！";
 $LNG['sys_attack_title']    				= "The following fleets face each other on: ";
 $LNG['sys_attack_round']					= "Round";
-$LNG['sys_attack_attacker_pos'] 			= "Attacker";
-$LNG['sys_attack_techologies'] 				= 'Weapons: %d %% Shields: %d %% Armor: %d %% ';
-$LNG['sys_attack_defender_pos'] 			= "Defender";
+$LNG['sys_attack_attacker_pos'] 			= "攻击方";
+$LNG['sys_attack_techologies'] 				= '武器：%d %% 护盾：%d %% 装甲：%d %% ';
+$LNG['sys_attack_defender_pos'] 			= "防御方";
 $LNG['sys_ship_type'] 						= "Type";
 $LNG['sys_ship_count'] 						= "Amount";
 $LNG['sys_ship_weapon'] 					= "Firepower";
@@ -40,7 +40,7 @@ $LNG['sys_mess_attack_report'] 				= "Fight report";
 $LNG['sys_spy_fleet'] 						= "Fleet";
 $LNG['sys_spy_defenses'] 					= "Defenses";
 $LNG['sys_mess_qg'] 						= "Spying department";
-$LNG['sys_mess_spy_report_moon']			= "(Moon)";
+$LNG['sys_mess_spy_report_moon']			= "(月球)";
 $LNG['sys_mess_spy_report'] 				= "Intelligence report";
 $LNG['sys_mess_head'] 					= 'Spy Report %s [%d:%d:%d] on %s';
 $LNG['sys_mess_spy_lostproba'] 				= "The spy probes discovery chance was:  %d %% ";
@@ -49,15 +49,15 @@ $LNG['sys_mess_spy_activity'] 				= "Spying activity";
 $LNG['sys_mess_spy_ennemyfleet'] 			= "A hostile fleet of the planet";
 $LNG['sys_mess_spy_seen_at'] 				= "was sighted near your planet";
 $LNG['sys_mess_spy_seen_at2'] 				= 'sighted';
-$LNG['sys_mess_spy_destroyed'] 				= '<font color="red">Your spy probes were destroyed! </font>';
+$LNG['sys_mess_spy_destroyed'] 				= '<font color="red">您的间谍卫星已被摧毁！</font>';
 $LNG['sys_adress_planet'] 					= '[%s:%s:%s]';
 
-$LNG['sys_stat_mess_stay']           		= 'Located fleet';
+$LNG['sys_stat_mess_stay']           		= '驻屯舰队';
 $LNG['sys_stat_mess'] 		         		= 'Your fleet reaches the planet %s and delivers %s %s, %s %s and %s %s.';
 
 $LNG['sys_colo_mess_from'] 					= "Colonisation";
 $LNG['sys_colo_mess_report'] 				= "Colonisation report";
-$LNG['sys_colo_defaultname'] 				= "Colony";
+$LNG['sys_colo_defaultname'] 				= "殖民地";
 $LNG['sys_colo_notech'] 					= 'One of your fleets reached the coordinates %s. When your settlers approached the planet, they had to determine that their equipment still not for the prevailing climate was suitable and must be developed first. Disappointed, the settlers returned.';
 $LNG['sys_colo_arrival'] 					= "";
 $LNG['sys_colo_maxcolo'] 					= "One of your fleets reaches the coordinates %s. Ssettlement is not possible as you can only have %d planets. ";
@@ -141,8 +141,8 @@ $LNG['sys_expe_attack_2_2_2'] 				= 'Your expedition fleet has apparently violat
 $LNG['sys_expe_attack_2_2_3'] 				= 'The connection with our expedition fleet was disconnected abruptly. The last what we heard of the fleet was that it was taking heavy fire - the aggressors could not be identified.';
 $LNG['sys_expe_attack_2_3_1'] 				= 'Your expedition has come across an alien invasion fleet and reports massive battles!';
 $LNG['sys_expe_attack_2_3_2'] 				= 'A large group of crystalline ships of unknown origin is on a direct collision course with our expedition fleet. We must prepare ourself for the worst.';
-$LNG['sys_expe_attackname_1']				= 'Pirates'; 	
-$LNG['sys_expe_attackname_2'] 				= 'Aliens'; 	
+$LNG['sys_expe_attackname_1']				= '星际海盗'; 	
+$LNG['sys_expe_attackname_2'] 				= '异星人'; 	
 $LNG['sys_expe_back_home'] 					= 'Your fleet has returned from the expedition.<br>It deliveres %s %s, %s %s, %s %s and %s %s.';
 $LNG['sys_expe_back_home_without_dm']		= 'Your fleet has returned from the expedition.';
 $LNG['sys_expe_back_home_with_dm']			= 'Your fleet has returned from the expedition.<br>They found (%s)%s but the ships were scrapped. <br>the %s was saved.';
@@ -160,7 +160,7 @@ $LNG['sys_irak_def'] 					  	= '%d Rockets of yours were intercepted.';
 $LNG['sys_irak_mess']						= 'Interplanetary rockets (%d) from %s are on the planet %s <br><br>';
 $LNG['sys_gain'] 				  			= 'Profit';
 $LNG['sys_fleet_won'] 						= 'One of your fleets returns from a attack at the planet %s %s. You have captured %s %s, %s %s and %s %s ';
-$LNG['sys_lost'] 							= 'Losses';
+$LNG['sys_lost'] 							= '损失';
 $LNG['sys_debris'] 							= 'Rubblefield';
 $LNG['sys_destruc_title']       		   	= 'The following fleets face each other for a moon destruction:';
 $LNG['sys_mess_destruc_report']  		  	= 'Report: Moon destruction';
@@ -176,8 +176,8 @@ $LNG['sys_destruc_reussi']      		   	= 'The deathstars beams reached the moon a
 $LNG['sys_destruc_null']        		   	= 'The deathstars could not charge fully before firing and imploded.<br> The moon is not destroyed.';
 
 
-$LNG['fcp_colony']							= 'Colony';
-$LNG['fl_simulate']							= 'Simulate';
+$LNG['fcp_colony']							= '殖民地';
+$LNG['fl_simulate']							= '模拟器';
 
 $LNG['type_mission'][1]  					= '攻击';
 $LNG['type_mission'][2]  					= '联合攻击';
