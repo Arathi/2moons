@@ -1007,96 +1007,96 @@ $LNG['ts_cron']							='Update rate';
 
 //----------------------------------------------------------------------------//
 // Facebook App
-$LNG['fb_settings']                                     = 'Facebook Connect Settings';
-$LNG['fb_active']                                       = 'Facebook Connect activate?';
-$LNG['fb_api_key']                                      = 'Facebook API Key';
-$LNG['fb_secrectkey']                                   = 'Facebook Secret Key';
-$LNG['fb_info']                                         = 'With Facebook Connect users who are logged on to Facebook, log in with my click, or register. <br>  to use this feature, you must be registered with Faceebok itself. In addition, you must create an Application. This you can do to <a href="http://www.facebook.com/developers/"> http://www.facebook.com/developers/ </ a>. As Connect URL, you must enter the URL to the game. Then you are carrying here the Keys and your game should be ready Facebook. <br> <font Color="red"> for FB Connect, the mail delivery will be available! (SMTP settings)</font>';
-$LNG['fb_curl_yes']                                             = '<span style="color:green">cURL Installed!</span>';
-$LNG['fb_curl_no']                                              = '<span style="color:red">cURL Not Installed! Facebook Requires cURL extension to work!</span>';
+$LNG['fb_settings']                     = 'Facebook Connect Settings';
+$LNG['fb_active']                       = 'Facebook Connect activate?';
+$LNG['fb_api_key']                      = 'Facebook API Key';
+$LNG['fb_secrectkey']                   = 'Facebook Secret Key';
+$LNG['fb_info']                         = 'With Facebook Connect users who are logged on to Facebook, log in with my click, or register. <br>  to use this feature, you must be registered with Faceebok itself. In addition, you must create an Application. This you can do to <a href="http://www.facebook.com/developers/"> http://www.facebook.com/developers/ </ a>. As Connect URL, you must enter the URL to the game. Then you are carrying here the Keys and your game should be ready Facebook. <br> <font Color="red"> for FB Connect, the mail delivery will be available! (SMTP settings)</font>';
+$LNG['fb_curl_yes']                     = '<span style="color:green">cURL Installed!</span>';
+$LNG['fb_curl_no']                      = '<span style="color:red">cURL Not Installed! Facebook Requires cURL extension to work!</span>';
 
 //----------------------------------------------------------------------------//
 //GameModule.php
 
-$LNG['modul'][0]                                        = 'Alliance';
-$LNG['modul'][39]                                                               = 'Battle Simulator';
-$LNG['modul'][2]                                        = 'Construction - Buildings';
-$LNG['modul'][3]                                        = 'Building - Research';
-$LNG['modul'][4]                                        = 'Construction - Fleets';
-$LNG['modul'][5]                                        = 'Building - Defense';
-$LNG['modul'][6]                                        = 'Buddylist';
-$LNG['modul'][7]                                        = 'Chat';
-$LNG['modul'][8]                                        = 'DM Bank';
-$LNG['modul'][9]                                        = 'Fleet';
-$LNG['modul'][10]                                       = 'Fleet - Handler';
-$LNG['modul'][40]                                       = 'Fleets Shourtcuts';
-$LNG['modul'][11]                                       = 'Galaxy';
-$LNG['modul'][12]                                       = 'Hall of Fame';
-$LNG['modul'][13]                                       = 'Trader';
-$LNG['modul'][14]                                       = 'Info';
-$LNG['modul'][15]                                       = 'Empire';
-$LNG['modul'][32]                                       = 'Mission - Recycle';
-$LNG['modul'][1]                                        = 'Mission - Attack';
-$LNG['modul'][31]                                       = 'Mission - DM Mission';
-$LNG['modul'][30]                                       = 'Mission - Expedition';
-$LNG['modul'][33]                                       = 'Mission - Hold';
-$LNG['modul'][35]                                       = 'Mission - Colonize';
-$LNG['modul'][24]                                       = 'Mission - Spy';
-$LNG['modul'][36]                                       = 'Mission - Deploy';
-$LNG['modul'][34]                                       = 'Mission - Transport';
-$LNG['modul'][29]                                       = 'Mission - Destroy';
-$LNG['modul'][42]						= 'Mission - ACS';
-$LNG['modul'][16]                                       = 'News';
-$LNG['modul'][17]                                       = 'Notes';
-$LNG['modul'][18]                                       = 'Officers';
-$LNG['modul'][19]                                       = 'Phalanx';
-$LNG['modul'][20]                                       = 'Player Card';
-$LNG['modul'][21]                                       = 'Banned';
-$LNG['modul'][22]                                       = 'Records';
-$LNG['modul'][23]                                       = 'Resources';
-$LNG['modul'][38]                                                               = 'Fleet - Trader';
-$LNG['modul'][25]                                       = 'Statistics';
-$LNG['modul'][37]                                       = 'Statistics Banner';
-$LNG['modul'][26]                                       = 'Search';
-$LNG['modul'][27]                                       = 'Support Tickets';
-$LNG['modul'][28]                                       = 'Techtree';
-$LNG['modul'][41]                           = 'Facebook Application';
-$LNG['mod_module']                                      = 'Modules';
-$LNG['mod_info']                                        = 'Modules in the Game';
-$LNG['mod_active']                                      = 'Active';
-$LNG['mod_deactive']                                    = 'Inactive';
-$LNG['mod_change_active']                               = 'Activated';
-$LNG['mod_change_deactive']                             = 'Deactivated';
+$LNG['modul'][0]                        = 'Alliance';
+$LNG['modul'][39]                       = 'Battle Simulator';
+$LNG['modul'][2]                        = 'Construction - Buildings';
+$LNG['modul'][3]                        = 'Building - Research';
+$LNG['modul'][4]                        = 'Construction - Fleets';
+$LNG['modul'][5]                        = 'Building - Defense';
+$LNG['modul'][6]                        = 'Buddylist';
+$LNG['modul'][7]                        = 'Chat';
+$LNG['modul'][8]                        = 'DM Bank';
+$LNG['modul'][9]                        = 'Fleet';
+$LNG['modul'][10]                       = 'Fleet - Handler';
+$LNG['modul'][40]                       = 'Fleets Shourtcuts';
+$LNG['modul'][11]                       = 'Galaxy';
+$LNG['modul'][12]                       = 'Hall of Fame';
+$LNG['modul'][13]                       = 'Trader';
+$LNG['modul'][14]                       = 'Info';
+$LNG['modul'][15]                       = 'Empire';
+$LNG['modul'][32]                       = 'Mission - Recycle';
+$LNG['modul'][1]                        = 'Mission - Attack';
+$LNG['modul'][31]                       = 'Mission - DM Mission';
+$LNG['modul'][30]                       = 'Mission - Expedition';
+$LNG['modul'][33]                       = 'Mission - Hold';
+$LNG['modul'][35]                       = 'Mission - Colonize';
+$LNG['modul'][24]                       = 'Mission - Spy';
+$LNG['modul'][36]                       = 'Mission - Deploy';
+$LNG['modul'][34]                       = 'Mission - Transport';
+$LNG['modul'][29]                       = 'Mission - Destroy';
+$LNG['modul'][42]                       = 'Mission - ACS';
+$LNG['modul'][16]                       = 'News';
+$LNG['modul'][17]                       = 'Notes';
+$LNG['modul'][18]                       = 'Officers';
+$LNG['modul'][19]                       = 'Phalanx';
+$LNG['modul'][20]                       = 'Player Card';
+$LNG['modul'][21]                       = 'Banned';
+$LNG['modul'][22]                       = 'Records';
+$LNG['modul'][23]                       = 'Resources';
+$LNG['modul'][38]                       = 'Fleet - Trader';
+$LNG['modul'][25]                       = 'Statistics';
+$LNG['modul'][37]                       = 'Statistics Banner';
+$LNG['modul'][26]                       = 'Search';
+$LNG['modul'][27]                       = 'Support Tickets';
+$LNG['modul'][28]                       = 'Techtree';
+$LNG['modul'][41]                       = 'Facebook Application';
+$LNG['mod_module']                      = 'Modules';
+$LNG['mod_info']                        = 'Modules in the Game';
+$LNG['mod_active']                      = 'Active';
+$LNG['mod_deactive']                    = 'Inactive';
+$LNG['mod_change_active']               = 'Activated';
+$LNG['mod_change_deactive']             = 'Deactivated';
 
 
 // Noticias
 
-$LNG['nws_news']                                        = 'News';
-$LNG['nws_head_create']                                 = 'Create News';
-$LNG['nws_head_edit']                                   = 'Working %s on news';
-$LNG['nws_id']                                          = 'ID';
-$LNG['nws_title']                                       = 'Title';
-$LNG['nws_date']                                        = 'Date';
-$LNG['nws_from']                                        = 'Of';
-$LNG['nws_del']                                         = 'Del';
-$LNG['nws_confirm']                                     = 'Are you sure that you want to remove %s the message?';
-$LNG['nws_create']                                      = 'Creating News';
-$LNG['nws_total']                                       = 'Total %d News Available';
-$LNG['nws_content']                                     = 'Contents';
+$LNG['nws_news']                        = 'News';
+$LNG['nws_head_create']                 = 'Create News';
+$LNG['nws_head_edit']                   = 'Working %s on news';
+$LNG['nws_id']                          = 'ID';
+$LNG['nws_title']                       = 'Title';
+$LNG['nws_date']                        = 'Date';
+$LNG['nws_from']                        = 'Of';
+$LNG['nws_del']                         = 'Del';
+$LNG['nws_confirm']                     = 'Are you sure that you want to remove %s the message?';
+$LNG['nws_create']                      = 'Creating News';
+$LNG['nws_total']                       = 'Total %d News Available';
+$LNG['nws_content']                     = 'Contents';
 
 // Controlo de MOD's
 
-$LNG['mvc_title']                                               = 'Title';
-$LNG['mvc_author']                                              = 'Author';
-$LNG['mvc_version']                                             = 'Version';
-$LNG['mvc_link']                                                = 'Link';
-$LNG['mvc_update_yes']                                  = 'An update is available!';
-$LNG['mvc_update_no']                                   = 'Latest version is installed!';
-$LNG['mvc_update_version']                              = 'Latest Version';
-$LNG['mvc_update_date']                                 = 'Released';
-$LNG['mvc_announcement']                                = 'Announcement';
-$LNG['mvc_download']                                    = 'Download';
-$LNG['mvc_desc']                                                = 'Description';
+$LNG['mvc_title']                       = 'Title';
+$LNG['mvc_author']                      = 'Author';
+$LNG['mvc_version']                     = 'Version';
+$LNG['mvc_link']                        = 'Link';
+$LNG['mvc_update_yes']                  = 'An update is available!';
+$LNG['mvc_update_no']                   = 'Latest version is installed!';
+$LNG['mvc_update_version']              = 'Latest Version';
+$LNG['mvc_update_date']                 = 'Released';
+$LNG['mvc_announcement']                = 'Announcement';
+$LNG['mvc_download']                    = 'Download';
+$LNG['mvc_desc']                        = 'Description';
 
 // Página de Universo
 $LNG['uvs_id']							='ID of the universe';
@@ -1210,8 +1210,8 @@ $LNG['log_chatsettings']                ='Options Chat';
 $LNG['log_tssettings']                  ='Options of Teamspeak';
 $LNG['log_uni_short']                   ='Uni';
 $LNG['log_universe']                    ='Universe';
-$LNG['log_present']      	            ='Distributed';
-$LNG['log_disclamersettings']			= 'Contacts';
+$LNG['log_present']                     ='Distributed';
+$LNG['log_disclamersettings']           ='Contacts';
 
 //Cronjobs
 $LNG['cronName']['referral']		= 'Referral Bonus';

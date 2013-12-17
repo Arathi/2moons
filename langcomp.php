@@ -124,8 +124,8 @@ function comp($src_lang, $dst_lang)
     $pages['l18n']="L18N";
     $pages['public']="PUBLIC";
     $pages['tech']="TECH";
-    $output="<table>";
-    $output.="<tr><td>文件名</td><td>已翻译</td><td>总条目数</td><td>完成进度</td></tr>";
+    $output="<table border=1>";
+    $output.="<tr><td>文件名</td><td>已翻译</td><td>总条目数</td><td>完成进度</td><td>备注</td></tr>";
     $total_diff = 0;
     $total_amount = 0;
     
@@ -144,6 +144,7 @@ function comp($src_lang, $dst_lang)
         unset($DST_LNG);
         $DST_LNG=array();
         include("language/$dst_lang/$pagename.php");
+        @include("language/$dst_lang/ignore/$pagename.php");
         foreach ($LNG as $key => $value){
             $DST_LNG[$key]=$value;
         }
@@ -164,9 +165,29 @@ function comp($src_lang, $dst_lang)
         $diffcounter = count($diff->diff);
         $amount = count($srcKeyList);
         $percentage = (int)( $diffcounter * 10000 / $amount );
-        $percentage= ($percentage/100)."%";
+        $percentage = ($percentage/100)."%";
         //echo "完成进度： ".count($diff->diff)."/".count($srcKeyList)."(".$percentage."%)"."<br/>";
-        $output.="<tr><td>".$pagename.".php</td><td>".$diffcounter."</td><td>".$amount."</td><td>".$percentage."</td></tr>";
+        $delta = count($diff->same);
+        $status="";
+        $bgcolor = "";
+        if ($delta == 0)
+        {
+            $status.="翻译完成";
+            $bgcolor = "bgcolor=green";
+        }
+        else if ($delta>30)
+        {
+            $status.="未翻译项过多";
+        }
+        else
+        {
+            $status.="未翻译项如下：";
+            foreach ($diff->same as $key => $value)
+            {
+                $status.="<br/>".$value;
+            }
+        }
+        $output.="<tr ".$bgcolor."><td>".$pagename.".php</td><td>".$diffcounter."</td><td>".$amount."</td><td>".$percentage."</td><td>".$status."</td></tr>";
         $total_diff += $diffcounter;
         $total_amount += $amount;
     }

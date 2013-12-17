@@ -17,20 +17,20 @@ $LNG['menu_upgrade']			= '升级';
 $LNG['title_install']			= '安装';
 
 $LNG['intro_lang']				= '语言';
-$LNG['intro_install']			= 'To installation';
+$LNG['intro_install']			= '安装准备';
 $LNG['intro_welcome']			= '您好，2Moons的用户！';
 $LNG['intro_text']				= '您正在安装的2Moons，是OGame类项目中最好的实现之一。<br>2Moons是也当前仍在开发的XNova中最新最稳定的版本。2Moons的卓越之处在于其稳定、灵活、开发活跃、高质量以及被千锤百炼。我们总是希望着这部作品能够超乎你所期盼。<br><br>本安装系统将会引导你安装，或者从上个版本升级。对于使用本系统中的每一个困惑，以及发生的每一个问题，请不要犹豫，立即向开发及技术支持人员提出！<br><br>2Moons是一个开放源代码的工程，基于GNU GPL v3授权。如对此还有疑异，可以点击下方的链接查看"Lincense"<br><br>在安装开始前，会有一个小测试，用来检测您的空间的方案/域名是否能完全满足2Moons的需要';
 $LNG['intro_upgrade_head']		= '已经安装过2Moons？';
-$LNG['intro_upgrade_text']		= '<p>You have already installed 2Moons and want easy updating?</p><p>Here you can update your old database with just a few clicks!</p>';
+$LNG['intro_upgrade_text']		= '<p>您已经安装过2Moons，然后想轻松升级到当前版本？</p><p>您只需点击几下就能完成数据库的更新！</p>';
 
 
-$LNG['upgrade_success']			= 'Update of the database successfully. Database is now available on the revision %s.';
-$LNG['upgrade_nothingtodo']		= 'No action is required. Database is already up to revision %s.';
-$LNG['upgrade_back']			= 'Back';
-$LNG['upgrade_intro_welcome']	= 'Welcome to the database upgrader!';
+$LNG['upgrade_success']			= '数据库升级成功！现在的数据库版本是r%s。';
+$LNG['upgrade_nothingtodo']		= '您当前的数据库版本已经是r%s了。';
+$LNG['upgrade_back']			= '退后';
+$LNG['upgrade_intro_welcome']	= '欢迎使用数据库升级工具！';
 $LNG['upgrade_available']		= 'Available updates for your database! The database is at the revision %s and can update to revision %s.<br><br>Please choose from the following menu to the first SQL update to install:';
 $LNG['upgrade_notavailable']	= 'The used revision %s is the latest for your database.';
-$LNG['upgrade_required_rev']	= 'The Updater can work only from revision r2579 (2Moons v1. 7) or later.';
+$LNG['upgrade_required_rev']	= '更新器只能够用于r2579 (2Moons v1.7)以及更高版本。';
 
 
 $LNG['licence_head']			= '许可条款';
@@ -59,7 +59,7 @@ $LNG['reg_iniset_need']			= 'PHP函数 &raquo;ini_set&laquo; 可用？';
 $LNG['reg_global_need']			= 'register_globals 已禁用？';
 $LNG['reg_global_desc']			= '即使您的服务器已经配置开启"register_globals"，2Moons也能正常工作，但出于安全考虑，还是建议尽可能地去禁用掉改选项。';
 $LNG['req_ftp_head']			= '请填写FTP账户信息';
-$LNG['req_ftp_desc']			= '填写您的FTP信息，以便2Moons能够自动修复各种问题。或者，您也可以手动去分配写入权限。';
+$LNG['req_ftp_desc']			= '填写您的FTP信息，以便2Moons能够自动修复权限相关的问题。或者您也可以手动去修改目录的写入权限。';
 $LNG['req_ftp_host']			= '服务器名';
 $LNG['req_ftp_username']		= '用户名';
 $LNG['req_ftp_password']		= '密码';
@@ -69,7 +69,7 @@ $LNG['req_ftp_error_data']		= 'The information provided does not allow you to co
 $LNG['req_ftp_error_dir']		= 'The story that directory you entered is invalid or not existing';
 
 $LNG['step1_head']				= '配置数据库信息';
-$LNG['step1_desc']				= 'Now that it has been determined that 2Moons can be installed on your server, s should provide some information. If you dont know how to run a link database, contact your hosting provider first or with the 2Moons forum for help and support. When you insert the data, checks were introduced properly';
+$LNG['step1_desc']				= '现在，已经确定了您的服务器可以安装2Moons，接着，您要提供一些数据库相关的信息。如果您不知道如何连接数据库，请先与您的服务提供商联系，或者去2Moons官方论坛寻求帮助。当你填写完相关的信息，系统会先检查是否有误，然后会建表和插入初始数据。';
 $LNG['step1_mysql_server']		= '数据库服务器或DSN';
 $LNG['step1_mysql_port']		= '数据库端口';
 $LNG['step1_mysql_dbuser']		= '数据库用户名';
@@ -77,10 +77,10 @@ $LNG['step1_mysql_dbpass']		= '数据库密码';
 $LNG['step1_mysql_dbname']		= '数据库名称';
 $LNG['step1_mysql_prefix']		= '数据表前缀:';
 
-$LNG['step2_prefix_invalid']	= 'The prefix of the database must contain alphanumeric characters and underscore as last character';
-$LNG['step2_db_no_dbname']		= 'You dont specified the name for the database';
-$LNG['step2_db_too_long']		= 'The table prefix is too long. Must contain at most 36 characters';
-$LNG['step2_db_con_fail']		= 'There is an error in the link to database. The details will be displayed below';
+$LNG['step2_prefix_invalid']	= '数据表的前缀必须同时包含字母和数字，并以下划线("_")结尾';
+$LNG['step2_db_no_dbname']		= '请填写数据库名称';
+$LNG['step2_db_too_long']		= '表前缀过长，最多只能包含36个字母';
+$LNG['step2_db_con_fail']		= '数据库连接时出错。具体错误信息如下：';
 $LNG['step2_conf_op_fail']		= "无法写入config.php！";
 $LNG['step2_conf_create']		= 'config.php创建成功！';
 $LNG['step2_config_exists']		= 'config.php已经存在！';
@@ -91,17 +91,17 @@ $LNG['step3_desc']				= '2Moons所需的数据表已经创建成功，并且已�
 $LNG['step3_db_error']			= '创建数据表失败：';
 
 $LNG['step4_head']				= '管理员账号';
-$LNG['step4_desc']				= 'The installation wizard will now create an administrator account for you. Writes the name of use, your password and your email';
+$LNG['step4_desc']				= '安装器已经为您创建了管理员账号，您只需填写用户名、密码以及E-Mail。';
 $LNG['step4_admin_name']		= '管理员用户名:';
-$LNG['step4_admin_name_desc']	= 'Type the name to use with the length of 3 to 20 characters';
+$LNG['step4_admin_name_desc']	= '用户名至少3个字符，最长20个字符';
 $LNG['step4_admin_pass']		= '管理员密码：';
-$LNG['step4_admin_pass_desc']	= 'Type a password with a length of 6 to 30 characters';
-$LNG['step4_admin_mail']		= 'Contact E-mail:';
+$LNG['step4_admin_pass_desc']	= '密码至少要8个字符，最长30个字符';
+$LNG['step4_admin_mail']		= '联系E-Mail：';
 
 $LNG['step6_head']				= '安装完成！';
 $LNG['step6_desc']				= '您已经成功安装2Moons';
 $LNG['step6_info_head']			= '立即开始2Moons！';
-$LNG['step6_info_additional']	= 'If clicking the button below, will s are redirected to the page of administration .AI will be a good advantage to get ares to explore 2Moons administrator tools.<br/><br/><strong>Please delete the &raquo;includes/ENABLE_INSTALL_TOOL&laquo; or modify the filename. With the existence of this file, you can cause your game at risk by allowing someone rewrite the installation!</strong>';
+$LNG['step6_info_additional']	= '点击下方的按钮，将会跳转到管理面板。AI will be a good advantage to get ares to explore 2Moons administrator tools.<br/><br/><strong>Please delete the &raquo;includes/ENABLE_INSTALL_TOOL&laquo; or modify the filename. With the existence of this file, you can cause your game at risk by allowing someone rewrite the installation!</strong>';
 
 $LNG['sql_close_reason']		= '游戏已关闭';
 $LNG['sql_welcome']				= '欢迎来到2Moons v';
