@@ -24,7 +24,7 @@
  * @copyright 2012 Jan <info@2moons.cc> (2Moons)
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 2.0.$Revision: 2242 $ (2012-11-31)
- * @info $Id: ShowExternalAuthPage.class.php 2746 2013-05-18 11:38:36Z slaver7 $
+ * @info $Id: ShowExternalAuthPage.class.php 2640 2013-03-23 19:23:26Z slaver7 $
  * @link http://2moons.cc/
  */
 
@@ -41,45 +41,33 @@ class ShowExternalAuthPage extends AbstractPage
 	{
 		$method			= HTTP::_GP('method', '');
 		$method			= strtolower(str_replace(array('_', '\\', '/', '.', "\0"), '', $method));
-		$path			= 'includes/classes/extauth/'.$method.'.class.php';
 		
-		if(!file_exists($path)) {
+		if(!file_exists('includes/extauth/'.$method.'.class.php')) {
 			HTTP::redirectTo('index.php');			
 		}
-
-		$session	= Session::create();
-
-		require 'includes/classes/extauth/externalAuth.interface.php';
-		require $path;
+		
+		Session::init();
+		
+		require('includes/extauth/'.$method.'.class.php');
 		
 		$methodClass	= ucwords($method).'Auth';
-
-		/** @var $authObj externalAuth */
 		$authObj		= new $methodClass;
 		
-		if(!$authObj->isActiveMode())
-		{
-			$session->delete();
+		if(!$authObj->isActiveMode()) {
 			$this->redirectTo('index.php?code=5');
 		}
 		
-		if(!$authObj->isValid())
-		{
-			$session->delete();
+		if(!$authObj->isVaild()) {
 			$this->redirectTo('index.php?code=4');
 		}
 		
 		$loginData	= $authObj->getLoginData();
 		
-		if(empty($loginData))
-		{
-			$session->delete();
+		if(empty($loginData)) {
 			$this->redirectTo('index.php?page=register&externalAuth[account]='.$authObj->getAccount().'&externalAuth[method]=facebook');
 		}
-
-		$session->userId		= (int) $loginData['id'];
-		$session->adminAccess	= 0;
-		$session->save();
+		
+		Session::create($loginData['id'], $loginData['id_planet']);
 		$this->redirectTo("game.php");	
 	}
 }

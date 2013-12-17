@@ -21,8 +21,8 @@
  * @author Jan Kröpke <info@2moons.cc>
  * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.7.2 (2013-03-18)
- * @info $Id: ShowStatUpdatePage.php 2746 2013-05-18 11:38:36Z slaver7 $
+ * @version 1.7.3 (2013-05-19)
+ * @info $Id: ShowStatUpdatePage.php 2640 2013-03-23 19:23:26Z slaver7 $
  * @link http://2moons.cc/
  */
 
@@ -38,6 +38,8 @@ function ShowStatUpdatePage() {
 	$memory_i		= str_replace(array("%i", "%m"), $result['initial_memory'], $LNG['sb_start_memory']);
 	$stats_end_time	= sprintf($LNG['sb_stats_update'], $result['totaltime']);
 	$stats_sql		= sprintf($LNG['sb_sql_counts'], $result['sql_count']);
+
+	Config::update(array('stat_last_update' => $result['stats_time']));
 
 	$template = new template();
 	$template->message($LNG['sb_stats_updated'].$stats_end_time.$memory_i.$memory_e.$memory_p.$stats_sql, false, 0, true);

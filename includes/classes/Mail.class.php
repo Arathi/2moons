@@ -25,7 +25,7 @@
  * @copyright 2012 Jan <info@2moons.cc> (2Moons)
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 2.0 (2012-11-31)
- * @info $Id: Mail.class.php 2756 2013-05-26 18:02:09Z slaver7 $
+ * @info $Id: Mail.class.php 2662 2013-04-01 20:40:08Z slaver7 $
  * @link http://code.google.com/p/2moons/
  */
 
@@ -34,10 +34,14 @@ class Mail
 	static public function send($mailTarget, $mailTargetName, $mailSubject, $mailContent)
 	{		
 		$mail	= self::getMailObject();
+		
+		$mailFromAdress	= Config::get('smtp_sendmail');
+		$mailFromName	= Config::get('game_name');
 			 
-        $mail->CharSet	= 'UTF-8';
-        $mail->Subject	= $mailSubject;
-        $mail->Body		= $mailContent;
+        $mail->CharSet          = 'UTF-8';              
+        $mail->Subject          = $mailSubject;
+        $mail->Body             = $mailContent;
+        $mail->SetFrom($mailFromAdress, $mailFromName);
         $mail->AddAddress($mailTarget, $mailTargetName);
         $mail->Send(); 
 	}
@@ -45,9 +49,14 @@ class Mail
 	static public function multiSend($mailTargets, $mailSubject, $mailContent = NULL)
 	{
 		$mail	= self::getMailObject();
-
-		$mail->Subject	= $mailSubject;
-
+		
+		$mailFromAdress	= Config::get('smtp_sendmail');
+		$mailFromName	= Config::get('game_name');
+			 
+        $mail->CharSet          = 'UTF-8';         
+        $mail->SetFrom($mailFromAdress, $mailFromName);     
+        $mail->Subject          = $mailSubject;
+			 
 		foreach($mailTargets as $address => $data)
 		{
 			$content = isset($data['body']) ? $data['body'] : $mailContent;
@@ -61,36 +70,27 @@ class Mail
 
 	static private function getMailObject()
 	{
-        require_once 'includes/libs/phpmailer/class.phpmailer.php';
-
-        $mail               = new PHPMailer(true);
-		$mail->PluginDir	= 'includes/libs/phpmailer/';
-
-		$config				= Config::get();
-
-        if($config->mail_use == 2) {
+        require 'includes/libs/phpmailer/class.phpmailer.php';
+        $mail                   = new PHPMailer(true);
+		$mail->PluginDir		= 'includes/libs/phpmailer/';
+		
+        if(Config::get('mail_use') == 2) {
 			$mail->IsSMTP();  
-			$mail->SMTPSecure       = $config->smtp_ssl;                                            
-			$mail->Host             = $config->smtp_host;
-			$mail->Port             = $config->smtp_port;
+			$mail->SMTPSecure       = Config::get('smtp_ssl');                                            
+			$mail->Host             = Config::get('smtp_host');
+			$mail->Port             = Config::get('smtp_port');
 			
-			if($config->smtp_user != '')
+			if(Config::get('smtp_user') != '')
 			{
 				$mail->SMTPAuth         = true; 
-				$mail->Username         = $config->smtp_user;
-				$mail->Password         = $config->smtp_pass;
+				$mail->Username         = Config::get('smtp_user');
+				$mail->Password         = Config::get('smtp_pass');
 			}
-        } elseif($config->mail_use == 0) {
+        } elseif(Config::get('mail_use') == 0) {
 			$mail->IsMail();
         } else {
-			throw new Exception("sendmail is deprecated, use SMTP instead!");
+			throw new Exception("Sendmail is deprecated, use SMTP instaed!");
 		}
-
-		$mailFromAddress	= $config->smtp_sendmail;
-		$mailFromName		= $config->game_name;
-
-		$mail->CharSet	= 'UTF-8';
-		$mail->SetFrom($mailFromAddress, $mailFromName);
 		
 		return $mail;
 	}

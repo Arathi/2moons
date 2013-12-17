@@ -24,7 +24,7 @@
  * @copyright 2012 Jan <info@2moons.cc> (2Moons)
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 2.0.$Revision: 2242 $ (2012-11-31)
- * @info $Id: ShowBoardPage.class.php 2746 2013-05-18 11:38:36Z slaver7 $
+ * @info $Id: ShowBoardPage.class.php 2425 2012-11-11 18:22:40Z slaver7 $
  * @link http://2moons.cc/
  */
 
@@ -34,18 +34,15 @@ class ShowBoardPage extends AbstractPage
 	{
 		parent::__construct();
 	}
-
-	function show()
+	
+	function show() 
 	{
-		global $LNG;
-		$boardUrl	= Config::get()->forum_url;
-		if(filter_var($boardUrl, FILTER_VALIDATE_URL, FILTER_FLAG_SCHEME_REQUIRED))
-		{
-			HTTP::sendHeader('Location', $boardUrl);
-		}
-		else
-		{
-			$this->printMessage($LNG['bad_forum_url']);
+		global $CONF, $LNG;
+		
+		if(filter_var($CONF['forum_url'], FILTER_VALIDATE_URL, FILTER_FLAG_SCHEME_REQUIRED)) {
+			HTTP::sendHeader('Location', $CONF['forum_url']);
+		} else {
+			$this->printMessage(t('bad_forum_url'));
 		}
 	}
 }

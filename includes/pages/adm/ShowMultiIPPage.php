@@ -21,8 +21,8 @@
  * @author Jan Kröpke <info@2moons.cc>
  * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.7.2 (2013-03-18)
- * @info $Id: ShowMultiIPPage.php 2746 2013-05-18 11:38:36Z slaver7 $
+ * @version 1.7.3 (2013-05-19)
+ * @info $Id: ShowMultiIPPage.php 2632 2013-03-18 19:05:14Z slaver7 $
  * @link http://2moons.cc/
  */
 
@@ -43,7 +43,7 @@ function ShowMultiIPPage()
 			HTTP::redirectTo("admin.php?page=multiips");
 		break;
 	}
-	$Query	= $GLOBALS['DATABASE']->query("SELECT id, username, email, register_time, onlinetime, user_lastip, IFNULL(multiID, 0) as isKnown FROM ".USERS." LEFT JOIN ".MULTI." ON userID = id WHERE `universe` = '".Universe::getEmulated()."' AND user_lastip IN (SELECT user_lastip FROM ".USERS." WHERE `universe` = '".Universe::getEmulated()."' GROUP BY user_lastip HAVING COUNT(*)>1) ORDER BY user_lastip, id ASC;");
+	$Query	= $GLOBALS['DATABASE']->query("SELECT id, username, email, register_time, onlinetime, user_lastip, IFNULL(multiID, 0) as isKnown FROM ".USERS." LEFT JOIN ".MULTI." ON userID = id WHERE `universe` = '".$_SESSION['adminuni']."' AND user_lastip IN (SELECT user_lastip FROM ".USERS." WHERE `universe` = '".$_SESSION['adminuni']."' GROUP BY user_lastip HAVING COUNT(*)>1) ORDER BY user_lastip, id ASC;");
 	$IPs	= array();
 	while($Data = $GLOBALS['DATABASE']->fetch_array($Query)) {
 		if(!isset($IPs[$Data['user_lastip']]))

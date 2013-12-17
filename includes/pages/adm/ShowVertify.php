@@ -23,7 +23,7 @@
  * @copyright 2011 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 1.7.0 (2011-12-10)
- * @info $Id: ShowVertify.php 2746 2013-05-18 11:38:36Z slaver7 $
+ * @info $Id: ShowVertify.php 2640 2013-03-23 19:23:26Z slaver7 $
  * @link http://2moons.cc/
  */
 
@@ -31,6 +31,7 @@ if (!allowedTo(str_replace(array(dirname(__FILE__), '\\', '/', '.php'), '', __FI
 
 function ShowVertify() 
 {
+	global $CONF, $LNG;
 	$EXT		= explode("|", HTTP::_GP("ext", ""));
 	$action 	= HTTP::_GP("action", "");
 	$file	 	= HTTP::_GP("file", "");
@@ -70,6 +71,7 @@ function ShowVertify()
 				echo 2;
 				exit;
 			}
+			exit;
 		break;
 		case 'vertify':
 			$template->loadscript('vertify.js');
