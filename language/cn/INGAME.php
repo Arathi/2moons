@@ -399,14 +399,14 @@ $LNG['bd_more_engine']                      = 'Produced <font color="#00FF00">%s
 $LNG['bd_jump_gate_action']                 = 'Jump';
 $LNG['bd_cancel_warning']                   = 'ATTENTION! <br> If you cancel only will receive 60% of your resources s invested.';
 $LNG['bd_cancel_send']                      = 'Cancel construction';
-$LNG['bd_destroy_time'] 					= 'Duration';
+$LNG['bd_destroy_time']                     = 'Duration';
 $LNG['bd_max_ships']                        = 'max';
-$LNG['bd_max_ships_long']					= 'Maximum possible units to build';
-$LNG['sys_notenough_money'] 				= 'You dont have enough resources on %s <a href="./game.php?page=buildings&amp;cp=%d&amp;re=0">[%d:%d:%d]</a> to build %s. <br>Your ressources are: %s %s , %s %s and %s %s. <br>The cost of construction is %s %s , %s %s and %s %s.';
-$LNG['sys_nomore_level'] 					= "You're trying to destroy a building that no longer have ( %s ).";
-$LNG['sys_buildlist'] 						= "List of construction";
-$LNG['sys_techlist'] 						= 'Research list';
-$LNG['sys_buildlist_fail'] 				    = "Impossible to build";
+$LNG['bd_max_ships_long']                   = 'Maximum possible units to build';
+$LNG['sys_notenough_money']                 = 'You dont have avaliable resources in %s <a href="./game.php?page=buildings&amp;cp=%d&amp;re=0">[%d:%d:%d]</a> for building what you wanted to do. <br>Your ressources is %s %s , %s %s and %s %s. <br>The cost of construction  is %s %s , %s %s and %s %s.';
+$LNG['sys_nomore_level']                    = "You're trying to destroy a building that no longer have ( %s ).";
+$LNG['sys_buildlist']                       = "List of construction";
+$LNG['sys_techlist']                        = 'Research list';
+$LNG['sys_buildlist_fail']                  = "Impossible to build";
 
 //----------------------------------------------------------------------------//
 // Recursos
