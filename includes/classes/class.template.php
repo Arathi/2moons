@@ -41,7 +41,7 @@ class template extends Smarty
 		$this->smartySettings();
 	}
 	
-	private function smartySettings()
+	function smartySettings()
 	{	
 		$this->force_compile 			= false;
 		$this->caching 					= false; #Set true for production!

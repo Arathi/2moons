@@ -301,11 +301,11 @@ $LNG['ma_modes']                = array('Game','Mail','Game & Mail');
 $LNG['ow_title'] ='欢迎来到2Moons!';
 $LNG['ow_donate'] ='Donate';
 $LNG['ow_welcome_text'] ='欢迎来到2Moons！ (:';
-$LNG['ow_overview'] ='Control';
+$LNG['ow_overview'] ='管理';
 $LNG['ow_support'] ='客服';
-$LNG['ow_credits'] ='Credits';
+$LNG['ow_credits'] ='鸣谢';
 $LNG['ow_forum'] ='论坛';
-$LNG['ow_proyect_leader'] ='Project Leader';
+$LNG['ow_proyect_leader'] ='项目负责人';
 $LNG['ow_translator'] ='翻译';
 $LNG['ow_special_thanks'] ='特别感谢';
 $LNG['ow_file_detected'] ='The file %s was encountered. for reasons of security, delete or rename';
@@ -314,9 +314,9 @@ $LNG['ow_database_errors'] ='You have errors in your database. <a href="ErrorPag
 $LNG['ow_smtp_errors'] ='verifies the configuration of SMTP! -At the moment no mail can be sent!';
 $LNG['ow_dir_not_writable'] ='/%s dir cant be written!';
 $LNG['ow_none'] ='No warnings';
-$LNG['ow_news'] ='Latest news';
-$LNG['ow_updates'] ='Recent updates';
-$LNG['ow_developers'] ='Developers';
+$LNG['ow_news'] ='最近新闻';
+$LNG['ow_updates'] ='最近更新';
+$LNG['ow_developers'] ='开发人员';
 
 //###########################################################//
 
