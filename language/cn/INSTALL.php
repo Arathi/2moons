@@ -9,7 +9,7 @@ $LNG['continue']				= '继续';
 $LNG['continueUpgrade']			= '升级!';
 $LNG['login']					= '登陆';
 
-$LNG['menu_intro']				= 'Introduction';
+$LNG['menu_intro']				= '引言';
 $LNG['menu_install']			= '安装';
 $LNG['menu_license']			= 'License';
 $LNG['menu_upgrade']			= '升级';

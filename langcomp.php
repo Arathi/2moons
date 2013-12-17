@@ -20,27 +20,10 @@ class LangDiff
     
     public function stack($lang_diff)
     {
-        /*
-        echo "合并(".
-            count($this->src_only)."+".count($lang_diff->src_only).",".
-            count($this->dst_only)."+".count($lang_diff->dst_only).",".
-            count($this->same)    ."+".count($lang_diff->same)    .",".
-            count($this->diff)    ."+".count($lang_diff->diff)    .   
-        ")<br/>";
-        */
         $this->src_only = array_merge($this->src_only, $lang_diff->src_only);
         $this->dst_only = array_merge($this->dst_only, $lang_diff->dst_only);
         $this->same     = array_merge($this->same,     $lang_diff->same);
         $this->diff     = array_merge($this->diff,     $lang_diff->diff);
-        /*
-        echo "合并完成值(".
-            count($this->src_only).",".
-            count($this->dst_only).",".
-            count($this->same)    .",".
-            count($this->diff)    .
-        ")<br/>";
-        echo "-------------------<br/>";
-        */
     }
 }
 
@@ -207,15 +190,6 @@ if ($src_lang=="" || $dst_lang=="") { ?>
 <?php
 }
 else { ?>
-<!--
-<table border=1>
-<tr>
-<td></td>
-<td>源语言<?php echo $src_lang; ?></td>
-<td>目标语言<?php echo $dst_lang; ?></td>
-</tr>
-</table>
--->
 <?php 
 	echo comp($src_lang, $dst_lang);
 }

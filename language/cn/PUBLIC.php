@@ -64,7 +64,7 @@ $LNG['registerEmailDesc']			= '请输入你的E-Mail地址';
 $LNG['registerEmailReplay']			= '重复E-Mail';
 $LNG['registerEmailReplayDesc']		= '请输入相同的E-Mail地址！';
 $LNG['registerLanguage']			= '语言';
-$LNG['registerReferral']			= 'Advertised by:';
+$LNG['registerReferral']			= '来自：'; //Advertised by: （标准的注册页面不会显示）
 $LNG['registerCaptcha']				= '验证码';
 $LNG['registerCaptchaDesc']			= '在下方的文本框中输入您看到的字符，验证码不区分大小写';
 $LNG['registerCaptchaReload']		= '重新获取验证码';
@@ -80,14 +80,14 @@ $LNG['registerErrorUsernameChar']	= '用户名只能由数字、字母、空格�
 $LNG['registerErrorUsernameExist']	= '该用户名已经存在！';
 $LNG['registerErrorPasswordLength']	= '密码至少要6个字符！';
 $LNG['registerErrorPasswordSame']	= '两次输入的密码不相同！';
-$LNG['registerErrorMailEmpty']		= '你必须提供以一个明确的E-Mail地址';//You must specify an E-Mail address!
-$LNG['registerErrorMailInvalid']	= '无效的E-Mail地址！';
+$LNG['registerErrorMailEmpty']		= 'E-Mail地址不能为空';//You must specify an E-Mail address!
+$LNG['registerErrorMailInvalid']	= 'E-Mail地址无效！';
 $LNG['registerErrorMailSame']		= '两次输入的E-Mail地址不相同！';
 $LNG['registerErrorMailExist']		= '该E-Mail已被注册！';
 $LNG['registerErrorRules']			= '你应该先同意规则！';
 $LNG['registerErrorCaptcha']		= '验证码错误！';
 
-$LNG['registerMailVertifyTitle']	= 'Activation of registration on the game: %s';
+$LNG['registerMailVertifyTitle']	= '%s注册邮件认证';
 $LNG['registerMailVertifyError']	= '发送邮件失败: %s';
 
 $LNG['registerMailCompleteTitle']	= '欢迎来到%s!';
@@ -96,7 +96,7 @@ $LNG['registerSendComplete']		= '感谢您的注册。请您查收邮件(如果�
 
 $LNG['registerWelcomePMSenderName']	= '管理员';
 $LNG['registerWelcomePMSubject']	= '欢迎';
-$LNG['registerWelcomePMText']		= 'Welcome to %s! First build a solar power plant,because energy is needed for the production of raw materials. To build one, left click in the menu on "buildings". Then build the 4th Building from the top. </br> When you have energy, you can begin to build mines. Go to buildings on the menu and build a metal mine, followed by a crystal mine. </br></br>In order to be able to build ships you need to have a shipyard. To see what is needed to unlock that building you can take a look at "Technologies" at the left menu.</br>If you more questions you can look at the beginnersguide, our forum or open a support ticket. </br></br> The team wishes you much fun exploring the universe!';
+$LNG['registerWelcomePMText']		= '欢迎来到%s！首先您要建立一个太阳能电站，因为生产原料也需要能源。首先点击菜单中的“建筑”，然后找到第四个建筑“太阳能电站”，点击“建造”。</br>当您拥有了电能，您就可以开始建立矿厂，先建造一个“金属矿厂”，然后建造一个“水晶矿厂”。</br></br>接着您可以建造一个机库，然后就可以开始建造各种飞船了。您可以点击菜单中的“科技”，来查看一些暂时不能建造的建筑应该如何解锁。</br>如果您还有更多疑问，可以进入论坛去讨论，或者咨询客服人员。</br></br>我们衷心祝愿您能在探索这片宇宙中得到更多乐趣！';
 
 //Vertify
 
@@ -113,13 +113,13 @@ $LNG['passwordSubmit']				= '提交';
 $LNG['passwordErrorUsernameEmpty']	= '您尚未填写自己的用户名';
 $LNG['passwordErrorMailEmpty']		= '您所填写的E-Mail地址有误！';
 $LNG['passwordErrorUnknown']		= '该账户的数据未能找到！';
-$LNG['passwordErrorOnePerDay']		= 'Password for this user account in the last 24 hours previously requested. You can only request the password for this user account in  next 24 hours. ';
+$LNG['passwordErrorOnePerDay']		= '您的账户的密码在24小时内被重置过，如果您还需要重置密码，请在上次重置密码的24小时以后再重试。';
 
 $LNG['passwordValidMailTitle']		= '忘记密码: %s';//Forgot my password on the game
-$LNG['passwordValidMailSend']		= 'You will receive an email shortly with further information.';
+$LNG['passwordValidMailSend']		= '您将很快收到一份电子邮件，请查收邮箱，获取进一步的信息。';
 
 $LNG['passwordValidInValid']		= '非法的请求！';
-$LNG['passwordChangedMailSend']		= 'You will receive an email shortly with your new password.';
+$LNG['passwordChangedMailSend']		= '您将很快收到一份电子邮件，请查收邮箱，以获取您的新密码。';
 $LNG['passwordChangedMailTitle']	= '新密码为: %s';
 
 $LNG['passwordBack']				= '上一步';
@@ -137,7 +137,7 @@ $LNG['rulesHeader']					= '规则';
 
 //NEWS
 $LNG['news_overview']				= '新闻';
-$LNG['news_from']					= 'On %s by %s';
+$LNG['news_from']					= '来自 %s by %s';
 $LNG['news_does_not_exist']			= '没有什么新闻！';//'No news available!'
 
 //Impressum

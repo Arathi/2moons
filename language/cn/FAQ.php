@@ -9,7 +9,7 @@ $LNG['questions']					= array();
 $LNG['questions'][1]['category']	= '新手小贴士';
 $LNG['questions'][1][1]['title']	= '第一步';
 $LNG['questions'][1][1]['body']		= <<<BODY
-<p>In this part of the Tutorial, it is described the main buildings of the game. This explains how they should be built in the beginning and what is required to build a successful Empire.</p>
+<p>在这部分的教程中，我们会介绍一下游戏中的主要建筑物。重点解释一下如何去建造它们，以及创立一个成功的帝国该如何起步。</p>
 <h3>Solar plant:</h3>
 <p>In order to produce accurate, precise resources that build the Solar plant, that is required for a positive manufacturing resource, so that the production does not get negative or you have the resources produced by complete</p>
 <h3>Metal mine:</h3>
@@ -20,11 +20,11 @@ BODY;
 $LNG['questions'][1][2]['title']	= '第二步';
 $LNG['questions'][1][2]['body']		= <<<BODY
 <p>To expand your Empire and compete with other players or you need to interact with other buildings. Through the research and construction of a Hangar to begin construction of your fleet and the dwarf Planetary Defense. Details can be found here:</p>
-<h3>The Hangar:</h3>
+<h3>机库：</h3>
 <p>Here are all the ships that you have available in this game. Some ships will required a high amount of requirements so that they can be built. An overview of the ships or defence which has technical requirements can be found under the title "technology" in the menu. The higher the Hangar, faster can be constructed.</p>
-<h3>The laboratory of Research:</h3>
+<h3>研究院：</h3>
 <p>These are used to construct new buildings, ships and defense. Also the searches can be used to get some bonus. The search can be accelerated through the expansion of the laboratory of Research</p>
-<h3>Factory of Robots:</h3>
+<h3>机器人工厂：</h3>
 <p>The factory of robots is an essential component. Through its expansion, the time of production of probes can be reduced, as well as the construction of buildings.</p>
 BODY;
 $LNG['questions'][1][3]['title']	= '第三步';
@@ -32,9 +32,9 @@ $LNG['questions'][1][3]['body']		= <<<BODY
 <p>This part of the tutorial is dedicated to defending the planet, as the first actions with your own fleet.</p>
 <h3>The Heartthrob's xia:</h3>
 <p>It is used to find other players. You will find s detailed information on other planets, and can also send a little of your fleet directly from this point of view. Besides, you can check at this point of view also, the contact with other players, or spy on another planet, if Espionage probes possuires</p>
-<h3>Sending Fleets:</h3>
+<h3>派遣舰队：</h3>
 <p>Fleets can view the Heartthrob's xia, or are besides the point "fleet" sent. First, select the number of navess of a certain type of ship is scheduled to fly. It should be defined for the target (coordinates, which are obtained in vista Heartthrob ¡ xia), as well as the speed with which this should be done. Also, the type of mission as "Attack", "Colonize", "Transfer", "Destroy" or "Keep" positions is given.</p>
-<h3>The Defense:</h3>
+<h3>防御：</h3>
 <p>To be able to protect your own planet with the construction of Hangar, is also the construction of defence. These offer some protection against the enemies with your own fleet at the moment of attack of your adervesÃ. In contrast to the fleet, 70% of existing on the planet defense continues</p>
 BODY;
 

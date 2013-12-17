@@ -27,7 +27,7 @@ $LNG['type_mission'][8]  					= '回收';
 $LNG['type_mission'][9]  					= '销毁';
 $LNG['type_mission'][10]  					= '导弹攻击';
 $LNG['type_mission'][11]  					= '研究暗物质';
-$LNG['type_mission'][15] 					= 'Expedition';
+$LNG['type_mission'][15] 					= '探险';
 
 $LNG['type_planet'][1]  					= '行星';
 $LNG['type_planet'][2]  					= '废墟';
@@ -41,10 +41,10 @@ $LNG['user_level'] = array (
 );
 
 
-$LNG['page_doesnt_exist']					= 'This page does not exist';
-$LNG['bad_forum_url']				    	= 'The Forum link is incorrect!';
+$LNG['page_doesnt_exist']					= '该页面不存在！';
+$LNG['bad_forum_url']				    	= '论坛连接错误！';
 $LNG['admin_access_1']				    	= 'Players have access temporarily s administrative functions!';
-$LNG['admin_access_link']				    = 'Disable this access';
+$LNG['admin_access_link']				    = '禁止访问';
 $LNG['admin_access_2']				    	= ", If you don't need any longer";
 
 
@@ -66,8 +66,8 @@ $LNG['lm_shipshard']						= '机库';
 $LNG['lm_defenses']							= '国防';
 $LNG['lm_resources']						= '资源';
 $LNG['lm_officiers']						= '官员';
-$LNG['lm_trader']							= '贸易';
-$LNG['lm_fleettrader']						= 'Merchant of Fleets';
+$LNG['lm_trader']							= '商城';
+$LNG['lm_fleettrader']						= '贸易';
 $LNG['lm_technology']						= '技术';
 $LNG['lm_messages']							= '信息';
 $LNG['lm_alliance']							= '联盟';
@@ -81,7 +81,7 @@ $LNG['lm_forums']							= '论坛';
 $LNG['lm_logout']							= '退出';
 $LNG['lm_administration']					= '管理';
 $LNG['lm_queue']							= '排名';
-$LNG['lm_topkb']							= 'Hall of Fame';
+$LNG['lm_topkb']							= '战况';
 $LNG['lm_faq']								= 'FAQ';
 $LNG['lm_records']							= '宇宙记录';
 $LNG['lm_chat']								= '聊天';
@@ -89,7 +89,7 @@ $LNG['lm_support']							= '客服';
 $LNG['lm_rules']							= '规则';
 $LNG['lm_battlesim']						= '战斗模拟器';
 $LNG['lm_playercard']                       = 'Player Profile';
-$LNG['lm_info']                     		= 'Info';
+$LNG['lm_info']                     		= '提示';
 $LNG['lm_disclamer']						= 'Credits';
 	
 //----------------------------------------------------------------------------//
@@ -965,16 +965,16 @@ $LNG['cff_mission_target_mip']				= 'Missile attack (%d) from player %s from %s 
 
 //----------------------------------------------------------------------------//
 // Funções Extras
-$LNG['fcm_universe']						= 'Universe';
-$LNG['fcm_mainplanet']						= 'Main Planet';
-$LNG['fcm_planet']							= 'Planet';
-$LNG['fcm_moon']							= 'Moon';
-$LNG['fcm_info']							= 'Info';
-$LNG['fcp_colony']							= 'Colony';
-$LNG['fgp_require']							= 'Requirements: ';
-$LNG['fgf_time']							= 'Time: ';
-$LNG['sys_module_inactive']        	 		= 'Inactive module';
-$LNG['sys_refferal_from']        	 		= 'System';
+$LNG['fcm_universe']						= '宇宙';
+$LNG['fcm_mainplanet']						= '母星';
+$LNG['fcm_planet']							= '行星';
+$LNG['fcm_moon']							= '月球';
+$LNG['fcm_info']							= '提示';
+$LNG['fcp_colony']							= '殖民地';
+$LNG['fgp_require']							= '需求: ';
+$LNG['fgf_time']							= '时间: ';
+$LNG['sys_module_inactive']        	 		= '未使用的模块';
+$LNG['sys_refferal_from']        	 		= '星系';
 $LNG['sys_refferal_title']        	 		= 'Player Bonus %s';
 $LNG['sys_refferal_text']        	 		= 'The player %s recruited by you reached %s points.<br><br>You invite a player active, will be rewarded %s %s';
 $LNG['sys_closed_game']        	 			= 'The game is currently not available:';
@@ -983,12 +983,12 @@ $LNG['spec_mail_inactive_title']  			= '%s - Reminder';
 // Relatório de Combate
 $LNG['cr_lost_contact']                     = 'Lost touch with your fleet.';
 $LNG['cr_first_round']                      = '(The fleet was destroyed in the first round)';
-$LNG['cr_type']								= 'Type';
-$LNG['cr_total']							= 'Total';
-$LNG['cr_weapons']							= 'Weapons';
-$LNG['cr_shields']							= 'Shield';
-$LNG['cr_armor']							= 'Armor';
-$LNG['cr_destroyed']						= 'Destroyed!';
+$LNG['cr_type']								= '类型';
+$LNG['cr_total']							= '总计';
+$LNG['cr_weapons']							= '武器';
+$LNG['cr_shields']							= '护盾';
+$LNG['cr_armor']							= '装甲';
+$LNG['cr_destroyed']						= '摧毁！';
 
 //----------------------------------------------------------------------------//
 // Erro de Frotas
