@@ -21,8 +21,8 @@
  * @author Jan Kröpke <info@2moons.cc>
  * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.7.2 (2013-03-18)
- * @info $Id: ShowModulePage.php 2746 2013-05-18 11:38:36Z slaver7 $
+ * @version 1.7.3 (2013-05-19)
+ * @info $Id: ShowModulePage.php 2632 2013-03-18 19:05:14Z slaver7 $
  * @link http://2moons.cc/
  */
 
@@ -30,18 +30,17 @@ if (!allowedTo(str_replace(array(dirname(__FILE__), '\\', '/', '.php'), '', __FI
 
 function ShowModulePage()
 {
-	global $LNG;
-
-	$config	= Config::get(Universe::getEmulated());
-	$module	= explode(';', $config->moduls);
+	global $CONF, $LNG;
+	
+	$module	= Config::get('moduls');
 	
 	if($_GET['mode']) {
 		$module[HTTP::_GP('id', 0)]	= ($_GET['mode'] == 'aktiv') ? 1 : 0;
-		$config->moduls = implode(";", $module);
-		$config->save();
+		Config::update(array('moduls' => implode(";", $module)));
 	}
 	
 	$IDs	= range(0, MODULE_AMOUNT - 1);
+	
 	foreach($IDs as $ID => $Name) {
 		$Modules[$ID]	= array(
 			'name'	=> $LNG['modul'][$ID], 

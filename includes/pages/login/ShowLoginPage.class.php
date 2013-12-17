@@ -24,7 +24,7 @@
  * @copyright 2012 Jan <info@2moons.cc> (2Moons)
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 2.0.$Revision: 2242 $ (2012-11-31)
- * @info $Id: ShowLoginPage.class.php 2746 2013-05-18 11:38:36Z slaver7 $
+ * @info $Id: ShowLoginPage.class.php 2532 2013-01-04 16:57:58Z slaver7 $
  * @link http://2moons.cc/
  */
 
@@ -43,18 +43,11 @@ class ShowLoginPage extends AbstractPage
 		if (empty($_POST)) {
 			HTTP::redirectTo('index.php');	
 		}
-
-		$db = Database::get();
-
+		
 		$username = HTTP::_GP('username', '', UTF8_SUPPORT);
 		$password = HTTP::_GP('password', '', true);
-
-		$sql = "SELECT id, password FROM %%USERS%% WHERE universe = :universe AND username = :username;";
-		$loginData = $db->selectSingle($sql, array(
-			':universe'	=> Universe::current(),
-			':username'	=> $username
-		));
-
+		
+		$loginData = $GLOBALS['DATABASE']->getFirstRow("SELECT id, password FROM ".USERS." WHERE universe = ".$GLOBALS['UNI']." AND username = '".$GLOBALS['DATABASE']->escape($username)."';");
 		if (isset($loginData))
 		{
 			$hashedPassword = PlayerUtil::cryptPassword($password);
@@ -62,26 +55,18 @@ class ShowLoginPage extends AbstractPage
 			{
 				// Fallback pre 1.7
 				if($loginData['password'] == md5($password)) {
-					$sql = "UPDATE %%USERS%% SET password = :hashedPassword WHERE id = :loginID;";
-					$db->update($sql, array(
-						':hashedPassword'	=> $hashedPassword,
-						':loginID'			=> $loginData['id']
-					));
+					$GLOBALS['DATABASE']->query("UPDATE ".USERS." SET password = '".$hashedPassword."' WHERE id = ".$loginData['id'].";");
 				} else {
 					HTTP::redirectTo('index.php?code=1');	
 				}
 			}
-
-			$session	= Session::create();
-			$session->userId		= (int) $loginData['id'];
-			$session->adminAccess	= 0;
-			$session->save();
-
+			
+			Session::create($loginData['id']);
 			HTTP::redirectTo('game.php');	
 		}
 		else
 		{
-			HTTP::redirectTo('index.php?code=1');
+			Session::redirectCode(1);	
 		}
 	}
 }

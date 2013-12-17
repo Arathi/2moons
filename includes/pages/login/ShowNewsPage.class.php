@@ -24,7 +24,7 @@
  * @copyright 2012 Jan <info@2moons.cc> (2Moons)
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 2.0.$Revision: 2242 $ (2012-11-31)
- * @info $Id: ShowNewsPage.class.php 2746 2013-05-18 11:38:36Z slaver7 $
+ * @info $Id: ShowNewsPage.class.php 2436 2012-11-17 15:13:12Z slaver7 $
  * @link http://2moons.cc/
  */
 
@@ -38,19 +38,15 @@ class ShowNewsPage extends AbstractPage
 	}
 	
 	function show() 
-	{
-		global $LNG;
-
-		$sql = "SELECT date, title, text, user FROM %%NEWS%% ORDER BY id DESC;";
-		$newsResult = Database::get()->select($sql);
-
+	{		
+		$newsResult	= $GLOBALS['DATABASE']->query("SELECT date, title, text, user FROM ".NEWS." ORDER BY id DESC;");
 		$newsList	= array();
 		
-		foreach ($newsResult as $newsRow)
+		while ($newsRow = $GLOBALS['DATABASE']->fetchArray($newsResult))
 		{
 			$newsList[]	= array(
 				'title' => $newsRow['title'],
-				'from' 	=> sprintf($LNG['news_from'], _date($LNG['php_tdformat'], $newsRow['date']), $newsRow['user']),
+				'from' 	=> t('news_from', _date(t('php_tdformat'), $newsRow['date']), $newsRow['user']),
 				'text' 	=> makebr($newsRow['text']),
 			);
 		}
@@ -59,6 +55,6 @@ class ShowNewsPage extends AbstractPage
 			'newsList'	=> $newsList,
 		));
 		
-		$this->display('page.news.default.tpl');
+		$this->render('page.news.default.tpl');
 	}
 }

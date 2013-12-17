@@ -21,17 +21,15 @@
  * @author Jan Kröpke <info@2moons.cc>
  * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.7.2 (2013-03-18)
- * @info $Id: vars.php 2746 2013-05-18 11:38:36Z slaver7 $
+ * @version 1.7.3 (2013-05-19)
+ * @info $Id: vars.php 2632 2013-03-18 19:05:14Z slaver7 $
  * @link http://2moons.cc/
  */
 
 // VARS DB -> SCRIPT WRAPPER
 
-$cache	= Cache::get();
-$cache->add('vars', 'VarsBuildCache');
-extract($cache->getData('vars'));
-
+$CACHE->add('vars', 'VarsBuildCache');
+extract($CACHE->get('vars'));
 $resource[901] = 'metal';
 $resource[902] = 'crystal';
 $resource[903] = 'deuterium';

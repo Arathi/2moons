@@ -24,7 +24,7 @@
  * @copyright 2012 Jan <info@2moons.cc> (2Moons)
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 2.0.$Revision: 2242 $ (2012-11-31)
- * @info $Id: ShowDisclamerPage.class.php 2746 2013-05-18 11:38:36Z slaver7 $
+ * @info $Id: ShowDisclamerPage.class.php 2416 2012-11-10 00:12:51Z slaver7 $
  * @link http://2moons.cc/
  */
 
@@ -40,14 +40,13 @@ class ShowDisclamerPage extends AbstractPage
 	
 	function show() 
 	{
-		$config	= Config::get();
 		$this->assign(array(
-			'disclamerAddress'	=> makebr($config->disclamerAddress),
-			'disclamerPhone'	=> $config->disclamerPhone,
-			'disclamerMail'		=> $config->disclamerMail,
-			'disclamerNotice'	=> $config->disclamerNotice,
+			'disclamerAddress'	=> makebr(Config::get('disclamerAddress')),
+			'disclamerPhone'	=> Config::get('disclamerPhone'),
+			'disclamerMail'		=> Config::get('disclamerMail'),
+			'disclamerNotice'	=> Config::get('disclamerNotice'),
 		));
 		
-		$this->display('page.disclamer.default.tpl');
+		$this->render('page.disclamer.default.tpl');
 	}
 }

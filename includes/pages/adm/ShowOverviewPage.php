@@ -21,14 +21,14 @@
  * @author Jan Kröpke <info@2moons.cc>
  * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.7.2 (2013-03-18)
- * @info $Id: ShowOverviewPage.php 2746 2013-05-18 11:38:36Z slaver7 $
+ * @version 1.7.3 (2013-05-19)
+ * @info $Id: ShowOverviewPage.php 2640 2013-03-23 19:23:26Z slaver7 $
  * @link http://2moons.cc/
  */
 
 function ShowOverviewPage()
 {
-	global $LNG, $USER;
+	global $LNG, $USER, $CONF;
 	
 	$Message	= array();
 

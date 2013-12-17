@@ -25,7 +25,7 @@
  * @copyright 2012 Jan <info@2moons.cc> (2Moons)
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 2.0 (2012-11-31)
- * @info $Id: HTTPRequest.class.php 2747 2013-05-18 16:55:49Z slaver7 $
+ * @info $Id: HTTPRequest.class.php 2607 2013-02-04 14:48:53Z slaver7 $
  * @link http://code.google.com/p/2moons/
  */
 
@@ -34,13 +34,13 @@ class HTTPRequest
 	private $url		= NULL;
 	private $content	= NULL;
 	private $ch			= NULL;
-
-	public function __construct($url = NULL)
+	
+	function __construct($url = NULL)
 	{
 		$this->url = $url;
 	}
-
-	public function send()
+	
+	function send()
 	{
 		if(function_exists("curl_init"))
 		{
@@ -48,7 +48,7 @@ class HTTPRequest
 			curl_setopt($this->ch, CURLOPT_HTTPGET, true);
 			curl_setopt($this->ch, CURLOPT_AUTOREFERER, true);
 			curl_setopt($this->ch, CURLOPT_RETURNTRANSFER, true);
-			curl_setopt($this->ch, CURLOPT_USERAGENT, "Mozilla/5.0 (compatible; 2Moons/".Config::get()->VERSION."; +http://2moons.cc)");
+			curl_setopt($this->ch, CURLOPT_USERAGENT, "Mozilla/5.0 (compatible; 2Moons/".Config::get('VERSION')."; +http://2moons.cc)");
 			curl_setopt($this->ch, CURLOPT_HTTPHEADER, array(
 				"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 				"Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3",
@@ -60,7 +60,7 @@ class HTTPRequest
 		}
 	}
 	
-	public function getResponse()
+	function getResponse()
 	{
 		$this->send();
 		return $this->content;

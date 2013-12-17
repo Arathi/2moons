@@ -2,7 +2,7 @@
 
 /**
  *  2Moons
- *  Copyright (C) 2012 Jan KrÃ¶pke
+ *  Copyright (C) 2012 Jan Kröpke
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,11 +18,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * @package 2Moons
- * @author Jan KrÃ¶pke <info@2moons.cc>
- * @copyright 2012 Jan KrÃ¶pke <info@2moons.cc>
+ * @author Jan Kröpke <info@2moons.cc>
+ * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 1.5 (2011-07-31)
- * @info $Id: CUSTOM.php 2746 2013-05-18 11:38:36Z slaver7 $
+ * @info $Id: CUSTOM.php 2464 2012-12-21 20:03:22Z slaver7 $
  * @link http://2moons.cc/
  */
  

@@ -21,8 +21,8 @@
  * @author Jan Kröpke <info@2moons.cc>
  * @copyright 2012 Jan Kröpke <info@2moons.cc>
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.7.2 (2013-03-18)
- * @info $Id: index.php 2747 2013-05-18 16:55:49Z slaver7 $
+ * @version 1.7.3 (2013-05-19)
+ * @info $Id: index.php 2742 2013-05-13 20:09:37Z slaver7 $
  * @link http://2moons.cc/
  */
 
@@ -30,24 +30,21 @@ define('MODE', 'LOGIN');
 define('ROOT_PATH', str_replace('\\', '/',dirname(__FILE__)).'/');
 set_include_path(ROOT_PATH);
 
-require 'includes/pages/login/AbstractPage.class.php';
-require 'includes/pages/login/ShowErrorPage.class.php';
-require 'includes/common.php';
-/** @var $LNG Language */
+require('includes/pages/login/AbstractPage.class.php');
+require('includes/pages/login/ShowErrorPage.class.php');
+require('includes/common.php');
 
 $page 		= HTTP::_GP('page', 'index');
 $mode 		= HTTP::_GP('mode', 'show');
 $page		= str_replace(array('_', '\\', '/', '.', "\0"), '', $page);
-$pageClass	= 'Show'.ucfirst($page).'Page';
+$pageClass	= 'Show'.ucwords($page).'Page';
 
-$path		= 'includes/pages/login/'.$pageClass.'.class.php';
-
-if(!file_exists($path)) {
+if(!file_exists('includes/pages/login/'.$pageClass.'.class.php')) {
 	ShowErrorPage::printError($LNG['page_doesnt_exist']);
 }
 
 // Added Autoload in feature Versions
-require($path);
+require('includes/pages/login/'.$pageClass.'.class.php');
 
 $pageObj	= new $pageClass;
 // PHP 5.2 FIX

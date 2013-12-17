@@ -24,7 +24,7 @@
  * @copyright 2012 Jan <info@2moons.cc> (2Moons)
  * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
  * @version 2.0.$Revision: 2242 $ (2012-11-31)
- * @info $Id: ShowScreensPage.class.php 2746 2013-05-18 11:38:36Z slaver7 $
+ * @info $Id: ShowScreensPage.class.php 2640 2013-03-23 19:23:26Z slaver7 $
  * @link http://2moons.cc/
  */
 
@@ -42,30 +42,27 @@ class ShowScreensPage extends AbstractPage
 	{
 		$screenshots	= array();
 		$directoryIterator = new DirectoryIterator('styles/resource/images/login/screens/');
-        foreach ($directoryIterator as $fileInfo)
-		{
-			/** @var $fileInfo DirectoryIterator */
-			if (!$fileInfo->isFile())
+        foreach ($directoryIterator as $fileinfo) { 
+            if (!$fileinfo->isFile())
 			{
 				continue;
             }			
 			
-			$thumbnail = 'styles/resource/images/login/screens/'.$fileInfo->getFilename();
-			if(file_exists('styles/resource/images/login/screens/thumbnails/'.$fileInfo->getFilename()))
+			$thumbnail = 'styles/resource/images/login/screens/'.$fileinfo->getFilename();
+			if(file_exists('styles/resource/images/login/screens/thumbnails/'.$fileinfo->getFilename()))
 			{
-				$thumbnail = 'styles/resource/images/login/screens/thumbnails/'.$fileInfo->getFilename();
+				$thumbnail = 'styles/resource/images/login/screens/thumbnails/'.$fileinfo->getFilename();
 			}
 			
 			$screenshots[]	= array(
-				'path' 		=> 'styles/resource/images/login/screens/'.$fileInfo->getFilename(),
+				'path' 		=> 'styles/resource/images/login/screens/'.$fileinfo->getFilename(),
 				'thumbnail' => $thumbnail,
 			);
 		}
 		
 		$this->assign(array(
 			'screenshots' => $screenshots
-		));
-
-		$this->display('page.screens.default.tpl');
+		));;
+		$this->render('page.screens.default.tpl');
 	}
 }
