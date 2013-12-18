@@ -28,8 +28,8 @@ $LNG['upgrade_success']			= '数据库升级成功！现在的数据库版本是
 $LNG['upgrade_nothingtodo']		= '您当前的数据库版本已经是r%s了。';
 $LNG['upgrade_back']			= '退后';
 $LNG['upgrade_intro_welcome']	= '欢迎使用数据库升级工具！';
-$LNG['upgrade_available']		= 'Available updates for your database! The database is at the revision %s and can update to revision %s.<br><br>Please choose from the following menu to the first SQL update to install:';
-$LNG['upgrade_notavailable']	= 'The used revision %s is the latest for your database.';
+$LNG['upgrade_available']		= '您的数据库可以正常更新！当前数据库版本为%s，可升级到%s。<br><br>请选择下拉菜单中的第一个SQL升级包开始安装：';
+$LNG['upgrade_notavailable']	= '您当前的数据库只能升级到%s。';
 $LNG['upgrade_required_rev']	= '更新器只能够用于r2579 (2Moons v1.7)以及更高版本。';
 
 
@@ -65,8 +65,8 @@ $LNG['req_ftp_username']		= '用户名';
 $LNG['req_ftp_password']		= '密码';
 $LNG['req_ftp_dir']				= '2Moons安装目录';
 $LNG['req_ftp_send']			= '发送';
-$LNG['req_ftp_error_data']		= 'The information provided does not allow you to connect to the FTP server, so this link failed';
-$LNG['req_ftp_error_dir']		= 'The story that directory you entered is invalid or not existing';
+$LNG['req_ftp_error_data']		= '无法连接到FTP，您提供的信息有误，因此该环节失败！';
+$LNG['req_ftp_error_dir']		= '您所填写的目录不存在！';
 
 $LNG['step1_head']				= '配置数据库信息';
 $LNG['step1_desc']				= '现在，已经确定了您的服务器可以安装2Moons，接着，您要提供一些数据库相关的信息。如果您不知道如何连接数据库，请先与您的服务提供商联系，或者去2Moons官方论坛寻求帮助。当你填写完相关的信息，系统会先检查是否有误，然后会建表和插入初始数据。';
@@ -101,7 +101,7 @@ $LNG['step4_admin_mail']		= '联系E-Mail：';
 $LNG['step6_head']				= '安装完成！';
 $LNG['step6_desc']				= '您已经成功安装2Moons';
 $LNG['step6_info_head']			= '立即开始2Moons！';
-$LNG['step6_info_additional']	= '点击下方的按钮，将会跳转到管理面板。AI will be a good advantage to get ares to explore 2Moons administrator tools.<br/><br/><strong>Please delete the &raquo;includes/ENABLE_INSTALL_TOOL&laquo; or modify the filename. With the existence of this file, you can cause your game at risk by allowing someone rewrite the installation!</strong>';
+$LNG['step6_info_additional']	= '点击下方的按钮，将会跳转到管理面板。<br/><br/><strong>请将&raquo;includes/ENABLE_INSTALL_TOOL&laquo;这个文件删除或改名！如果这个文件存在，可能会导致某些人恶意地去重新安装！</strong>';
 
 $LNG['sql_close_reason']		= '游戏已关闭';
 $LNG['sql_welcome']				= '欢迎来到2Moons v';

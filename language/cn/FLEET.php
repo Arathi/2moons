@@ -3,7 +3,7 @@
 // Translated into English by Arathi. All rights reversed (C) 2012
 // 2Moons - Copyright (C) 2010-2012 Slaver
 
-$LNG['and']							= 'and';
+$LNG['and']							= '并且';
 
 //----------------------------------------------------------------------------//
 //SYSTEM
@@ -39,7 +39,7 @@ $LNG['sys_mess_tower'] 						= "舰队司令部";
 $LNG['sys_mess_attack_report'] 				= "战报";
 $LNG['sys_spy_fleet'] 						= "舰队";
 $LNG['sys_spy_defenses'] 					= "防卫";
-$LNG['sys_mess_qg'] 						= "Spying department";
+$LNG['sys_mess_qg'] 						= "情报部门";
 $LNG['sys_mess_spy_report_moon']			= "(月球)";
 $LNG['sys_mess_spy_report'] 				= "情报"; //Intelligence report
 $LNG['sys_mess_head'] 					    = 'Spy Report %s [%d:%d:%d] on %s';
@@ -53,26 +53,26 @@ $LNG['sys_mess_spy_destroyed'] 				= '<font color="red">您的间谍卫星已被
 $LNG['sys_adress_planet'] 					= '[%s:%s:%s]';
 
 $LNG['sys_stat_mess_stay']           		= '驻屯舰队';
-$LNG['sys_stat_mess'] 		         		= 'Your fleet reaches the planet %s and delivers %s %s, %s %s and %s %s.';
+$LNG['sys_stat_mess'] 		         		= '您的舰队已经抵达 %s 行星，运输了 %s %s, %s %s 和 %s %s.';
 
 $LNG['sys_colo_mess_from'] 					= "Colonisation";
 $LNG['sys_colo_mess_report'] 				= "Colonisation report";
 $LNG['sys_colo_defaultname'] 				= "殖民地";
 $LNG['sys_colo_notech'] 					= 'One of your fleets reached the coordinates %s. When your settlers approached the planet, they had to determine that their equipment still not for the prevailing climate was suitable and must be developed first. Disappointed, the settlers returned.';
 $LNG['sys_colo_arrival'] 					= "";
-$LNG['sys_colo_maxcolo'] 					= "One of your fleets reaches the coordinates %s. Ssettlement is not possible as you can only have %d planets. ";
-$LNG['sys_colo_allisok'] 					= "One of your fleets reaches the coordinates %s. The settlers start to colonise the new planet.";
-$LNG['sys_colo_badpos']  					= "One of your fleets reaches the coordinates %s. No settlement possibility was found here, your settlers return disappointed. ";
-$LNG['sys_colo_notfree'] 					= "One of your fleets reaches the coordinates %s. When your settlers arrived at the coordinates they found that there is already a colony there. Completely demoralized they return home. ";
+$LNG['sys_colo_maxcolo'] 					= "我方一支舰队到达了坐标为 %s 的地区。但根据宇宙法案规定，您只能拥有 %d 个星球。";
+$LNG['sys_colo_allisok'] 					= "我方一支舰队到达了坐标为 %s 的地区。移居者已经开始殖民这个星球。";
+$LNG['sys_colo_badpos']  					= "我方一支舰队到达了坐标为 %s 的地区。但该星球不适合移居，移居者失望地返航了。";
+$LNG['sys_colo_notfree'] 					= "我方一支舰队到达了坐标为 %s 的地区。但是等他们到达那里，却发现该星球已经有人在殖民了。他们士气低落地回去了。";
 
 $LNG['sys_expe_report'] 					= "探险报告";
 $LNG['sys_recy_report'] 					= "回收报告";
 $LNG['sys_expe_found_ships_nothing']		= 'No ships could be found.';
-$LNG['sys_expe_blackholl_1'] 				= "Your fleet encountered a black hole and was partly destroyed! ";
-$LNG['sys_expe_blackholl_2'] 				= "Your fleet encountered a black hole and was destroyed completely! ";
-$LNG['sys_expe_found_goods'] 				= "Your researchers have found a planet rich in raw materials! <br>It has %s %s, %s %s and %s %s mined";
-$LNG['sys_expe_found_ships'] 				= "Your researchers have found spaceships which were in perfect condition!.<br>: ";
-$LNG['sys_expe_back_home'] 					= "Your fleet has returned from the expedition. ";
+$LNG['sys_expe_blackholl_1'] 				= "您的舰队遭遇了黑洞，部分被摧毁。";
+$LNG['sys_expe_blackholl_2'] 				= "您的舰队遭遇了黑洞，被完全摧毁！";
+$LNG['sys_expe_found_goods'] 				= "您的研究人员发现了一个资源丰富的星球！<br>拥有着 %s %s, %s %s 以及 %s %s 的矿物储备。";
+$LNG['sys_expe_found_ships'] 				= "您的研究人员发现了功能完好的飞船！<br>：";
+$LNG['sys_expe_back_home'] 					= "您的探险队已经返回。";
 $LNG['sys_expe_found_ress_1_1']				= 'Your expedition has discovered a small asteroids cluster from which some resources could be won. ';
 $LNG['sys_expe_found_ress_1_2']				= 'Some easily accessible resource fields were found and raw materials were won successfully on the remote planetoid.';
 $LNG['sys_expe_found_ress_1_3']				= 'Some easily accessible resource fields were found and raw materials were won successfully on the remote planetoid.';
@@ -140,12 +140,12 @@ $LNG['sys_expe_attack_2_2_1'] 				= 'An unknown specie attacks our expedition!';
 $LNG['sys_expe_attack_2_2_2'] 				= 'Your expedition fleet has apparently violated the territory of a previously unknown but highly aggressive alien race.';
 $LNG['sys_expe_attack_2_2_3'] 				= 'The connection with our expedition fleet was disconnected abruptly. The last what we heard of the fleet was that it was taking heavy fire - the aggressors could not be identified.';
 $LNG['sys_expe_attack_2_3_1'] 				= 'Your expedition has come across an alien invasion fleet and reports massive battles!';
-$LNG['sys_expe_attack_2_3_2'] 				= 'A large group of crystalline ships of unknown origin is on a direct collision course with our expedition fleet. We must prepare ourself for the worst.';
+$LNG['sys_expe_attack_2_3_2'] 				= '一群来历不明的船只即将于我们的探险队正面接触，我们得做好最坏的打算。';
 $LNG['sys_expe_attackname_1']				= '星际海盗';
 $LNG['sys_expe_attackname_2'] 				= '异星人';
 $LNG['sys_expe_back_home'] 					= '您的探险队已经返回。<br>他们带回了 %s %s, %s %s, %s %s and %s %s.';
 $LNG['sys_expe_back_home_without_dm']		= '您的探险队已经返回。';
-$LNG['sys_expe_back_home_with_dm']			= '您的探险队已经返回。<br>他们发现了(%s)%s but the ships were scrapped. <br>the %s was saved.';
+$LNG['sys_expe_back_home_with_dm']			= '您的探险队已经返回。<br>他们发现了(%s)%s，飞船被遗弃。 <br> %s 幸存下来。';
 $LNG['sys_mess_transport'] 					= '运输信息';
 $LNG['sys_tran_mess_owner']		 			= 'One of your fleets reaches the planet %s %s and delivers %s %s, %s %s and %s %s.';
 $LNG['sys_tran_mess_user'] 		 			= 'A peaceful fleet of %s %s reached %s %s and delivers %s %s, %s %s and %s %s.';
@@ -153,31 +153,30 @@ $LNG['sys_mess_fleetback'] 					= '舰队归还';
 $LNG['sys_tran_mess_back'] 					= 'One of your fleets returns from the planet %s %s.';
 $LNG['sys_recy_gotten'] 					= 'Having arrived at there destination your Recyclers collect %s %s and %s %s';
 $LNG['sys_gain'] 				  			= 'Profit';
-$LNG['sys_irak_subject'] 				  	= '火箭冲击';//Rocket impact
+$LNG['sys_irak_subject'] 				  	= '导弹攻击';//Rocket impact
 $LNG['sys_irak_no_def'] 				  	= '该行星没有任何防卫力量。';
 $LNG['sys_irak_no_att'] 				  	= '您所发射的所有导弹均被拦截。';
 $LNG['sys_irak_def'] 					  	= '您所发射的%d枚导弹遭到了拦截。';
 $LNG['sys_irak_mess']						= 'Interplanetary rockets (%d) from %s are on the planet %s <br><br>';
 $LNG['sys_gain'] 				  			= 'Profit';
-$LNG['sys_fleet_won'] 						= 'One of your fleets returns from a attack at the planet %s %s. You have captured %s %s, %s %s and %s %s ';
+$LNG['sys_fleet_won'] 						= '我们派往%s %s的远征军已经返航。我们俘获了 %s %s, %s %s 以及 %s %s ';
 $LNG['sys_lost'] 							= '损失';
-$LNG['sys_debris'] 							= 'Rubblefield';
+$LNG['sys_debris'] 							= '空间残骸';
 $LNG['sys_destruc_title']       		   	= 'The following fleets face each other for a moon destruction:';
 $LNG['sys_mess_destruc_report']  		  	= '报告：月球已被摧毁！';
 $LNG['sys_raport_not_found']				= '无效的报告ID';
-
 $LNG['sys_raport_lost_contact']				= 'The contact to the attacking fleet was lost (that is, it was shot down in the first round.)';
-$LNG['sys_destruc_lune']          		 	= 'The probability of a moon destruction is: %d%% ';
-$LNG['sys_destruc_rip']          			= 'The probability of a self-destruction of the fleet is: %d%%';
-$LNG['sys_destruc_stop']      			 	= 'The defender has blocked the moon destruction successfully.';
-$LNG['sys_destruc_mess1']       		   	= 'The deathstars fired their tremendous energy at the moon. ';
-$LNG['sys_destruc_echec']       		   	= 'Earthquakes shook the planet. But something went wrong, the deathstars exploded and disintegrated into a thousands pieces, the shockwaves took out the entire fleet.';
-$LNG['sys_destruc_reussi']      		   	= 'The deathstars beams reached the moon and teared it to pieces. <br>The entire moon was destroyed.';
-$LNG['sys_destruc_null']        		   	= 'The deathstars could not charge fully before firing and imploded.<br> The moon is not destroyed.';
+$LNG['sys_destruc_lune']          		 	= '月球被摧毁的概率为： %d%% ';
+$LNG['sys_destruc_rip']          			= '舰队自毁的概率为： %d%%';
+$LNG['sys_destruc_stop']      			 	= '防御方成功阻止了摧毁月球计划。';
+$LNG['sys_destruc_mess1']       		   	= '死星向月球发射了威力巨大的能量炮。';
+$LNG['sys_destruc_echec']       		   	= '地震撼动了整个行星。但是似乎出了点问题，死星瓦解成了数千个碎片，冲击波及了整个舰队。';
+$LNG['sys_destruc_reussi']      		   	= '死星发射的光束将月球撕裂成无数碎片。<br>月球被完全摧毁掉了。';
+$LNG['sys_destruc_null']        		   	= 'The deathstars could not charge fully before firing and imploded.<br> 月球没有被摧毁。';
 
 
 $LNG['fcp_colony']							= '殖民地';
-$LNG['fl_simulate']							= '模拟器';
+$LNG['fl_simulate']							= '战斗模拟器';
 
 $LNG['type_mission'][1]  					= '攻击';
 $LNG['type_mission'][2]  					= '联合攻击';

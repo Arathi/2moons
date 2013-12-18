@@ -5,7 +5,7 @@
 
 
 
-$LNG['Messages']							= '信息';
+$LNG['Messages']							= '消息';
 
 $LNG['PM']									= '[PM]';
 $LNG['write_message']						= '写信息';
@@ -493,51 +493,52 @@ $LNG['in_bonus'] 							= 'Bonus:';
 
 //----------------------------------------------------------------------------//
 // Mensagens
-$LNG['mg_type'][0]                          = 'Spy messages';
-$LNG['mg_type'][1]                          = 'Player messages';
-$LNG['mg_type'][2]                          = 'Alliance messages';
-$LNG['mg_type'][3]                          = 'Combat messages';
-$LNG['mg_type'][4]                          = 'System messages';
-$LNG['mg_type'][5]                          = 'Transport messages';
-$LNG['mg_type'][15]                         = 'Expedition messages';
-$LNG['mg_type'][50]                         = 'Game messages';
-$LNG['mg_type'][99]                         = 'Construction messages';
-$LNG['mg_type'][100]                        = 'All messages';
-$LNG['mg_type'][999]                        = 'Outbox';
-$LNG['mg_no_subject']			            = 'No subject';
-$LNG['mg_no_text']				            = 'Without text';
-$LNG['mg_msg_sended']			            = 'Message sent';
-$LNG['mg_delete_marked']		            = 'Delete marked messages';
-$LNG['mg_delete_type_all']                  = 'Delete all messages of this type';
-$LNG['mg_delete_unmarked']                  = 'Delete all messages not marked';
-$LNG['mg_delete_all']		                = 'Delete all messages';
+$LNG['mg_type'][0]                          = '间谍报告';
+$LNG['mg_type'][1]                          = '玩家消息';
+$LNG['mg_type'][2]                          = '联盟消息';
+$LNG['mg_type'][3]                          = '作战报告';
+$LNG['mg_type'][4]                          = '系统通告';
+$LNG['mg_type'][5]                          = '运输报告';
+$LNG['mg_type'][15]                         = '探险报告';
+$LNG['mg_type'][50]                         = '游戏消息';
+$LNG['mg_type'][99]                         = '施工报告';
+$LNG['mg_type'][100]                        = '全部';
+$LNG['mg_type'][999]                        = '发件箱';
+$LNG['mg_no_subject']			            = '无标题';
+$LNG['mg_no_text']				            = '无内容';
+
+$LNG['mg_msg_sended']			            = '消息已发送';
+$LNG['mg_delete_marked']		            = '删除所选的消息';
+$LNG['mg_delete_type_all']                  = '删除全部该类西消息';
+$LNG['mg_delete_unmarked']                  = '删除未选择的消息';
+$LNG['mg_delete_all']		                = '删除所有消息';
 $LNG['mg_show_only_header_spy_reports']	    = 'Show only a part of the espionage reports ';
 $LNG['mg_action']							= 'Action';
-$LNG['mg_date']					        	= 'Date';
-$LNG['mg_from']					            = 'From';
-$LNG['mg_to']                               = 'To';
-$LNG['mg_subject']					        = 'Subject';
-$LNG['mg_message_title']					= 'Messages';
-$LNG['mg_message_type']			            = 'Message type';
-$LNG['mg_total']				            = 'Total';
+$LNG['mg_date']					        	= '日期';
+$LNG['mg_from']					            = '来自';
+$LNG['mg_to']                               = '发送至';
+$LNG['mg_subject']					        = '标题';
+$LNG['mg_message_title']					= '消息';
+$LNG['mg_message_type']			            = '消息类型';
+$LNG['mg_total']				            = '合计';
 $LNG['mg_game_operators']			        = 'Game operators';
 $LNG['mg_error']                            = 'Recipient is not found!';
 $LNG['mg_overview']                         = 'News of administration';
-$LNG['mg_send_new']                         = 'Write a message';
+$LNG['mg_send_new']                         = '写新消息';
 $LNG['mg_send_to']                          = 'Receptors';
-$LNG['mg_message']                          = 'Message';
-$LNG['mg_characters']                       = 'Characters';
-$LNG['mg_send']                             = 'Send';
+$LNG['mg_message']                          = '消息内容';
+$LNG['mg_characters']                       = '字符';
+$LNG['mg_send']                             = '发送';
 $LNG['mg_game_message']                     = 'Play message';
-$LNG['mg_message_send']			            = 'Message Sent!';
-$LNG['mg_empty_text']				        = 'Enter Text';
-$LNG['mg_answer_to']						= 'Reply to:';
+$LNG['mg_message_send']			            = '消息已经发送';
+$LNG['mg_empty_text']				        = '请输入内容！';
+$LNG['mg_answer_to']						= '回复：';
 $LNG['mg_write_mail_to_ops']                = 'Write an email to';
 $LNG['mg_page']								= 'Page';
-$LNG['mg_read_marked']						= 'Mark selected messages as read';
-$LNG['mg_read_type_all']					= 'Mark all messages of this type as read';
-$LNG['mg_read_all']							= 'Mark all messages as read';
-$LNG['mg_confirm']							= 'Confirm';
+$LNG['mg_read_marked']						= '标记当前选取的消息为已读';
+$LNG['mg_read_type_all']					= '将该类型下的所有消息标记为已读';
+$LNG['mg_read_all']							= '将所有消息标记为已读';
+$LNG['mg_confirm']							= '确定'; //onfirm
 $LNG['mg_receiver_block_pm']				= 'The receiver block private messages.';
 
 
@@ -790,26 +791,26 @@ $LNG['bu_rejected_request_body']			= 'Hello %s,<br>%s refused your request for f
 
 //----------------------------------------------------------------------------//
 // Notas
-$LNG['nt_important']						= 'Important';
-$LNG['nt_normal']							= 'Normal';
-$LNG['nt_unimportant']						= 'Unimportant';
-$LNG['nt_create_note']						= 'Create note';
-$LNG['nt_you_dont_have_notes']				= 'No notes available';
-$LNG['nt_notes']							= 'Notes';
-$LNG['nt_create_new_note']					= 'Create a new note';
-$LNG['nt_edit_note']						= 'Edit Note';
-$LNG['nt_date_note']						= 'Date';
-$LNG['nt_subject_note']						= 'Subject';
-$LNG['nt_size_note']						= 'Size';
-$LNG['nt_dlte_note']						= 'Delete';
-$LNG['nt_priority']							= 'Priority';
-$LNG['nt_note']								= 'Notice';
-$LNG['nt_characters']						= 'characters';
-$LNG['nt_back']								= 'Back';
-$LNG['nt_reset']							= 'Reset';
-$LNG['nt_save']								= 'Save';
-$LNG['nt_no_title']							= 'No title';
-$LNG['nt_no_text']							= 'No Text';
+$LNG['nt_important']						= '重要';
+$LNG['nt_normal']							= '常规';
+$LNG['nt_unimportant']						= '次要';
+$LNG['nt_create_note']						= '写笔记';
+$LNG['nt_you_dont_have_notes']				= '您尚未写过笔记';
+$LNG['nt_notes']							= '笔记';
+$LNG['nt_create_new_note']					= '写一个新笔记';
+$LNG['nt_edit_note']						= '编辑笔记';
+$LNG['nt_date_note']						= '日期时间';
+$LNG['nt_subject_note']						= '标题';
+$LNG['nt_size_note']						= '字数';
+$LNG['nt_dlte_note']						= '删除';
+$LNG['nt_priority']							= '重要程度';
+$LNG['nt_note']								= '注意'; //Notice
+$LNG['nt_characters']						= '字符';
+$LNG['nt_back']								= '返回';
+$LNG['nt_reset']							= '清空';
+$LNG['nt_save']								= '保存';
+$LNG['nt_no_title']							= '无标题';
+$LNG['nt_no_text']							= '无内容';
 
 //----------------------------------------------------------------------------//
 // Estatísticas

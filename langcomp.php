@@ -125,7 +125,7 @@ function comp($src_lang, $dst_lang)
     $pages['public']="PUBLIC";
     $pages['tech']="TECH";
     $output="<table border=1>";
-    $output.="<tr><td>文件名</td><td>已翻译</td><td>总条目数</td><td>完成进度</td><td>备注</td></tr>";
+    $output.="<tr align=center><td>文件名</td><td>已翻译</td><td>总条目数</td><td>完成进度</td><td>备注</td></tr>";
     $total_diff = 0;
     $total_amount = 0;
     
@@ -187,13 +187,13 @@ function comp($src_lang, $dst_lang)
                 $status.="<br/>".$value;
             }
         }
-        $output.="<tr ".$bgcolor."><td>".$pagename.".php</td><td>".$diffcounter."</td><td>".$amount."</td><td>".$percentage."</td><td>".$status."</td></tr>";
+        $output.="<tr ".$bgcolor."><td>".$pagename.".php</td><td align=right>".$diffcounter."</td><td align=right>".$amount."</td><td align=right>".$percentage."</td><td>".$status."</td></tr>";
         $total_diff += $diffcounter;
         $total_amount += $amount;
     }
     $percentage = (int)( $total_diff * 10000 / $total_amount );
     $percentage= ($percentage/100)."%";
-    $output.="<tr><td>总量</td><td>".$total_diff."</td><td>".$total_amount."</td><td>".$percentage."</td></tr>";
+    $output.="<tr><td>总量</td><td align=right>".$total_diff."</td><td align=right>".$total_amount."</td><td align=right>".$percentage."</td></tr>";
     $output.="</table>";
     return $output;
 }

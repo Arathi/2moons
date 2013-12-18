@@ -28,14 +28,14 @@ $LNG['select_option'] ='Choose the option ...';
 // 	Rank
 $LNG['rank'] [0] ='Player';
 $LNG['rank'] [1] ='Moderator';
-$LNG['rank'] [2] ='Operator';
+$LNG['rank'] [2] ='操作人员';
 $LNG['rank'] [3] ='管理员';
 
 
 // 	Tempo
 $LNG['time_days'] ='天';
-$LNG['time_hours'] ='小时';
-$LNG['time_minutes'] ='分钟';
+$LNG['time_hours'] ='时';
+$LNG['time_minutes'] ='分';
 $LNG['time_seconds'] ='秒';
 //###########################################################//
 
@@ -54,8 +54,8 @@ $LNG['one_is_no'] [0] ='no';
 $LNG['button_submit'] ='发送';
 $LNG['button_add'] ='Profile';
 $LNG['button_delete'] ='删除';
-$LNG['button_filter'] ='Filter';
-$LNG['button_deselect'] ='Delete selected';
+$LNG['button_filter'] ='过滤器';
+$LNG['button_deselect'] ='删除已选';
 $LNG['button_reset'] ='重置';
 $LNG['button_des_se'] ='全选/取消选择';
 //###########################################################//
@@ -63,24 +63,24 @@ $LNG['button_des_se'] ='全选/取消选择';
 
 //---------------	ID's	------------------------//
 $LNG['input_id'] ='ID';
-$LNG['input_id_user'] ='Player ID';
-$LNG['input_id_planet'] ='Planet ID';
-$LNG['input_id_moon'] ='Moon ID';
-$LNG['input_id_p_m'] ='ID of the planet or Moon';
-$LNG['input_id_ally'] ='ID of the Alliance';
+$LNG['input_id_user'] ='玩家ID';
+$LNG['input_id_planet'] ='行星ID';
+$LNG['input_id_moon'] ='月球ID';
+$LNG['input_id_p_m'] ='行星或月球的ID';
+$LNG['input_id_ally'] ='联盟ID';
 //###########################################################//
 
 
 //---------------	Recursos	------------------------// 
-$LNG['resources_title'] ='Resources';
-$LNG['count_res'] ='Number of resources';
+$LNG['resources_title'] ='资源';
+$LNG['count_res'] ='资源数量';
 //###########################################################//
 
 
 //---------------	Modulos   ------------------------// 
 $LNG['buildings_title'] ='建筑';
 $LNG['ships_title'] ='飞船';
-$LNG['defenses_title'] ='国防';
+$LNG['defenses_title'] ='防卫';
 $LNG['researchs_title'] ='研究';
 $LNG['officiers_title'] ='官员';
 //###########################################################//
@@ -89,31 +89,31 @@ $LNG['officiers_title'] ='官员';
 
 //---------------	Editor	------------------------//
 // Menu
-$LNG['ad_forgiven_id'] ='You must enter an ID!';
-$LNG['ad_back_to_menu'] ='Return to home menu';
-$LNG['ad_editor_title'] ='Account Editor';
-$LNG['ad_editor_buildings'] ='Buildings';
-$LNG['ad_editor_ships'] ='Ships';
-$LNG['ad_editor_defenses'] ='Defences';
-$LNG['ad_editor_researchs'] ='Search';
-$LNG['ad_editor_officiers'] ='Officiers';
-$LNG['ad_editor_personal'] ='Personal Data';
-$LNG['ad_editor_planets'] ='Planet & Moon';
-$LNG['ad_editor_resources'] ='Ressources';
-$LNG['ad_editor_alliances'] ='Alliance';
-$LNG['ad_editor_authlevels'] ='Permissions';
+$LNG['ad_forgiven_id'] ='您必须输入一个ID！';
+$LNG['ad_back_to_menu'] ='返回主菜单';
+$LNG['ad_editor_title'] ='账号编辑器';
+$LNG['ad_editor_buildings'] ='建筑';
+$LNG['ad_editor_ships'] ='飞船';
+$LNG['ad_editor_defenses'] ='防卫';
+$LNG['ad_editor_researchs'] ='研究';
+$LNG['ad_editor_officiers'] ='官员';
+$LNG['ad_editor_personal'] ='个人资料';
+$LNG['ad_editor_planets'] ='行星与月球';
+$LNG['ad_editor_resources'] ='资源';
+$LNG['ad_editor_alliances'] ='联盟';
+$LNG['ad_editor_authlevels'] ='权限';
 
-$LNG['ad_add_not_exist']		='ID does not exist!';
+$LNG['ad_add_not_exist']		='该ID不存在！';
 
 //	Pesquisas
 $LNG['ad_add_tech_success'] ='The Research has been inserted successfully!';
 $LNG['ad_delete_tech_success'] ='The Research has been removed successfully!';
-$LNG['ad_research_title'] ='Research';
-$LNG['ad_research'] ='Research';
+$LNG['ad_research_title'] ='研究';
+$LNG['ad_research'] ='研究';
 
 //	Officiais
-$LNG['ad_offi_title'] ='Officiers';
-$LNG['ad_offi'] ='Officiers';
+$LNG['ad_offi_title'] ='官员';
+$LNG['ad_offi'] ='官员';
 $LNG['ad_add_offi_success'] ='The Officiers were entered successfully!';
 $LNG['ad_delete_offi_success'] ='The Officiers were removed successfully!';
 
@@ -123,22 +123,22 @@ $LNG['ad_delete_res_sucess'] ='The Researches were removed successfully!';
 $LNG['ad_main_title'] ='Ressources and Technologies';
 
 //	Naves
-$LNG['ad_ships_title'] ='Ships';
-$LNG['ad_ships'] ='Ships';
+$LNG['ad_ships_title'] ='飞船';
+$LNG['ad_ships'] ='飞船';
 $LNG['ad_add_ships_sucess'] ='The ships have been uploaded successfully!';
 $LNG['ad_delete_ships_sucess'] ='The ships were removed successfully!';
 
 //	Defesas
-$LNG['ad_defenses_title'] ='Defences';
-$LNG['ad_defenses'] ='Defences';
+$LNG['ad_defenses_title'] ='防卫';
+$LNG['ad_defenses'] ='防卫';
 $LNG['ad_add_defenses_success'] ='The defenses were uploaded successfully!';
 $LNG['ad_delete_defenses_success'] ='The defenses were removed successfully!';
 
 //	Edificios
-$LNG['ad_buildings_title'] ='Buildings';
-$LNG['ad_buildings'] ='Buildings';
-$LNG['ad_planet_id'] ='ID of the planet or Moon';
-$LNG['ad_levels'] ='Level';
+$LNG['ad_buildings_title'] ='建筑';
+$LNG['ad_buildings'] ='建筑';
+$LNG['ad_planet_id'] ='行星或月球的ID';
+$LNG['ad_levels'] ='级别';
 $LNG['ad_count'] ='Number';
 $LNG['ad_add_build_success'] ='The buildings were entered successfully!';
 $LNG['ad_delete_build_success'] ='The buildings were removed successfully!';
@@ -153,67 +153,67 @@ $LNG['ad_personal_succes'] ='Settings stored';
 $LNG['ad_personal_vacat'] ='VMode';
 
 //	Aliança
-$LNG['ad_ally_title'] ='Alliance';
+$LNG['ad_ally_title'] ='联盟编辑';
 $LNG['ad_ally_change_id'] ='Modify ID';
-$LNG['ad_ally_name'] ='Name of the Alliance';
-$LNG['ad_ally_tag'] ='TAG of the Alliance';
-$LNG['ad_ally_text1'] ='Description of the Alliance';
+$LNG['ad_ally_name'] ='联盟名称';
+$LNG['ad_ally_tag'] ='联盟简称';
+$LNG['ad_ally_text1'] ='联盟描述';
 $LNG['ad_ally_text2'] ='Inner text';
 $LNG['ad_ally_text3'] ='Type of application';
-$LNG['ad_ally_delete'] ='Delete Alliance';
-$LNG['ad_ally_delete_u'] ='Delete Member';
-$LNG['ad_ally_user_id'] ='(Insert User ID)';
-$LNG['ad_ally_succes'] ='Success';
-$LNG['ad_ally_not_exist3'] ='The user does not exist in the alliance';
-$LNG['ad_ally_not_exist'] ='The Alliance doesnt exist!';
-$LNG['ad_ally_not_exist2'] ='The Member doesnt exist!';
+$LNG['ad_ally_delete'] ='删除联盟';//解散
+$LNG['ad_ally_delete_u'] ='移除成员';
+$LNG['ad_ally_user_id'] ='(输入用户ID)';
+$LNG['ad_ally_succes'] ='成功';
+$LNG['ad_ally_not_exist3'] ='该联盟中没有这名成员';
+$LNG['ad_ally_not_exist'] ='该联盟不存在！';
+$LNG['ad_ally_not_exist2'] ='该成员不存在！';
 
 //	Luas e Planetas
-$LNG['ad_pla_title'] ='Moons and Planets';
-$LNG['ad_pla_edit_name'] ='Name';
-$LNG['ad_pla_change_id'] ='Change Planet ID';
-$LNG['ad_pla_edit_diameter'] ='Edit diameter';
+$LNG['ad_pla_title'] ='行星与月球';
+$LNG['ad_pla_edit_name'] ='名称';
+$LNG['ad_pla_change_id'] ='修改行星ID';
+$LNG['ad_pla_edit_diameter'] ='编辑直径';
 $LNG['ad_pla_edit_fields'] ='Edit fields';
-$LNG['ad_pla_delete_b'] ='Remove all buildings';
-$LNG['ad_pla_delete_s'] ='Remove all ships';
-$LNG['ad_pla_delete_d'] ='Remove all defenses';
+$LNG['ad_pla_delete_b'] ='移除所有建筑物';
+$LNG['ad_pla_delete_s'] ='移除所有飞船';
+$LNG['ad_pla_delete_d'] ='移除所有防御设施';
 $LNG['ad_pla_delete_hd'] ='Remove Hangar waiting list';
 $LNG['ad_pla_delete_cb'] ='Remove list of construction';
-$LNG['ad_pla_delete_planet'] ='Delete planet';
+$LNG['ad_pla_delete_planet'] ='删除行星';
 $LNG['ad_pla_title_a'] ='If the planet has a moon, will be allowed to change ID';  // ???
 $LNG['ad_pla_title_l'] ='If the Moon is, your coordinates will also be changed';
-$LNG['ad_pla_change_p'] ='Coordinates of Planets';
+$LNG['ad_pla_change_p'] ='行星的坐标';
 $LNG['ad_pla_change_pp'] ='Accent to make change of coordinates';  // ???
 $LNG['ad_pla_succes'] ='Changes made successfully';
-$LNG['ad_pla_error_planets'] ='The moons cannot change of coordinates';
-$LNG['ad_pla_error_user'] ='The player does not exist!';
-$LNG['ad_pla_error_planets2'] ='The planet does not exist';
-$LNG['ad_pla_error_planets3'] ='The coordinates are in use!';
+$LNG['ad_pla_error_planets'] ='不能改变月球的坐标';
+$LNG['ad_pla_error_user'] ='该玩家不存在！';
+$LNG['ad_pla_error_planets2'] ='该行星不存在';
+$LNG['ad_pla_error_planets3'] ='该坐标已被占用';
 $LNG['ad_pla_error_planets4'] ='Cannot modify the planet if ja has Moon!';
-$LNG['ad_pla_error_planets5'] ='There is a planet in the same coordinates';
-$LNG['ad_pla_delete_planet_s'] ='Planet successfully removed';
+$LNG['ad_pla_error_planets5'] ='下已经存在一颗行星！';
+$LNG['ad_pla_delete_planet_s'] ='成功删除行星！';
 
 //###########################################################//
 
 
 //---------------	Painel de Suspensão	------------------------//
-$LNG['bo_the_player'] ='Player';
-$LNG['bo_the_player2'] ='Player';
-$LNG['bo_banned'] ='Banned successfully';
-$LNG['bo_unbanned'] ='Successfully Unbanned';  //[Sperre aufgehoben?]
-$LNG['bo_username'] ='Username';
-$LNG['bo_vacaations'] ='vacation mode';
-$LNG['bo_reason'] ='BAN Reason';
+$LNG['bo_the_player'] ='玩家';
+$LNG['bo_the_player2'] ='玩家';
+$LNG['bo_banned'] ='添加黑名单成功';
+$LNG['bo_unbanned'] ='解锁成功';  //[Sperre aufgehoben?]
+$LNG['bo_username'] ='用户名';
+$LNG['bo_vacaations'] ='休假模式';
+$LNG['bo_reason'] ='BAN原因';
 $LNG['bo_time'] ='Duration of reproof';
-$LNG['bo_vacation_mode'] ='Vacation mode';
+$LNG['bo_vacation_mode'] ='休假模式';
 $LNG['bo_ban_player'] ='Unban/ban';
 $LNG['bo_unban_player'] ='list of suspension';
-$LNG['bo_user_doesnt_exist'] ='This player does not exist!';
-$LNG['bo_user_select'] ='Select ...';
+$LNG['bo_user_doesnt_exist'] ='该玩家不存在！';
+$LNG['bo_user_select'] ='选取...';
 $LNG['bo_select_title'] ='Show names get ados in';
 $LNG['bo_suspended_panel'] ='Suspension';
-$LNG['bo_bbb_go_back'] ='[Back]';
-$LNG['bo_bbb_go_act'] ='[Reload]';
+$LNG['bo_bbb_go_back'] ='[退后]';
+$LNG['bo_bbb_go_act'] ='[重载]';
 $LNG['bo_permanent'] ='Ban permanent';
 $LNG['bo_bbb_title_1'] ='Suspension System';
 $LNG['bo_bbb_title_2'] ='When it should be unlocked';
@@ -223,75 +223,75 @@ $LNG['bo_bbb_title_5'] ='Locked';
 $LNG['bo_bbb_title_6'] ='Date modified';
 $LNG['bo_characters_1'] ='Available Chars';
 $LNG['bo_characters_suus'] ='Closed';
-$LNG['bo_order_username'] ='[Sort by name]';
-$LNG['bo_order_id'] ='[Sort by ID]';
+$LNG['bo_order_username'] ='[按名称排序]';
+$LNG['bo_order_id'] ='[按ID排序]';
 $LNG['bo_order_banned'] ='[Sort by suspended]';
-$LNG['bo_total_users'] ='Total players:';
+$LNG['bo_total_users'] ='共有玩家：';
 $LNG['bo_total_banneds'] ='Suspended Players:';
-$LNG['bo_ban'] ='Block';
-$LNG['bo_unban'] ='Unlock';
+$LNG['bo_ban'] ='锁定';
+$LNG['bo_unban'] ='解锁';
 //###########################################################//
 
 
 //---------------	Encriptador de MD5	------------------------//
-$LNG['et_md5_encripter'] ='MD5 Encryptor';
+$LNG['et_md5_encripter'] ='MD5加密';
 $LNG['et_pass'] ='Password entry you want';
-$LNG['et_result'] ='Result of Encription';
-$LNG['et_encript'] ='Generate code';
+$LNG['et_result'] ='加密结果';
+$LNG['et_encript'] ='生成';
 //###########################################################//
 
 
 //---------------	Configuração de Estatisticas	------------------------//
-$LNG['cs_title'] ='Statistics';
+$LNG['cs_title'] ='统计';
 $LNG['cs_point_per_resources_used'] ='Value of statistical point 1';
-$LNG['cs_resources'] ='resources';
+$LNG['cs_resources'] ='资源';
 $LNG['cs_users_per_block'] ='Users per block (min. 10)';
 $LNG['cs_time_between_updates'] ='Time between updates';
-$LNG['cs_minutes'] ='ago';
+$LNG['cs_minutes'] ='之前';
 $LNG['cs_points_to_zero'] ='Points to "0" (will not appear in points statistics)';
-$LNG['cs_access_lvl'] ='Access level';
-$LNG['cs_save_changes'] ='Save';
+$LNG['cs_access_lvl'] ='权限级别';
+$LNG['cs_save_changes'] ='保存';
 $LNG['cs_timeact_1'] ='The last update was on:';
-$LNG['cs_yes'] ='Yes';
-$LNG['cs_no'] ='No';
-$LNG['cs_no_view'] ='Do not display admins';
+$LNG['cs_yes'] ='是';
+$LNG['cs_no'] ='否';
+$LNG['cs_no_view'] ='隐藏管理员';
 
 //###########################################################//
 
 
 //---------------	Lista de Erros	------------------------//
-$LNG['er_errors'] ='Error';
-$LNG['er_error_list'] ='Error list';
-$LNG['er_dlte_all'] ='Delete all';
-$LNG['er_type'] ='Type';
-$LNG['er_data'] ='Date';
+$LNG['er_errors'] ='错误';
+$LNG['er_error_list'] ='错误列表';
+$LNG['er_dlte_all'] ='全部删除';
+$LNG['er_type'] ='类型';
+$LNG['er_data'] ='日期';
 //###########################################################//
 
 
 //---------------	Lista de Mensagens	------------------------//
-$LNG['ml_message_list']			= 'Message list';
-$LNG['ml_type_submit']			= 'Submit';
+$LNG['ml_message_list']			= '消息列表';
+$LNG['ml_type_submit']			= '提交';
 $LNG['ml_id']					= '#ID';
 $LNG['ml_sender']				= 'Sender';
 $LNG['ml_receiver']				= 'Receiver';
-$LNG['ml_date']					= 'Date';
+$LNG['ml_date']					= '日期';
 $LNG['ml_type']					= 'Message type';
-$LNG['ml_subject']				= 'Subject';
+$LNG['ml_subject']				= '标题';
 $LNG['ml_date_range']			= 'Period';
 
 
-$LNG['ml_page']					= 'Page';
+$LNG['ml_page']					= '页';
 //###########################################################//
 
 
 //---------------	Mensagem Global	------------------------//
-$LNG['ma_message_sended'] ='Your message has been sent!';
-$LNG['ma_subject_needed'] ='You must add the subject!';
-$LNG['ma_send_global_message'] ='Send global message';
-$LNG['ma_subject'] ='Subject';
-$LNG['ma_characters'] ='Characters';
-$LNG['ma_none'] ='Global News';
-$LNG['ma_message'] ='Message';
+$LNG['ma_message_sended'] ='您的消息已经！';
+$LNG['ma_subject_needed'] ='必须填写标题！';
+$LNG['ma_send_global_message'] ='发送公告';
+$LNG['ma_subject'] ='标题';
+$LNG['ma_characters'] ='字符';
+$LNG['ma_none'] ='公告';
+$LNG['ma_message'] ='消息';
 $LNG['ma_mode'] ='As transport';
 $LNG['ma_all'] ='All';
 $LNG['ma_modes']                = array('Game','Mail','Game & Mail');
@@ -313,7 +313,7 @@ $LNG['ow_config_file_writable'] ='The file config.php can be written, edited or 
 $LNG['ow_database_errors'] ='You have errors in your database. <a href="ErrorPage.php">Show Errors</a>';
 $LNG['ow_smtp_errors'] ='verifies the configuration of SMTP! -At the moment no mail can be sent!';
 $LNG['ow_dir_not_writable'] ='/%s dir cant be written!';
-$LNG['ow_none'] ='No warnings';
+$LNG['ow_none'] ='没有告警信息';
 $LNG['ow_news'] ='最近新闻';
 $LNG['ow_updates'] ='最近更新';
 $LNG['ow_developers'] ='开发人员';
@@ -322,10 +322,10 @@ $LNG['ow_developers'] ='开发人员';
 
 
 //---------------  Configurações do Universo e do Servidor	------------------------//
-$LNG['se_server_parameters'] ='Settings of the universe';
+$LNG['se_server_parameters'] ='服务器设置';
 $LNG['se_game_name'] ='Set name';
 $LNG['se_uni_name'] ='宇宙名称';
-$LNG['se_lang'] ='语言';
+$LNG['se_lang'] ='默认语言';
 $LNG['se_general_speed'] ='游戏速度';
 $LNG['se_energy_speed']		= '电量因数';
 $LNG['se_normal_speed'] ='正常速度：1';
@@ -345,14 +345,14 @@ $LNG['se_per_hour'] ='per hour';
 $LNG['se_metal_production'] ='Production of Metal Basic';
 $LNG['se_crystal_production'] ='Production of Crystal Basic';
 $LNG['se_deuterium_production'] ='Production of Deuterium Basic';
-$LNG['se_several_parameters'] ='Other Parameters';
+$LNG['se_several_parameters'] ='其他参数';
 $LNG['se_title_admins_protection'] ='When this function is enabled, administrators or moderators can not be attacked';
 $LNG['se_admin_protection'] ='Admin Game Protection';
-$LNG['se_debug_mode'] ='Debug mode';
-$LNG['se_save_parameters'] ='Save';
-$LNG['se_configuration_title'] ='Configuration of server';
+$LNG['se_debug_mode'] ='Debug模式';
+$LNG['se_save_parameters'] ='保存';
+$LNG['se_configuration_title'] ='服务器配置';
 $LNG['se_server_naame'] ='Set name';
-$LNG['se_cookie_name'] ='Cookie Name';
+$LNG['se_cookie_name'] ='Cookie名称';
 $LNG['se_cookie_advert']				='When you change the name of the Cookie should go back to login.<br>It is recommended to change the name if you have several universes.';
 $LNG['se_debug_message']				='Debug mode displays a record of consultations at the moment';
 $LNG['se_def_cdr']						='Defense for the Debris';
@@ -364,13 +364,13 @@ $LNG['se_noob_protect2'] 				='Protection n. points';
 $LNG['se_noob_protect3'] 				='Newbie Point Multiply';
 $LNG['se_noob_protect_e2'] 				='Limit of points to leave them to be newbie';
 $LNG['se_noob_protect_e3'] 				='You can only attack users where their points is between your points * (amount), for example *18 , it means, if you have 1000 points, you can attack users with less than 18000 points, or, if you have 50000 points, you can be attacked from users where you enter in their range points, like if a enemy or a neutral user have 20000 points, * 18 will be 360000, so you are in their range and you can be attacked by him';
-$LNG['se_recaptcha_whats']              ='What is RECAPTCHA?';
-$LNG['se_recaptcha_head']               ='RECAPTCHA';
+$LNG['se_recaptcha_whats']              ='什么是验证码？';
+$LNG['se_recaptcha_head']               ='验证码';
 $LNG['se_recaptcha_desc']               ='RECAPTCHA CAPTCHA is a free service that will help block spam and bots.';
-$LNG['se_recaptcha_public']             ='Public Key:';
-$LNG['se_recaptcha_private']            ='Private Key:';
-$LNG['se_recaptcha_active']             ='Enabling RECAPTCHA';
-$LNG['se_reg_closed']					='Closed Registration';
+$LNG['se_recaptcha_public']             ='公钥：';
+$LNG['se_recaptcha_private']            ='私钥：';
+$LNG['se_recaptcha_active']             ='启用验证码';
+$LNG['se_reg_closed']					='关闭注册';
 $LNG['se_min_build_time']               ='Min. Construction';
 $LNG['se_trader_head']					='The settings of Merchant Fleet';
 $LNG['se_trader_ships']					='Authorized ships:';
@@ -407,14 +407,14 @@ $LNG['se_ref_max_referals_info']		='The maximum number of recruiting players for
 $LNG['se_silo_factor']					='Missile Silo';
 $LNG['se_silo_factor_info']				='Factor of the silo size.';
 $LNG['se_min_build_time_info']          ='If this is 1, then the minimum time of build is 1 second (if the Nanites or Robots alows beign 0 seconds (Instantly)).<br>If 0, this is disabled';
-$LNG['se_news_head']                    ='Settings of news';
-$LNG['se_news_active']                  ='Activate News';
+$LNG['se_news_head']                    ='新闻设置';
+$LNG['se_news_active']                  ='启用新闻系统';
 $LNG['se_news_limit']                   ='It is allowed HTML codes like "color" , "p align=left or right" , "b" "i" "u" "del"';
 $LNG['se_news_info']                    ='If disabled, the news no longer be visible in the overview.';
-$LNG['se_news']                         ='News';
+$LNG['se_news']                         ='新闻';
 $LNG['se_verfiy_mail']                  ='The system of checking email';
 $LNG['se_verfiy_mail_info']             ='If this option is active players has to activate their accounts.';
-$LNG['se_smtp']                         ='Settings of SMTP';
+$LNG['se_smtp']                         ='SMTP设置';
 $LNG['se_smtp_info']					='Enter the SMTP server to allow communication between the 2Moons server and their players by SMTP mail server.';
 $LNG['se_mail_active']                  ='Enables it to Email?';
 $LNG['se_mail_use']						='Version of email:';
@@ -423,17 +423,17 @@ $LNG['se_mail_sel'][1]					='Sendmail / Qmail';
 $LNG['se_mail_sel'][2]					='SMTP Auth';
 $LNG['se_smail_path']					='Path to Sendmail/Qmail';
 $LNG['se_smtp_host']					='Sending Email:';
-$LNG['se_smtp_host']                    ='SMTP Host:';
+$LNG['se_smtp_host']                    ='SMTP服务器：';
 $LNG['se_smtp_host_info']               ='Enter here the address of your SMTP server.';
 $LNG['se_smtp_ssl']                     ='SMTP SSL/TLS :';
-$LNG['se_smtp_ssl_1']                   ='Automatic';
+$LNG['se_smtp_ssl_1']                   ='自动';
 $LNG['se_smtp_ssl_2']                   ='SSL';
 $LNG['se_smtp_ssl_3']                   ='TLS';
 $LNG['se_smtp_ssl_info']                ='Here you can choose what kind of link would be made!';
 $LNG['se_smtp_port']                    ='SMTP Port:';
 $LNG['se_smtp_port_info']               ='Insert here your SMTP server port.Usually the door is 25';
-$LNG['se_smtp_user']                    ='SMTP Username:';
-$LNG['se_smtp_pass']                    ='SMTP Password:';
+$LNG['se_smtp_user']                    ='SMTP用户名：';
+$LNG['se_smtp_pass']                    ='SMTP密码：';
 $LNG['se_smtp_sendmail']				='SMTP Sender:';
 $LNG['se_smtp_sendmail_info']          	='Put here your e-mail address. Doesnt need to be the same as sending.';                                  
 $LNG['se_ftp']							='Configuration of FTP';
@@ -575,7 +575,7 @@ $LNG['sb_sql_counts']			        ='SQL Querys: %d';
 
 
 //---------------	Lista de jogadores	------------------------//
-$LNG['ul_sure_you_want_dlte']		='Are you sure that you want to remove?';
+$LNG['ul_sure_you_want_dlte']		='您确定要删除？';
 //###########################################################//
 
 
@@ -584,7 +584,7 @@ $LNG['mu_general'] 						='基本设置';
 $LNG['mu_connected'] 					='在线';
 $LNG['mu_settings'] 					='服务器设置';
 $LNG['mu_unisettings']                  ='宇宙设置';
-$LNG['mu_global_message'] 				='Global Message';
+$LNG['mu_global_message'] 				='公告';
 $LNG['mu_users_settings'] 				='编辑菜单';
 $LNG['mu_add_delete_resources'] 		='编辑账户信息';
 $LNG['mu_stats_options'] 				='统计配置';
@@ -592,20 +592,20 @@ $LNG['mu_manage_users'] 				='用户管理';
 $LNG['mu_ban_options'] 					='黑名单系统';
 $LNG['mu_moon_options'] 				='月球相关选项';
 $LNG['mu_observation'] 					='Game';
-$LNG['mu_flying_fleets'] 				='Flying Fleets';
+$LNG['mu_flying_fleets'] 				='飞行中的舰队';
 $LNG['mu_user_list'] 					='玩家列表';
 $LNG['mu_moon_list'] 					='月球列表';
 $LNG['mu_mess_list']					='信息列表';
 $LNG['mu_planet_list'] 					='行星列表';
-$LNG['mu_error_list'] 					='Errors in Data Base';
+$LNG['mu_error_list'] 					='数据库错误';
 $LNG['mu_active_planets'] 				='Active Planets';
 $LNG['mu_tools'] 						='工具';
-$LNG['mu_md5_encripter'] 				='MD5编码器';
+$LNG['mu_md5_encripter'] 				='MD5加密器';
 $LNG['mu_optimize_db'] 					='验证数据库';
 $LNG['mu_manual_points_update'] 		='Manual points';
 $LNG['mu_mpu_confirmation'] 			='The Updater is automatico points, this allows you to see what is that your server is currently doing (As memory consumed, SQL, etc.)';
 $LNG['mu_search_page'] 					='高级查询';
-$LNG['mu_info_account_page']	 		='Information Account';
+$LNG['mu_info_account_page']	 		='账户信息';
 $LNG['mu_planets_options'] 				='行星选项';
 $LNG['mu_user_logs']				    ='管理员日志';
 $LNG['mu_support']                      ='Support Tickets';
@@ -613,7 +613,7 @@ $LNG['mu_chat']                         ='聊天室设置';
 $LNG['mu_module']                       ='模块';
 $LNG['mu_mod_update']              		='检查MOD版本更新';
 $LNG['mu_fb_options'] 					='关联到Facebook';
-$LNG['mu_ts_options']                   ='Teamspeak Options';
+$LNG['mu_ts_options']                   ='团队语音选项';
 $LNG['mu_game_info']                    ='服务器信息';
 $LNG['mu_vaild_users']				    ='User activity';
 $LNG['mu_news']					        ='新闻';
@@ -649,120 +649,120 @@ $LNG['vt_loadfile']					='正在载入文件列表';
 $LNG['cc_cache_clear']				='缓存已清空'; 
 
 //---------------	Reinicio de Universo	------------------------//
-$LNG['re_reset_universe'] 				='Restart the universe';
-$LNG['re_player_and_planets']			='Players and Planets';
-$LNG['re_reset_player']					='Delete all Players';
-$LNG['re_reset_planets']				='Delete all Planets';
+$LNG['re_reset_universe'] 				='重置宇宙';
+$LNG['re_player_and_planets']			='玩家与行星';
+$LNG['re_reset_player']					='删除所有玩家';
+$LNG['re_reset_planets']				='删除所有行星';
 $LNG['re_reset_universe_confirmation'] 	='When you click OK, the database will be all clean (Except tables). To make this option, there is no return, except with a backup of the database!';
-$LNG['re_defenses_and_ships'] 			='Defense and Hangar';
-$LNG['re_defenses'] 					='Restart Defenses';
-$LNG['re_ships'] 						='Restart Fleets';
+$LNG['re_defenses_and_ships'] 			='舰队与防御设置';
+$LNG['re_defenses'] 					='重置防御设施';
+$LNG['re_ships'] 						='重置舰队';
 $LNG['re_reset_hangar'] 				='Restart hangar and defenses in queue';
-$LNG['re_buldings'] 					='Buildings';
-$LNG['re_buildings_pl'] 				='Restart Buildings';
-$LNG['re_buildings_lu'] 				='Restart Lunar buildings';
-$LNG['re_reset_buldings'] 				='Restart buildings in queue';
-$LNG['re_inve_ofis'] 					='Research and officers';
-$LNG['re_ofici'] 						='Oficiers';
-$LNG['re_investigations']				='Restart Researches';
+$LNG['re_buldings'] 					='建筑';
+$LNG['re_buildings_pl'] 				='重置建筑';
+$LNG['re_buildings_lu'] 				='重置月球上的建筑';
+$LNG['re_reset_buldings'] 				='重置建筑施工队列';
+$LNG['re_inve_ofis'] 					='研究与官员';
+$LNG['re_ofici'] 						='官员';
+$LNG['re_investigations']				='重置研究成果';
 $LNG['re_reset_invest']					='Restart the Researches in Queue';
 $LNG['re_resources']					='Resources';
 $LNG['re_resources_dark'] 				='Restart the Dark Matter';
 $LNG['re_resources_met_cry'] 			='Restart all resources (Metal/Crystal/Deuterium)';
-$LNG['re_general'] 						='General';
-$LNG['re_reset_moons'] 					='Delete all Moons';
-$LNG['re_reset_notes'] 					='Delete all Notes';
-$LNG['re_reset_rw'] 					='Delete all battle Reports';
-$LNG['re_reset_buddies'] 				='Restart friends list';
-$LNG['re_reset_allys'] 					='Delete all Alliances';
+$LNG['re_general'] 						='一般';
+$LNG['re_reset_moons'] 					='删除所有月球';
+$LNG['re_reset_notes'] 					='删除所有笔记';
+$LNG['re_reset_rw'] 					='删除所有战报';
+$LNG['re_reset_buddies'] 				='重置好友列表';
+$LNG['re_reset_allys'] 					='重置所有联盟';
 $LNG['re_reset_fleets'] 				='Delete all fleets in flight';
 $LNG['re_reset_errors'] 				='Restart the list of errors';
-$LNG['re_reset_banned'] 				='Restart the Bans';
-$LNG['re_reset_messages'] 				='Delete all messages';
-$LNG['re_reset_statpoints'] 			='Restart statistics';
+$LNG['re_reset_banned'] 				='重置黑名单';
+$LNG['re_reset_messages'] 				='删除所有消息记录';
+$LNG['re_reset_statpoints'] 			='重置统计';
 $LNG['re_reset_all'] 					='RESTART THE ENTIRE UNIVERSE';
 $LNG['re_reset_excess'] 				='Options reinitialized successfully!';
 //###########################################################//
 
 
 //---------------	Informação das Contas	------------------------//
-$LNG['ac_user_id_required']          	='You must choose a player!';
-$LNG['ac_select_one_id']                ='Choose only one player!';
-$LNG['ac_no_character']                 ='Letters are not accepted, only numbers!';
+$LNG['ac_user_id_required']          	='您必须选取一个玩家！';
+$LNG['ac_select_one_id']                ='只能选取一个玩家！';
+$LNG['ac_no_character']                 ='不能输入字母，只能输入数字！';
 $LNG['ac_select_id_num']                ='Write manually ID (optional)';
-$LNG['ac_select_username']              ='Choose a player';
-$LNG['ac_username_doesnt']              ='The player does not exist!';
-$LNG['ac_title']                        ='Account details';
-$LNG['ac_title_entry']                  ='Details';
-$LNG['ac_more']                         ='(More)';
+$LNG['ac_select_username']              ='选取一个玩家';
+$LNG['ac_username_doesnt']              ='该玩家不存在！';
+$LNG['ac_title']                        ='账户信息';
+$LNG['ac_title_entry']                  ='详细信息';
+$LNG['ac_more']                         ='(更多)';
 $LNG['ac_no_ally']                      ='Without Alliance';
-$LNG['ac_moon']                         ='Moon';
-$LNG['ac_enter_user_id']                ='Select the player';
-$LNG['ac_minimize_maximize']            ='Minimize/Maximize';
+$LNG['ac_moon']                         ='月球';
+$LNG['ac_enter_user_id']                ='选取玩家';
+$LNG['ac_minimize_maximize']            ='最小值/最大值';
 $LNG['ac_account_data']                 ='Account details';
-$LNG['ac_name']                         ='Name';
+$LNG['ac_name']                         ='名称';
 $LNG['ac_checkip_title']                ='Look IP Address';
-$LNG['ac_checkip'][1]                   ='<font color=aqua>Activated</font>';
-$LNG['ac_checkip'][0]                   ='<font color=#FF6600>Disabled</font>';
-$LNG['ac_mail']                         ='Email';
+$LNG['ac_checkip'][1]                   ='<font color=aqua>启用</font>';
+$LNG['ac_checkip'][0]                   ='<font color=#FF6600>禁用</font>';
+$LNG['ac_mail']                         ='E-Mail';
 $LNG['ac_perm_mail']                    ='Permanent Email';
 $LNG['ac_auth_level']                   ='Rank';
-$LNG['ac_on_vacation']                  ='Vacation?';
+$LNG['ac_on_vacation']                  ='休假中';
 $LNG['ac_banned']                       ='Banned?';
-$LNG['ac_alliance']                     ='Alliance';
-$LNG['ac_reg_ip']                       ='IP registration';
-$LNG['ac_last_ip']                      ='Last IP';
-$LNG['ac_home_planet_id']               ='Main Planet ID';
-$LNG['ac_home_planet_coord']            ='Coordinates of the Main Planet';
+$LNG['ac_alliance']                     ='联盟';
+$LNG['ac_reg_ip']                       ='注册IP';
+$LNG['ac_last_ip']                      ='最后登录IP';
+$LNG['ac_home_planet_id']               ='主行星ID';
+$LNG['ac_home_planet_coord']            ='主行星坐标';
 $LNG['ac_user_system']                  ='Player System';
 $LNG['ac_detailed_planet_moon_info']    ='Details of planets and moons';
-$LNG['ac_id_names_coords']              ='ID, name and Coordinates';
-$LNG['ac_coords']                       ='Coordinates';
-$LNG['ac_diameter']                     ='Diameter';
+$LNG['ac_id_names_coords']              ='ID、名称与坐标';
+$LNG['ac_coords']                       ='坐标';
+$LNG['ac_diameter']                     ='直径';
 $LNG['ac_fields']                       ='Fields';
-$LNG['ac_temperature']                  ='Temp.';
+$LNG['ac_temperature']                  ='气温.';
 $LNG['ac_officier_research']            ='Research';
 $LNG['ac_recent_destroyed_planets']     ='Planets destroyed recently';
 $LNG['ac_no_moons']                     ='The player doesnt have moons';
-$LNG['ac_total_points']                 ='Total:';
+$LNG['ac_total_points']                 ='总计：';
 $LNG['ac_points_count']                 ='Result | Account';
-$LNG['ac_ranking']                      ='Ranking';
-$LNG['ac_see_ranking']                  ='See Statistics';
-$LNG['ac_ally_ranking']                 ='Alliance statistics';
-$LNG['ac_user_ranking']                 ='Player statistics';
+$LNG['ac_ranking']                      ='排名';
+$LNG['ac_see_ranking']                  ='查看统计';
+$LNG['ac_ally_ranking']                 ='联盟统计';
+$LNG['ac_user_ranking']                 ='玩家统计';
 $LNG['ac_register_time']                ='Registered';
 $LNG['ac_register_ally_time']           ='Date of creation';
 $LNG['ac_act_time']                     ='Date of last activity';
 $LNG['ac_info_ally']                    ='Info of Alliance';
 $LNG['ac_leader']                       ='Leader';
 $LNG['ac_tag']                          ='TAG';
-$LNG['ac_name_ali']                     ='Full Name';
+$LNG['ac_name_ali']                     ='全名';
 $LNG['ac_ext_text']                     ='External Text';
 $LNG['ac_int_text']                     ='Inner Text';
 $LNG['ac_sol_text']                     ='Text of the application';
-$LNG['ac_image']                        ='Alliance Image';
+$LNG['ac_image']                        ='联盟图标';
 $LNG['ac_ally_web']                     ='Pact';
-$LNG['ac_total_members']                ='Number of members';
+$LNG['ac_total_members']                ='成员数量';
 $LNG['ac_no_text_ext']                  ='The Alliance does not have any external text';
 $LNG['ac_no_text_int']                  ='The Alliance does not have any inner text';
 $LNG['ac_no_text_sol']                  ='The Alliance does not have any example for application';
 $LNG['ac_no_img']                       ='The Alliance does not have a logo';
 $LNG['ac_no_web']                       ='The Alliance does not have a web site';
 $LNG['ac_view_image']                   ='See the image in a new window';
-$LNG['ac_view_image2']                  ='See picture';
+$LNG['ac_view_image2']                  ='查看图片';
 $LNG['ac_view_text_ext']                ='Show external text';
 $LNG['ac_view_text_int']                ='Show inner text';
 $LNG['ac_view_text_sol']                ='Show text to the application';
-$LNG['ac_moons_no']                     ='<font color=red>(No Moon)</font>';
+$LNG['ac_moons_no']                     ='<font color=red>(没有月球)</font>';
 $LNG['ac_urlnow']                       ='URL:';
 $LNG['ac_time_destruyed']               ='Date of total destruction';
 $LNG['ac_isnodestruyed']                ='<font color=red>(Does not exist any planet destroyed recently)</font>';
-$LNG['ac_no_alliance']                  ='<font color=red>(No Alliance)</font>';
+$LNG['ac_no_alliance']                  ='<font color=red>(没有联盟)</font>';
 $LNG['ac_ali_text_11']                  ='External text';
 $LNG['ac_ali_text_22']                  ='Inner text';
 $LNG['ac_ali_text_33']                  ='Text of the application';
 $LNG['ac_ali_logo_11']                  ='Logo of the Alliance';
-$LNG['ac_ali_idid']                     ='ID:';
+$LNG['ac_ali_idid']                     ='ID：';
 $LNG['ac_suspended_title']              ='See Suspension';
 $LNG['ac_suspended_time']               ='Suspended';
 $LNG['ac_suspended_longer']             ='Until';
@@ -775,126 +775,126 @@ $LNG['ac_no_rank_level']                ='Dont have enough Permissions to see th
 
 
 //---------------	Pesquisa Avançada	------------------------//
-$LNG['se_no_data'] 						= "No data";
+$LNG['se_no_data'] 						= "没有数据";
 $LNG['se_intro'] 						='Word or code words (option)';
-$LNG['se_users'] 						='Users';
-$LNG['se_planets'] 						='Planets';
-$LNG['se_moons'] 						='Moons';
-$LNG['se_allys'] 						='Alliance';
-$LNG['se_suspended'] 					='Suspended';
-$LNG['se_vacations']	 				='Holiday';
-$LNG['se_authlevels'] 					='Administrators';
+$LNG['se_users'] 						='用户';
+$LNG['se_planets'] 						='行星';
+$LNG['se_moons'] 						='月球';
+$LNG['se_allys'] 						='联盟';
+$LNG['se_suspended'] 					='暂停';
+$LNG['se_vacations']	 				='休假';
+$LNG['se_authlevels'] 					='管理员';
 $LNG['se_inactives'] 					='Inactive';
 $LNG['se_planets_act']	                ='Active planets';
-$LNG['se_type_typee']	                ='Type';
-$LNG['se_type_all']	                    ='Normal search';
-$LNG['se_type_exact']	                ='Exact search';
+$LNG['se_type_typee']	                ='类型';
+$LNG['se_type_all']	                    ='搜索';
+$LNG['se_type_exact']	                ='高级搜索';
 $LNG['se_type_last']	                ='Starts with any letter or Word';
 $LNG['se_type_first']                   ='Just with any word or letter';
-$LNG['se_search'] 						='Search';
-$LNG['se_name'] 						='Name';
+$LNG['se_search'] 						='搜索';
+$LNG['se_name'] 						='名称';
 $LNG['se_id_owner'] 					='ID owner';
-$LNG['se_galaxy'] 						='Galaxy';
-$LNG['se_system'] 						='System';
-$LNG['se_planet'] 						='Planet';
+$LNG['se_galaxy'] 						='银河';
+$LNG['se_system'] 						='星系';
+$LNG['se_planet'] 						='行星';
 $LNG['se_tag'] 							='TAG';
-$LNG['se_email'] 						='E-mail';
-$LNG['se_auth'] 						='Position';
-$LNG['se_activity'] 					='Last activity';
-$LNG['se_ban'] 							='Suspended?';
-$LNG['se_vacat'] 						='Holidays?';
-$LNG['se_ban_reason'] 					='Reason';
-$LNG['se_ban_time'] 					='suspended';
+$LNG['se_email'] 						='E-Mail';
+$LNG['se_auth'] 						='位置';
+$LNG['se_activity'] 					='最后活动';
+$LNG['se_ban'] 							='是否停用？';
+$LNG['se_vacat'] 						='是否休假?';
+$LNG['se_ban_reason'] 					='原因';
+$LNG['se_ban_time'] 					='停用';
 $LNG['se_ban_limit'] 					='Up';
 $LNG['se_ban_author'] 					='Suspended by';
-$LNG['se_search_title'] 				='Advanced search';
-$LNG['se_order_list_now']	            ='Sort Search';
-$LNG['se_input_name'] 					='Name';
-$LNG['se_input_g'] 						='Galaxy';
-$LNG['se_input_s'] 						='System';
-$LNG['se_input_p'] 						='Planet';
+$LNG['se_search_title'] 				='高级搜素';
+$LNG['se_order_list_now']	            ='排序搜素';
+$LNG['se_input_name'] 					='名称';
+$LNG['se_input_g'] 						='银河';
+$LNG['se_input_s'] 						='星系';
+$LNG['se_input_p'] 						='行星';
 $LNG['se_input_inacti'] 				='Inactivity';
-$LNG['se_input_submit'] 				='Sort';
-$LNG['se_input_authlevel'] 				='Authority';
-$LNG['se_input_email'] 					='E-mail';
-$LNG['se_input_time'] 					='Time';
-$LNG['se_input_longer'] 				='Time';
-$LNG['se_input_authlevel'] 				='Authority';
-$LNG['se_input_prop'] 					='Owner';
-$LNG['se_input_asc'] 					='Ascendant';
-$LNG['se_input_desc'] 					='Descendant';
+$LNG['se_input_submit'] 				='排序';
+$LNG['se_input_authlevel'] 				='权限级别';
+$LNG['se_input_email'] 					='E-Mail';
+$LNG['se_input_time'] 					='时间';
+$LNG['se_input_longer'] 				='时间';
+$LNG['se_input_authlevel'] 				='权限级别';
+$LNG['se_input_prop'] 					='所有者';
+$LNG['se_input_asc'] 					='升序';
+$LNG['se_input_desc'] 					='降序';
 $LNG['se_input_activity'] 				='Activity';
-$LNG['se_input_register'] 				='Registration';
+$LNG['se_input_register'] 				='注册';
 $LNG['se_input_members'] 				='No. Members';
-$LNG['se_input_members2'] 				='Members';
-$LNG['se_input_have_moon'] 				='Has the Moon?';
+$LNG['se_input_members2'] 				='成员';
+$LNG['se_input_have_moon'] 				='是否有月球？';
 $LNG['se_input_ip'] 					='IP';
 $LNG['se_input_a'] 						='A';
 $LNG['se_input_d'] 						='D';
 $LNG['se_input_hay'] 					='So at the moment';
-$LNG['se_input_inact'] 					='inactive/s';
-$LNG['se_input_susss'] 					='Suspended';
-$LNG['se_input_admm'] 					='admin/en';
-$LNG['se_input_allyy'] 					='Alliance/s';
-$LNG['se_input_planett'] 				='planet/s';
-$LNG['se_input_moonn'] 					='Moon/s';
-$LNG['se_input_userss'] 				='user/s';
+$LNG['se_input_inact'] 					='无效/s';
+$LNG['se_input_susss'] 					='停用';
+$LNG['se_input_admm'] 					='管理/en';
+$LNG['se_input_allyy'] 					='联盟/s';
+$LNG['se_input_planett'] 				='行星/s';
+$LNG['se_input_moonn'] 					='月球/s';
+$LNG['se_input_userss'] 				='用户/s';
 $LNG['se_input_vacatii'] 				='user/s de férias';
 $LNG['se_input_connect']	            ='user/s online';
 $LNG['se_input_act_pla']	            ='Planet/s Active/s';
-$LNG['se_filter_title']	                ='Filter';
+$LNG['se_filter_title']	                ='过滤器';
 $LNG['se_search_in']		            ='For';
 $LNG['online_users']		            ='Online';
-$LNG['se_limit']			            ='Limit';
-$LNG['se_pagees']			            ='Pages';
+$LNG['se_limit']			            ='限制';
+$LNG['se_pagees']			            ='页';
 $LNG['se_time_of_page']	                ='Page created in';
-$LNG['se_expand']			            ='Expand';
-$LNG['se_contrac']			            ='Retract';
-$LNG['se__next']			            ='Following';
-$LNG['se__before']			            ='Previous';
-$LNG['se_search_info']		            ='Search';
+$LNG['se_expand']			            ='展开';
+$LNG['se_contrac']			            ='收起';
+$LNG['se__next']			            ='下一步';
+$LNG['se__before']			            ='上一步';
+$LNG['se_search_info']		            ='搜索';
 $LNG['se_asc_desc']		                ='升序 / 降序';
 $LNG['se_search_order']	                ='排序';
 $LNG['se_search_edit']		            ='编辑';
-$LNG['se_delete_succes_p']	            ='Delete with success';
-$LNG['se_confirm_planet']	            ='The planet chosen will be completely erased, even being the main planet or colonia, you want to continue?. Name of the planet:';
+$LNG['se_delete_succes_p']	            ='删除成功';
+$LNG['se_confirm_planet']	            ='The planet chosen will be completely erased, even being the main planet or colonia, 是否继续？行星名称为：';
 
 // Pesquisa na tabela de Utilizadores
 $LNG['se_search_users'][0]				=	'ID';
-$LNG['se_search_users'][1]				=	'Name';
-$LNG['se_search_users'][2]				=	'E-mail';
+$LNG['se_search_users'][1]				=	'名称';
+$LNG['se_search_users'][2]				=	'E-Mail';
 $LNG['se_search_users'][3]				=	'Last activity';
-$LNG['se_search_users'][4]				=	'Registration date';
+$LNG['se_search_users'][4]				=	'注册日期';
 $LNG['se_search_users'][5]				=	'Ultimate IP';
-$LNG['se_search_users'][6]				=	'Authority';
-$LNG['se_search_users'][7]				=	'Suspended?';
-$LNG['se_search_users'][8]				=	'Holidays?';
+$LNG['se_search_users'][6]				=	'权限';
+$LNG['se_search_users'][7]				=	'已停用？';
+$LNG['se_search_users'][8]				=	'休假中？';
 
 // Pesquisa na tabela de Planetas
 $LNG['se_search_planets'][0]			=	'ID';
-$LNG['se_search_planets'][1]			=	'Name';
-$LNG['se_search_planets'][2]			=	"Owner";
+$LNG['se_search_planets'][1]			=	'名称';
+$LNG['se_search_planets'][2]			=	"所有者";
 $LNG['se_search_planets'][3]			=	"Last activity";
-$LNG['se_search_planets'][4]			=	"Galaxy";
-$LNG['se_search_planets'][5]			=	"System";
-$LNG['se_search_planets'][6]			=	"Planet";
-$LNG['se_search_planets'][7]			=	"Has The Moon?";
+$LNG['se_search_planets'][4]			=	"银河";
+$LNG['se_search_planets'][5]			=	"星系";
+$LNG['se_search_planets'][6]			=	"行星";
+$LNG['se_search_planets'][7]			=	"拥有月球？";
 
 // Pesquisa na tabela de Jogadores banidos
 $LNG['se_search_banned'][0]				=	'ID';
-$LNG['se_search_banned'][1]				=	'Name';
-$LNG['se_search_banned'][2]				=	"Date of suspension";
-$LNG['se_search_banned'][3]				=	"Date of the reactivation";
-$LNG['se_search_banned'][4]				=	"Reason";
+$LNG['se_search_banned'][1]				=	'名称';
+$LNG['se_search_banned'][2]				=	"停用日期";
+$LNG['se_search_banned'][3]				=	"恢复启用日期";
+$LNG['se_search_banned'][4]				=	"原因";
 $LNG['se_search_banned'][5]				=	"Author";
 
 // Pesquisa na tabela de Alianças
 $LNG['se_search_alliance'][0]			=	'ID';
-$LNG['se_search_alliance'][1]			=	'Name';
+$LNG['se_search_alliance'][1]			=	'名称';
 $LNG['se_search_alliance'][2]			=	"TAG";
-$LNG['se_search_alliance'][3]			=	"Administrator";
-$LNG['se_search_alliance'][4]			=	"Date of creation";
-$LNG['se_search_alliance'][5]			=	"Number of members";
+$LNG['se_search_alliance'][3]			=	"管理员";
+$LNG['se_search_alliance'][4]			=	"创建日期";
+$LNG['se_search_alliance'][5]			=	"成员数量";
 //###########################################################//
 
 
@@ -907,32 +907,32 @@ $LNG['new_creator_title_l']	            ='Create/Delete Moons';
 $LNG['new_creator_coor']		        ='Coordinates';
 $LNG['new_creator_go_back']	            ='[ Return to the menu ]';
 $LNG['new_creator_refresh']	            ='[ Refresh ]';
-$LNG['uni_reg']				= 'Universe';
-$LNG['user_reg']			= 'Name';
-$LNG['pass_reg']			= 'Password';
-$LNG['pass2_reg']			= 'Password (2nd time)';
-$LNG['email_reg']			= 'Email';
-$LNG['email2_reg']			= 'Email (2nd time)';
-$LNG['lang_reg']			= 'Language';
+$LNG['uni_reg']				= '宇宙';
+$LNG['user_reg']			= '名称';
+$LNG['pass_reg']			= '密码';
+$LNG['pass2_reg']			= '密码(重复)';
+$LNG['email_reg']			= 'E-Mail';
+$LNG['email2_reg']			= 'E-Mail(重复)';
+$LNG['lang_reg']			= '语言';
 
 //	Usários
-$LNG['new_title']			='Create new player';
-$LNG['new_user_success']	='Player created with success!';
-$LNG['new_add_user']		='Add new players';
+$LNG['new_title']			='创建新玩家';
+$LNG['new_user_success']	='玩家创建成功！';
+$LNG['new_add_user']		='添加新玩家';
 $LNG['new_range']			='Rank';
-$LNG['new_coord']			='Coordinates';
+$LNG['new_coord']			='坐标';
 $LNG['new_email']			='E-Mail';
-$LNG['new_pass']			='Password';
-$LNG['new_name']			='Name';
+$LNG['new_pass']			='密码';
+$LNG['new_name']			='名称';
 
 //	Planetas
 $LNG['po_galaxy']					='银河';
-$LNG['po_system']					='系统';
+$LNG['po_system']					='星系';
 $LNG['po_planet']					='行星';
 $LNG['po_colony']					='殖民';
 $LNG['po_fields_max']				='Fields';
 $LNG['po_coor_1']					='坐标';
-$LNG['po_add_planet']				='Add colony';
+$LNG['po_add_planet']				='添加殖民地';
 $LNG['po_name_planet']				='行星名称';
 $LNG['po_complete_all']				='数据无效或者已经存在！';
 $LNG['po_complete_all2']			='坐标错误！';
@@ -962,121 +962,121 @@ $LNG['sp_admin_open']                   ='%s reopened the Ticket to %s';
 
 // Editor Rápido
 
-$LNG['qe_send']							='Send';
-$LNG['qe_reset']						='Restart';
-$LNG['qe_build']						='Buildings';
-$LNG['qe_tech']							='Research';
-$LNG['qe_officier']						='Officers';
-$LNG['qe_fleet']						='Fleet';
-$LNG['qe_defensive']					='Defenses';
-$LNG['qe_resources']					='Resources';
+$LNG['qe_send']							='发送';
+$LNG['qe_reset']						='重启';
+$LNG['qe_build']						='建筑';
+$LNG['qe_tech']							='研究';
+$LNG['qe_officier']						='官员';
+$LNG['qe_fleet']						='舰队';
+$LNG['qe_defensive']					='防卫';
+$LNG['qe_resources']					='资源';
 $LNG['qe_id']							='ID';
-$LNG['qe_username']						='Username';
-$LNG['qe_planetname']					='Planet';
-$LNG['qe_level']						='Level';
-$LNG['qe_count']						='Available';
-$LNG['qe_input']						='Edit';
-$LNG['qe_edit_planet_sucess']			='Planet %s [%d:%d:%d] edited with success!';
-$LNG['qe_edit_player_sucess']			='Player %s (ID: %d) edited with success!';
+$LNG['qe_username']						='用户名';
+$LNG['qe_planetname']					='行星';
+$LNG['qe_level']						='级别';
+$LNG['qe_count']						='可用';
+$LNG['qe_input']						='编辑';
+$LNG['qe_edit_planet_sucess']			='行星 %s [%d:%d:%d] 编辑成功！';
+$LNG['qe_edit_player_sucess']			='玩家 %s (ID: %d) 编辑成功！';
 $LNG['qe_info']							='Info';
-$LNG['qe_owner']						='Owner';
+$LNG['qe_owner']						='拥有者';
 $LNG['qe_fields']						='Fields';
-$LNG['qe_password']						='Password';
-$LNG['qe_coords']						='Coordinates';
-$LNG['qe_hpcoords']						='HP-Coordinates';
-$LNG['qe_temp']							='Temperature';
+$LNG['qe_password']						='密码';
+$LNG['qe_coords']						='坐标';
+$LNG['qe_hpcoords']						='HP-坐标';
+$LNG['qe_temp']							='温度';
 $LNG['qe_change']						='Change';
 $LNG['qe_authattack']					='Protection of Administrator';
 $LNG['qe_submit']						='Send';
-$LNG['qe_resetr']						='Reset';
+$LNG['qe_resetr']						='重置';
 $LNG['qe_allowmulti']					='Allow Multi IP';
 	
 //----------------------------------------------------------------------------//
 // Configuração do TeamSpeak
-$LNG['ts_settings']                     ='Teamspeak';
+$LNG['ts_settings']                     ='团队语音';
 $LNG['ts_active']                       ='Activate the Mod TeamSpeak?';
 $LNG['ts_version']                      ='Server version:';
-$LNG['ts_udpport']                      ='Port TCP';
-$LNG['ts_tcpport']                      ='Port UDP';
-$LNG['ts_serverip']                     ='Server IP';
-$LNG['ts_timeout']                      ='Timeout'; 
-$LNG['ts_server_query']                 ='Querys server port'; 
+$LNG['ts_udpport']                      ='TCP端口';
+$LNG['ts_tcpport']                      ='UDP端口';
+$LNG['ts_serverip']                     ='服务器IP';
+$LNG['ts_timeout']                      ='超时'; 
+$LNG['ts_server_query']                 ='查询服务器端口'; 
 $LNG['ts_login']						='ServerQuery User';
 $LNG['ts_pass']							='ServerQuery Password';
 $LNG['ts_cron']							='Update rate';
 
 //----------------------------------------------------------------------------//
 // Facebook App
-$LNG['fb_settings']                     = 'Facebook Connect Settings';
-$LNG['fb_active']                       = 'Facebook Connect activate?';
+$LNG['fb_settings']                     = 'Facebook连接设置';
+$LNG['fb_active']                       = '启用Facebook连接？';
 $LNG['fb_api_key']                      = 'Facebook API Key';
 $LNG['fb_secrectkey']                   = 'Facebook Secret Key';
 $LNG['fb_info']                         = 'With Facebook Connect users who are logged on to Facebook, log in with my click, or register. <br>  to use this feature, you must be registered with Faceebok itself. In addition, you must create an Application. This you can do to <a href="http://www.facebook.com/developers/"> http://www.facebook.com/developers/ </ a>. As Connect URL, you must enter the URL to the game. Then you are carrying here the Keys and your game should be ready Facebook. <br> <font Color="red"> for FB Connect, the mail delivery will be available! (SMTP settings)</font>';
-$LNG['fb_curl_yes']                     = '<span style="color:green">cURL Installed!</span>';
-$LNG['fb_curl_no']                      = '<span style="color:red">cURL Not Installed! Facebook Requires cURL extension to work!</span>';
+$LNG['fb_curl_yes']                     = '<span style="color:green">cURL已安装！</span>';
+$LNG['fb_curl_no']                      = '<span style="color:red">cURL未安装！Facebook扩展需要安装cURL才能工作！</span>';
 
 //----------------------------------------------------------------------------//
 //GameModule.php
 
-$LNG['modul'][0]                        = 'Alliance';
-$LNG['modul'][39]                       = 'Battle Simulator';
+$LNG['modul'][0]                        = '联盟';
+$LNG['modul'][39]                       = '战斗模拟器';
 $LNG['modul'][2]                        = 'Construction - Buildings';
 $LNG['modul'][3]                        = 'Building - Research';
 $LNG['modul'][4]                        = 'Construction - Fleets';
 $LNG['modul'][5]                        = 'Building - Defense';
 $LNG['modul'][6]                        = 'Buddylist';
-$LNG['modul'][7]                        = 'Chat';
-$LNG['modul'][8]                        = 'DM Bank';
-$LNG['modul'][9]                        = 'Fleet';
+$LNG['modul'][7]                        = '聊天';
+$LNG['modul'][8]                        = 'DM银行';
+$LNG['modul'][9]                        = '舰队';
 $LNG['modul'][10]                       = 'Fleet - Handler';
 $LNG['modul'][40]                       = 'Fleets Shourtcuts';
-$LNG['modul'][11]                       = 'Galaxy';
-$LNG['modul'][12]                       = 'Hall of Fame';
+$LNG['modul'][11]                       = '银河';
+$LNG['modul'][12]                       = '战况';
 $LNG['modul'][13]                       = 'Trader';
 $LNG['modul'][14]                       = 'Info';
-$LNG['modul'][15]                       = 'Empire';
-$LNG['modul'][32]                       = 'Mission - Recycle';
-$LNG['modul'][1]                        = 'Mission - Attack';
-$LNG['modul'][31]                       = 'Mission - DM Mission';
-$LNG['modul'][30]                       = 'Mission - Expedition';
-$LNG['modul'][33]                       = 'Mission - Hold';
-$LNG['modul'][35]                       = 'Mission - Colonize';
-$LNG['modul'][24]                       = 'Mission - Spy';
-$LNG['modul'][36]                       = 'Mission - Deploy';
-$LNG['modul'][34]                       = 'Mission - Transport';
-$LNG['modul'][29]                       = 'Mission - Destroy';
-$LNG['modul'][42]                       = 'Mission - ACS';
-$LNG['modul'][16]                       = 'News';
-$LNG['modul'][17]                       = 'Notes';
-$LNG['modul'][18]                       = 'Officers';
+$LNG['modul'][15]                       = '帝国';
+$LNG['modul'][32]                       = '任务 - 回收';
+$LNG['modul'][1]                        = '任务 - 进攻';
+$LNG['modul'][31]                       = '任务 - DM任务';
+$LNG['modul'][30]                       = '任务 - 探险';
+$LNG['modul'][33]                       = '任务 - Hold';
+$LNG['modul'][35]                       = '任务 - 殖民';
+$LNG['modul'][24]                       = '任务 - 间谍';
+$LNG['modul'][36]                       = '任务 - 部署';
+$LNG['modul'][34]                       = '任务 - 运输';
+$LNG['modul'][29]                       = '任务 - 摧毁';
+$LNG['modul'][42]                       = '任务 - ACS';
+$LNG['modul'][16]                       = '新闻';
+$LNG['modul'][17]                       = '笔记';
+$LNG['modul'][18]                       = '官员';
 $LNG['modul'][19]                       = 'Phalanx';
 $LNG['modul'][20]                       = 'Player Card';
 $LNG['modul'][21]                       = 'Banned';
 $LNG['modul'][22]                       = 'Records';
-$LNG['modul'][23]                       = 'Resources';
+$LNG['modul'][23]                       = '资源';
 $LNG['modul'][38]                       = 'Fleet - Trader';
-$LNG['modul'][25]                       = 'Statistics';
+$LNG['modul'][25]                       = '统计';
 $LNG['modul'][37]                       = 'Statistics Banner';
-$LNG['modul'][26]                       = 'Search';
+$LNG['modul'][26]                       = '搜索';
 $LNG['modul'][27]                       = 'Support Tickets';
-$LNG['modul'][28]                       = 'Techtree';
-$LNG['modul'][41]                       = 'Facebook Application';
-$LNG['mod_module']                      = 'Modules';
-$LNG['mod_info']                        = 'Modules in the Game';
-$LNG['mod_active']                      = 'Active';
-$LNG['mod_deactive']                    = 'Inactive';
-$LNG['mod_change_active']               = 'Activated';
-$LNG['mod_change_deactive']             = 'Deactivated';
+$LNG['modul'][28]                       = '科技树';
+$LNG['modul'][41]                       = 'Facebook应用';
+$LNG['mod_module']                      = '模块';
+$LNG['mod_info']                        = '游戏中的模块';
+$LNG['mod_active']                      = '启用';
+$LNG['mod_deactive']                    = '停用';
+$LNG['mod_change_active']               = '已启用';
+$LNG['mod_change_deactive']             = '已停用';
 
 
 // Noticias
 
-$LNG['nws_news']                        = 'News';
-$LNG['nws_head_create']                 = 'Create News';
+$LNG['nws_news']                        = '新闻';
+$LNG['nws_head_create']                 = '创建新闻';
 $LNG['nws_head_edit']                   = 'Working %s on news';
 $LNG['nws_id']                          = 'ID';
-$LNG['nws_title']                       = 'Title';
-$LNG['nws_date']                        = 'Date';
+$LNG['nws_title']                       = '标题';
+$LNG['nws_date']                        = '日期';
 $LNG['nws_from']                        = 'Of';
 $LNG['nws_del']                         = 'Del';
 $LNG['nws_confirm']                     = 'Are you sure that you want to remove %s the message?';
@@ -1086,37 +1086,37 @@ $LNG['nws_content']                     = 'Contents';
 
 // Controlo de MOD's
 
-$LNG['mvc_title']                       = 'Title';
-$LNG['mvc_author']                      = 'Author';
-$LNG['mvc_version']                     = 'Version';
-$LNG['mvc_link']                        = 'Link';
+$LNG['mvc_title']                       = '标题';
+$LNG['mvc_author']                      = '作者';
+$LNG['mvc_version']                     = '版本';
+$LNG['mvc_link']                        = '链接';
 $LNG['mvc_update_yes']                  = 'An update is available!';
 $LNG['mvc_update_no']                   = 'Latest version is installed!';
 $LNG['mvc_update_version']              = 'Latest Version';
 $LNG['mvc_update_date']                 = 'Released';
 $LNG['mvc_announcement']                = 'Announcement';
-$LNG['mvc_download']                    = 'Download';
-$LNG['mvc_desc']                        = 'Description';
+$LNG['mvc_download']                    = '下载';
+$LNG['mvc_desc']                        = '描述';
 
 // Página de Universo
-$LNG['uvs_id']							='ID of the universe';
-$LNG['uvs_name']						='Name';
-$LNG['uvs_speeds']						='Speed factors (G/F/R/E)'; // (Game/Fleet/Resource/Expedition)
-$LNG['uvs_speeds_full']					='Speed factors (Game/Fleet/Resource/Expedition)';
-$LNG['uvs_players']						='Players';
-$LNG['uvs_inactive']					='Inactive';
+$LNG['uvs_id']							='宇宙ID';
+$LNG['uvs_name']						='名称';
+$LNG['uvs_speeds']						='速率因数(G/F/R/E)'; // (Game/Fleet/Resource/Expedition)
+$LNG['uvs_speeds_full']					='速率因数(游戏/舰队/资源/探险)';
+$LNG['uvs_players']						='玩家';
+$LNG['uvs_inactive']					='停用';
 $LNG['uvs_open']						='State';
 $LNG['uvs_export']						='Export';
 $LNG['uvs_delete']						='Delete';
 $LNG['uvs_actions']						='Actions';
-$LNG['uvs_on']							='Open';
-$LNG['uvs_off']							='Closed';
-$LNG['uvs_new']							='Add universe';
-$LNG['uvs_planets']						='Planets';
-$LNG['uvs_upload']						='Upload';
+$LNG['uvs_on']							='开启';
+$LNG['uvs_off']							='关闭';
+$LNG['uvs_new']							='添加宇宙';
+$LNG['uvs_planets']						='行星';
+$LNG['uvs_upload']						='上传';
 $LNG['uvs_error']						='Failed to import the file';
-$LNG['uvs_reload']						= 'Reloading';
-$LNG['uvs_back']						= 'Back';
+$LNG['uvs_reload']						= '重新加载';
+$LNG['uvs_back']						= '退后';
 
 
 // Página de actualização
