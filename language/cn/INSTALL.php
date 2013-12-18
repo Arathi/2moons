@@ -1,6 +1,6 @@
 <?php
 
-// Translated into Chinese by Arathi and 爱疯的云 . All rights reversed (C) 2013
+// Translated into Chinese by Arathi and 爱疯的云. All rights reversed (C) 2013
 // 2Moons - Copyright (C) 2010-2012 Slaver
 
 
