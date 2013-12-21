@@ -3,11 +3,11 @@
 ## 一. 需要的工具
 * __SVN客户端__
 
-    下文会提到，官方版本的源码仓库在Google Code的svn上，因此获取官方版本需要SVN客户端。Windows下推荐使用TortoiseSVN。
+    下文会提到，官方版本的源码仓库在Google Code的svn上，因此获取官方版本需要SVN客户端。Windows下推荐使用[TortoiseSVN](http://tortoisesvn.net/downloads.html)。
 
 * __git客户端__
 
-    汉化项目托管在git@osc上，在github上有个镜像，因此提交代码以及下载新的开发中的汉化版本都要用git客户端。Windows下推荐使用Msysgit，如果以前用习惯了TortoiseSVN，也可以用TortoiseGit。关于git工具的使用，建议阅读[《Pro Git》](http://git.oschina.net/progit/)一书。
+    汉化项目托管在[git@osc](http://git.oschina.net/arathi/cn2moons)上，在[github](https://github.com/Arathi/2moons)上有个镜像，因此提交代码以及下载新的开发中的汉化版本都要用[git](http://git-scm.com/)客户端。Windows下推荐使用Msysgit，如果以前用习惯了TortoiseSVN，也可以再装个[TortoiseGit](https://code.google.com/p/tortoisegit/)。关于git工具的使用，建议阅读[《Pro Git》](http://git.oschina.net/progit/)一书。
 
 * __文本编辑器__
 
@@ -21,7 +21,7 @@
 
 * __比较与合并工具__
 
-    推荐使用Beyond Compare，不过这是款商业软件。
+    推荐使用[Beyond Compare](http://www.scootersoftware.com/)，不过这是款商业软件。
 
 ## 二. 官方版本获取
 2Moons是个仍在开发中的项目，因此原始的德文版会经常更新，英文版是官方团队维护的，因此更新也较为及时。
@@ -31,7 +31,7 @@
 通过及时更新SVN本地工作副本，我们可以获取最新官方版本的源代码。
 
 ## 三. 最新汉化版本获取
-前面提到，本项目使用git进行版本控制，项目建立在git@osc和github上，其中由于github为英文界面，为了照顾对英语不感冒，而且不便科学上网的同学，此项目的issue和wiki是在国内的git@osc上管理的，github仅仅作为一个镜像，关闭了issue和wiki功能。在这里，我假设你们已经学完了《Pro Git》_（注：但是可能假设不成立）_。
+前面提到，本项目使用git进行版本控制，项目建立在git@osc和github上，其中由于github为英文界面，为了照顾对英语不感冒，而且不便科学上网的同学，此项目的issue和wiki是在国内的git@osc上管理的，github仅仅作为一个镜像，关闭了issue和wiki功能。在这里，我假设你们已经学完了《Pro Git》一书_（注：但是可能假设不成立）_。
 
 克隆版本库的权限，每个人都有的。命令如下：
 
@@ -74,10 +74,11 @@ cn目录下的那11个php文件优先翻译。这11个php文件中，`CHANGELOG.
 * `$LNG['ti_create_info']` 这个变量的值有多行，是个长句
 
 ### INSTALL.php 安装时 （翻译完成）
-文本量不大（87个值），格式正常，里面的句子都不长，现在翻译得差不多了。
+文本量不大（87个值），格式正常，里面的句子都不长。
 
 ### L18N.php 本地化 （翻译完成）
-没什么东西，可以拿phpBB的翻译替代一下。
+没什么东西，大部分内容可以拿phpBB里的翻译替代一下。
+不过时区那个，翻译了似乎没什么用，因为游戏里面似乎用了另一套机制获取时区-地名对应字符串。
 
 ### PUBLIC.php 公共部分 （翻译完成）
 文件内容不算太多，有103个字符串，格式基本正常。
@@ -92,7 +93,7 @@ cn目录下的那11个php文件优先翻译。这11个php文件中，`CHANGELOG.
 如果要翻译的话，现在网上有一份非官方的《GNU通用公共许可证 第三版》，翻译后的协议（GPLv3-LICENSE-cn.txt）现在已经放到licenses目录下。
 
 ## 五. 关于本地测试
-本地测试使用常见的AMP服务器套件都行，Windows下推荐wampserver以及xampp，Linux下手动安装apache+mysql+php就好。
+本地测试使用常见的服务端套件都行，Windows下推荐[wampserver](http://www.wampserver.com/)以及[xampp](http://www.apachefriends.org/zh_cn/xampp.html)，不嫌麻烦也可以IIS+mysql+PHP，或者追求速度nginx+mysql+PHP，这个随你喜欢，怎样方便就怎么来；Linux下直接用yum或者apt-get之类的包管理工具安装[apache](http://httpd.apache.org/)+[mysql](http://dev.mysql.com/downloads/)+[php](http://www.php.net/downloads.php)就好，也可以编译安装，不过虚拟主机多是LAMP，最好能模拟生产环境就是了。
 
 2Moons使用的模板引擎是常见的Smarty，Smarty类有些成员变量，用来决定是否启用缓存、是否强制编译等。2Moons在初始化Smarty引擎时，设置了启用缓存，因此默认情况下翻译文本不会及时更新，需要清空缓存重新生成。
 
@@ -115,10 +116,8 @@ cn目录下的那11个php文件优先翻译。这11个php文件中，`CHANGELOG.
 
 不过，记住该行后面提示的“Set true for production!”，在生产环境，请将该值改回为`true`。
 
-## 七. 中文化计划对程序
-
-* 
-* ____
+## 七. 中文化计划对2Moons程序部分的改动
+（暂未统计）
 
 ## 附录A：参考文献
 （暂无）

@@ -7,9 +7,21 @@
 这一阶段是补完上一阶段没有汉化的内容，以及让我们的程序可以跟着原版2Moons自我发展，待到有朝一日，我不再维护这个项目时，项目不至于轻易死掉。
 
 ## 第三阶段 适应本地化
-本地化大体上在L18N.php这个文件中已经做到了，因此这里说的本地化不局限于日期、时间、时区、货币数字格式什么的，更重要的是适应国内的大环境：使用weibo、QQ、renren等账号登陆，废除国内根本用不上的Facebook连接功能；使用[支付宝](https://www.alipay.com/‎)、[百付宝](https://www.baifubao.com/‎)、[财付通](https://www.tenpay.com/‎)等方式充值，废除国内大部分人用不到的Paypal、Moneybookers支付功能。
+本地化大体上在L18N.php这个文件中已经做到了，因此这里说的本地化不局限于日期、时间、时区、货币数字格式什么的，更重要的是适应国内的大环境：
+
+使用weibo、QQ、renren等账号登陆，废除国内根本用不上的Facebook连接功能；
+
+使用[支付宝](https://www.alipay.com/‎)、[百付宝](https://www.baifubao.com/‎)、[财付通](https://www.tenpay.com/‎)等方式充值，废除国内大部分人用不到的Paypal、Moneybookers支付功能。
 
 ## 第四阶段 改善UI/UE
 国内的一些OGame改版私服确实在UI/UE方面做得比现在的2Moons好很多，但是版本旧了，在游戏内容方面停滞不前，这些问题也是我汉化2Moons的动机。
 改善了UI/UE后的2Moons，应该能完胜那些使用旧版的xNova或者星痕改来的私服吧。
+
+关于漂亮的UI/UE的参考，目前看来，xNova Revolution是很不错的。
+
+## 后记
+中文化计划，其实到了第二阶段就完成了，第三阶段开始就已经不是“中文化”的内容了。
+
+如果能把xNova Revolution的themes撬过来，那样中文2Moons体积会瞬间暴增好几倍，到时候cn2Moons项目与2Moons分道扬镳，我觉得应该起名叫xMoons或者Moons' Revolution吧。
+
 
