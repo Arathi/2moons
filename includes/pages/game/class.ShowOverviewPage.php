@@ -266,7 +266,7 @@ class ShowOverviewPage extends AbstractPage
 			'ref_minpoints'				=> Config::get('ref_minpoints'),
 			'RefLinks'					=> $RefLinks,
 			'chatOnline'				=> $chatOnline,
-			'servertime'				=> _date("M D d H:i:s", TIMESTAMP, $USER['timezone']),
+			'servertime'				=> _date($LNG['php_tdformat'], TIMESTAMP, $USER['timezone']),//"M D d H:i:s"
 			'path'						=> HTTP_PATH,
 		));
 		

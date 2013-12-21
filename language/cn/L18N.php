@@ -7,7 +7,7 @@ setlocale(LC_NUMERIC, 'C');
 $LNG['dir']         	= 'ltr';
 $LNG['week_day']		= array('星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'); # Start with Sun!
 $LNG['months']			= array('1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月');
-$LNG['js_tdformat']		= '[M] [D] [d] [H]:[i]:[s]';
+$LNG['js_tdformat']		= '[Y]年[M][d]日 [D] [H]:[i]:[s]';
 $LNG['php_timeformat']	= 'H:i:s';
 $LNG['php_dateformat']	= 'Y年M月d日';
 $LNG['php_tdformat']	= 'Y年M月d日 H:i:s';
