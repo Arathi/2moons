@@ -384,7 +384,7 @@ function BuildPlanetAdressLink($CurrentPlanet)
 
 function pretty_number($n, $dec = 0)
 {
-	return number_format(floattostring($n, $dec), $dec, ',', '.');
+	return number_format(floattostring($n, $dec), $dec);//, '.', ','
 }
 
 function GetUserByID($UserID, $GetInfo = "*")

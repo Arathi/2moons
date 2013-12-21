@@ -2,8 +2,8 @@ function number_format (number, decimals) {
     number = (number + '').replace(/[^0-9+\-Ee.]/g, '');
     var n = !isFinite(+number) ? 0 : +number,
         prec = !isFinite(+decimals) ? 0 : Math.abs(decimals),
-        sep = '.',
-        dec = ',',
+        sep = ',',
+        dec = '.',
         s = '',
         toFixedFix = function (n, prec) {
             var k = Math.pow(10, prec);
