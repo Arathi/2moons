@@ -171,6 +171,14 @@
 										<img src="styles/resource/images/login/flags/si.png" alt="(slovenian)">
 									</td>
 								</tr>
+								<tr>
+									<td class="transparent">
+										<a href="http://2moons.arathi.pw/" target="_blank">Arathi</a>
+									</td>
+									<td class="transparent">
+										<img src="styles/resource/images/login/flags/cn.png" alt="(chinese)">
+									</td>
+								</tr>
 								</table>
 							</td>
 						</tr> 
@@ -206,8 +214,8 @@
 								</tr>
 								<tr>
 									<td class="transparent left">Flousedid</td>
-									<td class="transparent left">&nbsp;</td>
-									<td class="transparent left">&nbsp;</td>
+									<td class="transparent left"><a href='http://raymon.sinaapp.com/'>霊紋</a></td>
+									<td class="transparent left"><a href='http://www.phpbb-wap.com/'>爱疯的云</a></td>
 								</tr>
 								</table>
 							</td>

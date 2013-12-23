@@ -7,10 +7,10 @@
 
 $LNG['Messages']							= '消息';
 
-$LNG['PM']									= '[PM]';
+$LNG['PM']									= '[私信]';//PM
 $LNG['write_message']						= '写信息';
 
-$LNG['ready']								= 'Ready';
+$LNG['ready']								= '就绪';//Ready
 
 $LNG['loading']								= '载入中 ...';
 
@@ -50,8 +50,8 @@ $LNG['admin_access_2']				    	= ", If you don't need any longer";
 
 //----------------------------------------------------------------------------//
 // Topnav
-$LNG['tn_vacation_mode']					= "Now you're in vacation mode";
-$LNG['tn_delete_mode']						= 'The account at %s will be automatically deleted!';
+$LNG['tn_vacation_mode']					= "您现在处于休假状态";
+$LNG['tn_delete_mode']						= '您的账户将于 %s 被自动删除！';
 
 //----------------------------------------------------------------------------//
 // Menu
@@ -101,9 +101,9 @@ $LNG['ov_planet_abandoned']					= 'The planet was destroyed!';
 $LNG['ov_principal_planet_cant_abanone']	= 'You can not delete the main planet!';
 $LNG['ov_abandon_planet_not_possible']		= 'The planet cannot be erased, by having existing activities!';
 $LNG['ov_wrong_pass']						= 'Password incorrect!';
-$LNG['ov_have_new_message']					= 'You have a new message';
-$LNG['ov_have_new_messages']				= 'You have %d new messages';
-$LNG['ov_planetmenu']						= 'Rename or delete';
+$LNG['ov_have_new_message']					= '您收到1条新消息';
+$LNG['ov_have_new_messages']				= '您收到%d条新消息';
+$LNG['ov_planetmenu']						= '重命名或者删除';
 $LNG['ov_free']								= '空闲中...';//Free
 $LNG['ov_news']								= '新闻';
 $LNG['ov_place']							= '排名：';
@@ -126,8 +126,8 @@ $LNG['ov_delete_planet']					= '遗弃行星';
 $LNG['ov_planet_rename']					= '行星改名';
 $LNG['ov_rename_label']						= '新的名称';
 $LNG['ov_fields']							= '';//Fields
-$LNG['ov_developed_fields']					= 'Fields used';
-$LNG['ov_max_developed_fields']				= 'Max. Permitted fields';
+$LNG['ov_developed_fields']					= '已用面积';//
+$LNG['ov_max_developed_fields']				= '最大允许面积';
 $LNG['ov_fleet']							= '舰队';
 $LNG['ov_admins_online']					= '在线管理员';
 $LNG['ov_no_admins_online']					= '当前没有在线的管理员';
@@ -136,7 +136,7 @@ $LNG['ov_userrank_info']					= '%s (%s <a href="game.php?page=statistics&amp;ran
 $LNG['ov_teamspeak_not_online']				= 'The Teamspeak server not active this';
 $LNG['ov_teamspeak']						= 'Teamspeak';
 $LNG['ov_teamspeak_connect']				= 'Connect';
-$LNG['ov_teamspeak_online']					= 'Online';
+$LNG['ov_teamspeak_online']					= '在线';
 $LNG['ov_closed']							= '当前宇宙已被关闭';
 $LNG['ov_reflink']							= 'Recruits';
 $LNG['ov_noreflink']						= 'At the moment, you did not recruited any player.';
@@ -145,14 +145,14 @@ $LNG['ov_chat_online']						= 'Players in chat:';
 //----------------------------------------------------------------------------//
 // Galáxia
 
-$LNG['gl_no_deuterium_to_view_galaxy']		= 'You dont have enough deuterium to view the galaxy';
+$LNG['gl_no_deuterium_to_view_galaxy']		= '您的氘储量不足，因此暂时无法探索银河';//You dont have enough deuterium to view the galaxy
 $LNG['gl_legend']							= '描述(Legend)';
-$LNG['gl_strong_player']					= 'Strong player';
-$LNG['gl_week_player']						= 'Weak player';
+$LNG['gl_strong_player']					= '强大的玩家';
+$LNG['gl_week_player']						= '弱小的玩家';
 $LNG['gl_vacation']							= '休假模式';
 $LNG['gl_banned']							= 'Banned / Suspended';
-$LNG['gl_inactive_seven']					= '7 Inactive days';
-$LNG['gl_inactive_twentyeight']				= '28 Inactive days';
+$LNG['gl_inactive_seven']					= '7天内有活动';
+$LNG['gl_inactive_twentyeight']				= '28天内有活动';
 $LNG['gl_short_enemy']						= '';
 $LNG['gl_short_friend']						= '';
 $LNG['gl_short_member']						= '';
@@ -162,16 +162,16 @@ $LNG['gl_short_vacation']					= 'VM';
 $LNG['gl_short_ban']						= 'B';
 $LNG['gl_short_inactive']					= 'i';
 $LNG['gl_short_long_inactive']				= 'I';
-$LNG['gl_populed_planets']					= '%d Existing planets';
+$LNG['gl_populed_planets']					= '%d 已存在的行星';
 $LNG['gl_out_space']						= 'Deep area of galaxy';
 $LNG['gl_avaible_missiles']					= 'Available Missiles';
 $LNG['gl_fleets']							= 'Fleet Slots';
 $LNG['gl_avaible_grecyclers']				= 'Giga Recycler';
 $LNG['gl_avaible_recyclers']				= '回收器';
 $LNG['gl_avaible_spyprobes']				= '间谍卫星';
-$LNG['gl_missil_launch']					= 'Launch Missiles';
+$LNG['gl_missil_launch']					= '发射导弹';
 $LNG['gl_missil_to_launch']					= '导弹数量 (<b>%d</b> 枚):';
-$LNG['gl_all_defenses']						= 'All defenses';
+$LNG['gl_all_defenses']						= '所有防御设施';
 $LNG['gl_objective']						= '首要目的';
 $LNG['gl_missil_launch_action']				= '发送';
 $LNG['gl_galaxy']							= '银河';
@@ -181,7 +181,7 @@ $LNG['gl_pos']								= 'Pos.';
 $LNG['gl_planet']							= '行星';
 $LNG['gl_name_activity']					= '名称 (活跃)';
 $LNG['gl_moon']								= '月球';
-$LNG['gl_debris']							= 'Debris';
+$LNG['gl_debris']							= '废墟';
 $LNG['gl_player_estate']					= '玩家 (状态)';
 $LNG['gl_alliance']							= '联盟';
 $LNG['gl_actions']							= '动作';
@@ -248,12 +248,12 @@ $LNG['fl_send_back']						= '返航';
 $LNG['fl_acs']								= 'ACS';
 $LNG['fl_no_more_slots']					= 'No free slots';
 $LNG['fl_speed_title']						= '速度: ';
-$LNG['fl_continue']							= 'Continue';
+$LNG['fl_continue']							= '继续';
 $LNG['fl_no_ships']							= 'No ships available';
 $LNG['fl_remove_all_ships']					= '没有舰船';
 $LNG['fl_select_all_ships']					= '全部舰船';
 $LNG['fl_fleets']							= '舰队';
-$LNG['fl_expeditions']						= 'expedition';
+$LNG['fl_expeditions']						= '探险';
 $LNG['fl_number']							= 'ID';
 $LNG['fl_mission']							= '任务';
 $LNG['fl_ammount']							= '数量';
@@ -329,9 +329,9 @@ $LNG['fl_members_invited']					= 'Guests';
 $LNG['fl_invite_members']					= 'Invite members';
 $LNG['fl_simulate']							= 'Simulate';
 $LNG['fl_bonus']							= 'Bonus';
-$LNG['fl_bonus_attack']						= 'Weapons';
-$LNG['fl_bonus_defensive']					= 'Defense';
-$LNG['fl_bonus_shield']						= 'Shield';
+$LNG['fl_bonus_attack']						= '武器';
+$LNG['fl_bonus_defensive']					= '防御';
+$LNG['fl_bonus_shield']						= '护盾';
 $LNG['fl_no_empty_derbis']					= 'Without debris present!';
 $LNG['fl_acs_newname_alphanum']				= 'The ACS name must contain alphanumeric characters only';
 $LNG['fl_acs_change']						= 'Change';
@@ -369,12 +369,12 @@ $LNG['bd_build_next_level']					= '升级为Level';//建筑升级，砍掉
 $LNG['bd_research']							= '研究';
 $LNG['bd_tech']								= 'Research';
 $LNG['bd_tech_next_level']					= 'Research to the next level ';
-$LNG['bd_add_to_list']				        = 'Add to list';
+$LNG['bd_add_to_list']				        = '加入列表';
 $LNG['bd_no_more_fields']					= '该星球上的可用面积不足';
 $LNG['bd_remaining']						= '仍需资源：';
 $LNG['bd_lab_required']					    = '首先您要<a href="game.php?page=buildings"><font color=red>建立</font></a>一所研究院！';
 $LNG['bd_building_lab']					    = '研究院正在施工，暂时不能升级科技';
-$LNG['bd_max_lvl']                          = 'Max. Level:';
+$LNG['bd_max_lvl']                          = '最高级别：';
 $LNG['bd_lvl']								= 'Level';
 $LNG['bd_research']							= 'Research for';
 $LNG['bd_shipyard_required']				= '您应该先<a href="game.php?page=buildings"><font color=red>建立</font></a>一个造船厂';
@@ -387,7 +387,7 @@ $LNG['bd_actual_production']				= 'Current production:';
 $LNG['bd_completed']						= '完成';
 $LNG['bd_operating']						= '(In construction)';
 $LNG['bd_continue']							= '继续';
-$LNG['bd_price_for_destroy']				= 'Cost to destroy:';
+$LNG['bd_price_for_destroy']				= '摧毁代价：';
 $LNG['bd_ready']							= '就绪';
 $LNG['bd_finished']							= '结束';
 $LNG['bd_maxlevel']                         = 'Maximum level reached';
@@ -410,24 +410,24 @@ $LNG['sys_buildlist_fail']                  = "Impossible to build";
 
 //----------------------------------------------------------------------------//
 // Recursos
-$LNG['rs_amount']							= 'Quantity';
+$LNG['rs_amount']							= '数量';
 $LNG['rs_lvl']								= 'Level';
 $LNG['rs_production_on_planet']			    = 'Resources produced on the planet "%s"';
-$LNG['rs_basic_income']					    = 'Basic Production';
-$LNG['rs_storage_capacity']				    = 'Storage capacity';
-$LNG['rs_calculate']						= 'Cost estimate';
-$LNG['rs_sum']								= 'Total';
-$LNG['rs_daily']					        = 'Daily Production:';
-$LNG['rs_weekly']							= 'Weekly Production:';
-$LNG['rs_ress_bonus']                       = 'Bonus (Officers/Bonus):';
+$LNG['rs_basic_income']					    = '基础产量';
+$LNG['rs_storage_capacity']				    = '仓库容量';
+$LNG['rs_calculate']						= '预计消耗';
+$LNG['rs_sum']								= '总计';
+$LNG['rs_daily']					        = '日产量：';
+$LNG['rs_weekly']							= '周产量：';
+$LNG['rs_ress_bonus']                       = '额外奖励(Officers/Bonus):';
 
 //----------------------------------------------------------------------------//
 // Oficiais
 $LNG['of_recruit']							= 'Recruit';
 $LNG['of_max_lvl']							= 'Max Level';
-$LNG['of_offi']								= 'Official';
+$LNG['of_offi']								= '官员';
 $LNG['of_lvl']								= 'Level';
-$LNG['of_dm_trade']							= '%s - Shop';
+$LNG['of_dm_trade']							= '%s商城';// - Shop
 $LNG['of_still']							= 'Continua';
 $LNG['of_active']							= 'active';
 
@@ -485,7 +485,7 @@ $LNG['in_jump_gate_wait_time']              = 'Next jump possible in:';
 $LNG['in_jump_gate_jump']					= 'Jump';
 $LNG['in_destroy']     						= 'Destroy:';
 $LNG['in_needed']      						= 'Requires';
-$LNG['in_dest_durati'] 			            = 'Time to the destruction';
+$LNG['in_dest_durati'] 			            = '持续时间';
 $LNG['in_missilestype']   					= 'Missile type';
 $LNG['in_missilesamount']    				= 'Number of Missiles avaliable';
 $LNG['in_engine'] 							= 'Engine';
@@ -534,12 +534,12 @@ $LNG['mg_message_send']			            = '消息已经发送';
 $LNG['mg_empty_text']				        = '请输入内容！';
 $LNG['mg_answer_to']						= '回复：';
 $LNG['mg_write_mail_to_ops']                = 'Write an email to';
-$LNG['mg_page']								= 'Page';
+$LNG['mg_page']								= '页面';//Page
 $LNG['mg_read_marked']						= '标记当前选取的消息为已读';
 $LNG['mg_read_type_all']					= '将该类型下的所有消息标记为已读';
 $LNG['mg_read_all']							= '将所有消息标记为已读';
 $LNG['mg_confirm']							= '确定'; //onfirm
-$LNG['mg_receiver_block_pm']				= 'The receiver block private messages.';
+$LNG['mg_receiver_block_pm']				= '接收人拒收私信。';
 
 
 //----------------------------------------------------------------------------//
@@ -579,7 +579,7 @@ $LNG['al_outside_text']						= '对外公告';
 $LNG['al_transfer_alliance']				= 'Transfer Alliance';
 $LNG['al_disolve_alliance']				    = '解散联盟';
 $LNG['al_founder_rank_text']				= 'Founder';
-$LNG['al_new_member_rank_text']			    = 'New Member';
+$LNG['al_new_member_rank_text']			    = '新成员';
 $LNG['al_acept_request']					= 'Accepted';
 $LNG['al_you_was_acceted']					= 'You have been accepted into ';
 $LNG['al_hi_the_alliance']					= 'Hello !<br>The Alliance <b>';
@@ -660,10 +660,10 @@ $LNG['al_find_no_alliances']                = '没有找到联盟!';
 $LNG['al_find_submit']						= '搜索';
 $LNG['al_manage_ranks']						= '设置地位';
 $LNG['al_manage_members']					= '管理成员';
-$LNG['al_manage_change_tag']				= 'Change Tag of Alliance';
-$LNG['al_manage_change_name']				= 'Change name of Alliance';
-$LNG['al_set_max_members']					= 'Maximum number of members';
-$LNG['al_manage_request_min_points']        = 'Minimum Points';
+$LNG['al_manage_change_tag']				= '修改联盟简称';
+$LNG['al_manage_change_name']				= '修改联盟名称';
+$LNG['al_set_max_members']					= '最大成员数量';
+$LNG['al_manage_request_min_points']        = '最低积分';
 $LNG['al_texts']							= '告示板';
 $LNG['al_manage_options']					= '选项';
 $LNG['al_manage_image']						= '联盟标志';
@@ -671,28 +671,28 @@ $LNG['al_manage_requests']					= '应用';
 $LNG['al_manage_diplo']                    	= '联盟外交';
 $LNG['al_requests_not_allowed']			    = 'Impossible (Alliance closed)';
 $LNG['al_requests_allowed']				    = 'Possible (Alliance open)';
-$LNG['al_requests_min_points']              = ' %s points';
+$LNG['al_requests_min_points']              = ' %s 积分';
 $LNG['al_manage_founder_rank']				= '创始人名称';
 $LNG['al_configura_ranks']					= '设置地位';
 $LNG['al_create_new_rank']					= '建立一个新地位职称';
 $LNG['al_create']							= '创建';
-$LNG['al_legend']							= 'Description of ranks';
-$LNG['al_legend_disolve_alliance']			= 'Dissolving Alliance';
-$LNG['al_legend_kick_users']				= 'Kick members';
-$LNG['al_legend_see_requests']				= 'Show applications';
-$LNG['al_legend_see_users_list']		    = 'Show list of members';
+$LNG['al_legend']							= '地位(级阶)描述';
+$LNG['al_legend_disolve_alliance']			= '解散联盟';
+$LNG['al_legend_kick_users']				= '踢出成员';
+$LNG['al_legend_see_requests']				= '显示应用';
+$LNG['al_legend_see_users_list']		    = '显示成员列表';
 $LNG['al_legend_check_requests']		    = 'Process application';
 $LNG['al_legend_admin_alliance']			= 'Managing Alliance';
-$LNG['al_legend_see_connected_users']		= 'See players online in the members list';
+$LNG['al_legend_see_connected_users']		= '显示成员列表中的在线用户';
 $LNG['al_legend_create_circular']		    = 'Writes circular message';
 $LNG['al_legend_right_hand']			    = '"Right hand" (required to pass as founder)';
 $LNG['al_requests']							= 'Requests';
 $LNG['al_circular_message']			        = '联盟通告';
-$LNG['al_leave_alliance']					= 'Leave this Alliance';
-$LNG['al_unitsshut']    					= 'Units destroyed';
-$LNG['al_unitsloos']    					= 'Units lost';
-$LNG['al_tfmetall']     					= 'Debris of Metal';
-$LNG['al_tfkristall']   					= 'Debris of Crystal';
+$LNG['al_leave_alliance']					= '离开该联盟';
+$LNG['al_unitsshut']    					= '单位被摧毁';
+$LNG['al_unitsloos']    					= '损失单位';
+$LNG['al_tfmetall']     					= '金属碎片';
+$LNG['al_tfkristall']   					= '水晶碎片';
 $LNG['al_view_stats']						= '公开战斗统计？';//Statistics of battle public?
 $LNG['al_view_diplo']						= '公开外交政策？';//Diplomacy is public?
 $LNG['al_view_events']						= '查看事件';//Viewing events
@@ -704,11 +704,11 @@ $LNG['al_no_diplo']							= '-';
 $LNG['al_events']							= '事件';
 $LNG['al_no_events']						= '目前没有发生任何事件';
 $LNG['al_diplo_level'][1]                   = 'Wing';
-$LNG['al_diplo_level'][2]                   = 'Alliance';
-$LNG['al_diplo_level'][3]                   = 'Trade Pact';
-$LNG['al_diplo_level'][4]                   = 'Non-agression Pact';
-$LNG['al_diplo_level'][5]                   = 'War';
-$LNG['al_diplo_level'][6]					= 'Secret Alliance';
+$LNG['al_diplo_level'][2]                   = '结盟';
+$LNG['al_diplo_level'][3]                   = '贸易往来';
+$LNG['al_diplo_level'][4]                   = '无贸易往来';
+$LNG['al_diplo_level'][5]                   = '处于战争中';
+$LNG['al_diplo_level'][6]					= '秘密结盟';
 $LNG['al_diplo_no_entry']                   = '- There is no Pact -';
 $LNG['al_diplo_no_accept']                  = '- Without applications available -';
 $LNG['al_diplo_accept']                     = 'Applications';
@@ -716,7 +716,7 @@ $LNG['al_diplo_exists']						= 'There is already a valid or not yet accepted dip
 $LNG['al_diplo_accept_send']                = 'Output requests';
 $LNG['al_diplo_create']                     = 'Create new Pact.';
 $LNG['al_diplo_create_done']                = 'The Pact created successfully.';
-$LNG['al_diplo_ally']                       = 'Alliance';
+$LNG['al_diplo_ally']                       = '联盟';
 $LNG['al_diplo_level_des']                  = 'Kind of Pacts';
 $LNG['al_diplo_text']                       = 'Text/Request';
 $LNG['al_diplo_accept_yes']                 = 'Pact signed.';
@@ -728,29 +728,29 @@ $LNG['al_diplo_accept_no_confirm']			= 'Want to really reject the Pact?';
 $LNG['al_diplo_delete']                     = 'Deleted Pact.';
 $LNG['al_diplo_delete_mes']                 = 'The Pact (%s) between the %s and %s was deleted!';
 $LNG['al_diplo_confirm_delete']             = 'Did you want to delete the Pact?';
-$LNG['al_diplo_ground']                     = 'Reasons:';
+$LNG['al_diplo_ground']                     = '原因：';
 $LNG['al_diplo_ask']                        = 'Survey Pact';
 $LNG['al_diplo_ask_mes']                    = 'The (%s) between the alliances %s and %s.<br>Reasons: %s';
-$LNG['al_diplo_war']                        = 'Declaration of war';
+$LNG['al_diplo_war']                        = '战争宣言';
 $LNG['al_diplo_war_mes']                    = 'The Alliance %s and the Alliance %s just the %s declarated.<br>Reason:<br>%s<br><br>Information: the war is valid for 24 hours. Only after the 24 hours, war and given as terminated. <br>More information consult the <a href="index.php?page=rules" target="_blank">Rules</a>.';
-$LNG['al_diplo_head']						= 'Management of Diplomacy';
+$LNG['al_diplo_head']						= '管理外交关系';
 $LNG['al_diplo_same_alliance']				= 'You can not make a pact with your own Alliance!';
 $LNG['al_diplo_no_alliance']				= 'There is no alliance with the name of %s!';
 $LNG['al_diplo_info']						= '<p>Here is displayed different kinds of Alliance and can see your Covenants [TODO: FAQ]</p>';
-$LNG['al_leave_ally']						= 'Are you sure to leave the Alliance?';
+$LNG['al_leave_ally']						= '您确定要离开这个联盟？';
 $LNG['al_default_leader_name']				= 'Leader';
 $LNG['al_rank_name']						= 'Name in rank';
 $LNG['al_rank_desc']['MEMBERLIST']			= '可以查看成员列表';
 $LNG['al_rank_desc']['ONLINESTATE']			= '可以查看成员是否在线';
 $LNG['al_rank_desc']['TRANSFER']			= '可以成为联盟领袖';
-$LNG['al_rank_desc']['SEEAPPLY']			= 'Can view the applications'; 
-$LNG['al_rank_desc']['MANAGEAPPLY']			= 'Can control applications';
-$LNG['al_rank_desc']['ROUNDMAIL']			= 'Can send global message';
-$LNG['al_rank_desc']['ADMIN']				= 'Can edit the Alliance';
-$LNG['al_rank_desc']['KICK']				= 'Can deleting members';
-$LNG['al_rank_desc']['DIPLOMATIC']			= 'Can manage the Diplomacy';
+$LNG['al_rank_desc']['SEEAPPLY']			= '可以显示应用'; 
+$LNG['al_rank_desc']['MANAGEAPPLY']			= '可以控制应用';
+$LNG['al_rank_desc']['ROUNDMAIL']			= '可以发送公共消息';
+$LNG['al_rank_desc']['ADMIN']				= '可以编辑联盟信息';
+$LNG['al_rank_desc']['KICK']				= '可以移除成员';
+$LNG['al_rank_desc']['DIPLOMATIC']			= '可以管理外交政策';
 $LNG['al_rank_desc']['RANKS']				= 'Can configure the Ranks';
-$LNG['al_rank_desc']['MANAGEUSERS']			= 'Can manage members';
+$LNG['al_rank_desc']['MANAGEUSERS']			= '可以管理成员';
 $LNG['al_rank_desc']['EVENTS']				= '可以查看事件';
 
 //----------------------------------------------------------------------------//
@@ -814,22 +814,22 @@ $LNG['nt_no_text']							= '无内容';
 
 //----------------------------------------------------------------------------//
 // Estatísticas
-$LNG['st_player']							= 'Player';
-$LNG['st_alliance']							= 'Alliance';
-$LNG['st_points']							= 'Points';
-$LNG['st_fleets']							= 'Fleet';
-$LNG['st_researh']							= 'Research';
-$LNG['st_buildings']						= 'Building';
-$LNG['st_defenses']							= 'Defense';
+$LNG['st_player']							= '玩家';
+$LNG['st_alliance']							= '联盟';
+$LNG['st_points']							= '积分';
+$LNG['st_fleets']							= '舰队';
+$LNG['st_researh']							= '研究';
+$LNG['st_buildings']						= '建筑';
+$LNG['st_defenses']							= '防御';
 $LNG['st_position']							= 'Rank';
 $LNG['st_members']							= 'Member';
 $LNG['st_per_member']						= 'Per Member';
 $LNG['st_statistics']						= 'Statistics';
 $LNG['st_updated']							= 'Updated';
-$LNG['st_show']								= 'show';
+$LNG['st_show']								= '显示';
 $LNG['st_per']								= 'by';
 $LNG['st_in_the_positions']					= 'in ranks';
-$LNG['st_write_message']					= 'Private Message';
+$LNG['st_write_message']					= '私人消息';
 
 //----------------------------------------------------------------------------//
 // Procurar
@@ -935,10 +935,10 @@ $LNG['bn_writemail']						= 'Mail to %s';
 // Sessões do Jogo
 
 // Manutenção & Banido
-$LNG['css_account_banned_message']          = 'Your account has been banned!';
-$LNG['css_account_banned_expire']           = 'Your account is already unbanned %s!';
-$LNG['css_goto_homeside']                   = '<a href="./index.php">Go to the homepage</a>';
-$LNG['css_server_maintrace']                = 'Maintenance of the server<br><br>The game is closed.<br><br>Até: %s';
+$LNG['css_account_banned_message']          = '您的账户已被禁用！';
+$LNG['css_account_banned_expire']           = '您的账户已于%s解封！';
+$LNG['css_goto_homeside']                   = '<a href="./index.php">查看主页</a>';
+$LNG['css_server_maintrace']                = 'Maintenance of the server<br><br>游戏已关闭<br><br>Até: %s';
 
 //----------------------------------------------------------------------------//
 // Actividades de Frota
