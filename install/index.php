@@ -624,10 +624,10 @@ switch($mode)
 				$SQL .= "planet			= 2, ";
 				$SQL .= "register_time	= ".TIMESTAMP.";";
 				$GLOBALS['DATABASE']->query($SQL);
-						
+				
 				require_once('includes/functions/CreateOnePlanetRecord.php');
 				
-				$PlanetID		= CreateOnePlanetRecord(1, 1, 1, 1, 1, '', true, AUTH_ADM);
+				$PlanetID		= CreateOnePlanetRecord(1, 1, 1, 1, 1, $LNG['fcm_mainplanet'], true, AUTH_ADM);
 				$SESSION       	= new Session();
 				$SESSION->DestroySession();
 				$SESSION->CreateSession(1, $AdminUsername, $PlanetID, 1, 3, DEFAULT_THEME);

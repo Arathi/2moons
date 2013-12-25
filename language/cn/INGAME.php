@@ -90,7 +90,7 @@ $LNG['lm_rules']							= '规则';
 $LNG['lm_battlesim']						= '战斗模拟器';
 $LNG['lm_playercard']                       = 'Player Profile';
 $LNG['lm_info']                     		= '提示';
-$LNG['lm_disclamer']						= 'Credits';
+$LNG['lm_disclamer']						= '联系方式';
 	
 //----------------------------------------------------------------------------//
 // Vista Geral
@@ -98,9 +98,9 @@ $LNG['lm_disclamer']						= 'Credits';
 $LNG['ov_newname_specialchar']				= 'The names of the planet is allowed only numbers, letters, spaces, _,-,.';
 $LNG['ov_newname_done']						= 'The new name was entered!';
 $LNG['ov_planet_abandoned']					= 'The planet was destroyed!';
-$LNG['ov_principal_planet_cant_abanone']	= 'You can not delete the main planet!';
+$LNG['ov_principal_planet_cant_abanone']	= '您不能遗弃母星！';
 $LNG['ov_abandon_planet_not_possible']		= 'The planet cannot be erased, by having existing activities!';
-$LNG['ov_wrong_pass']						= 'Password incorrect!';
+$LNG['ov_wrong_pass']						= '密码错误！';
 $LNG['ov_have_new_message']					= '您收到1条新消息';
 $LNG['ov_have_new_messages']				= '您收到%d条新消息';
 $LNG['ov_planetmenu']						= '重命名或者删除';
@@ -132,7 +132,7 @@ $LNG['ov_fleet']							= '舰队';
 $LNG['ov_admins_online']					= '在线管理员';
 $LNG['ov_no_admins_online']					= '当前没有在线的管理员';
 $LNG['ov_userbanner']						= "Player's Banner";
-$LNG['ov_userrank_info']					= '%s (%s <a href="game.php?page=statistics&amp;range=%d">%d</a> %s %s)';
+$LNG['ov_userrank_info']					= '%s (%s<a href="game.php?page=statistics&amp;range=%d">%d</a>%s%s)';//
 $LNG['ov_teamspeak_not_online']				= 'The Teamspeak server not active this';
 $LNG['ov_teamspeak']						= 'Teamspeak';
 $LNG['ov_teamspeak_connect']				= 'Connect';
